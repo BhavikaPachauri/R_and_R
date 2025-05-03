@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/x-icon" href="/favicon.io" />
+  <link rel="apple-touch-icon" href="/favicon.io" />
+  <link rel="shortcut icon" href="/favicon.io" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BYN Hospital Bhiwani</title>
+  <meta name="title" content="BYN Hospital | Best Hospital in Bhiwani" />
+  <meta name="description"
+    content="BYN Hospital is a leading healthcare provider in Bhiwani, offering advanced medical treatments and state-of-the-art facilities." />
+  <meta name="keywords"
+    content="Best Hospital in Bhiwani, Multi-speciality hospital Bhiwani, Top hospital in Bhiwani, BYN Hospital, Healthcare Bhiwani" />
+  <meta property="og:image" content="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/ONLYVbShaa.webp" />
+  <meta name="google-site-verification" content="your-google-site-verification-code" />
+  <meta name="author" content="BYN Hospital Bhiwani">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.bynhospital.com/">
+
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-XXXXXXX');
+
+    // -----dynamic-metatags-----------
+    document.addEventListener("DOMContentLoaded", async function () {
+      try {
+        const response = await fetch("https://www.bynhospital.com/meta/get-meta");
+        const data = await response.json();
+        const siteMeta = data.response.metaInf.find((site) => site.site_name === "bynhospital.com");
+
+        if (siteMeta) {
+          document.title = siteMeta.meta_title;
+
+          const metaDescription = document.querySelector('meta[name="description"]');
+          if (metaDescription) {
+            metaDescription.setAttribute("content", siteMeta.meta_desc);
+          }
+
+          const metaKeywords = document.querySelector('meta[name="keywords"]');
+          if (metaKeywords) {
+            metaKeywords.setAttribute("content", siteMeta.meta_key);
+          }
+
+          const metaTitle = document.querySelector('meta[name="title"]');
+          if (metaTitle) {
+            metaTitle.setAttribute("content", siteMeta.meta_title);
+          }
+
+          const metaAuthor = document.createElement("meta");
+          metaAuthor.name = "author";
+          metaAuthor.content = "BYN Hospital Bhiwani";
+          document.head.appendChild(metaAuthor);
+
+          const metaOgImage = document.querySelector('meta[property="og:image"]');
+          if (metaOgImage) {
+            metaOgImage.setAttribute("content", siteMeta.meta_image || "https://your-image-url.com/byn-hospital-bhiwani.png");
+          }
+        }
+      } catch (error) {
+        console.error("Error fetching meta data:", error);
+      }
+    });
+  </script>
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript fallback) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
