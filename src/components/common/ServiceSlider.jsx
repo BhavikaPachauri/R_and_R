@@ -66,7 +66,7 @@ const ServiceSlider = () => {
   ];
 
   return (
-    <div className="w-full bg-[#1e3fac]">
+    <div className="w-full bg-[#1a365d]">
       <div className="max-w-[1920px]">
         <Slider {...settings} className="service-slider">
           {services.map((service, index) => (

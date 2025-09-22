@@ -4,7 +4,7 @@ const AboutHeader = () => {
   return (
     <div className="relative bg-gradient-to-b from-white via-blue-50 to-white py-16 lg:py-20">
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-20 -right-20 w-40 md:w-60 lg:w-80 h-40 md:h-60 lg:h-80 bg-[#1d55b0] rounded-full mix-blend-multiply filter blur-xl opacity-10 animate-blob"></div>
+        <div className="absolute -top-20 -right-20 w-40 md:w-60 lg:w-80 h-40 md:h-60 lg:h-80 bg-[#1a365d] rounded-full mix-blend-multiply filter blur-xl opacity-10 animate-blob"></div>
         <div className="absolute -bottom-20 -left-20 w-40 md:w-60 lg:w-80 h-40 md:h-60 lg:h-80 bg-[#6ed54e] rounded-full mix-blend-multiply filter blur-xl opacity-10 animate-blob animation-delay-2000"></div>
       </div>
 
@@ -15,7 +15,7 @@ const AboutHeader = () => {
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-xl">
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/ONLYVbShaa.webp"
-                alt="BYN Hospital Facilities"
+                alt="R&R Hospital Facilities"
                 className="w-full h-auto"
               />
             </div>
@@ -23,11 +23,11 @@ const AboutHeader = () => {
           <div className="md:pl-8" data-aos="fade-left">
             <div className="space-y-6">
               <div className="flex items-center gap-4 mb-6">
-                <div className="w-12 md:w-14 h-12 md:h-14 rounded-xl bg-gradient-to-r from-[#1d55b0] to-[#6ed54e] p-0.5">
+                <div className="w-12 md:w-14 h-12 md:h-14 rounded-xl bg-gradient-to-r from-[#1a365d] to-[#6ed54e] p-0.5">
                   <div className="w-full h-full bg-white rounded-xl flex items-center justify-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-6 md:h-7 w-6 md:w-7 text-[#1d55b0]"
+                      className="h-6 md:h-7 w-6 md:w-7 text-[#1a365d]"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -41,19 +41,19 @@ const AboutHeader = () => {
                     </svg>
                   </div>
                 </div>
-                <h4 className="text-2xl md:text-3xl font-bold text-[#1d55b0]">
+                <h4 className="text-2xl md:text-3xl font-bold text-[#1a365d]">
                   Excellence in Healthcare
                 </h4>
               </div>
               <p className="text-gray-600 text-base md:text-lg leading-relaxed">
-                Baba Yogi Neta Nath Hospital in Bhiwani stands as a beacon of
+                R&R Hospital in Bhiwani stands as a beacon of
                 excellence in healthcare. As a leading multi-specialty hospital,
                 we combine advanced medical technology with compassionate care
                 to serve the community of Bhiwani and surrounding regions.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
                 <div className="p-4 md:p-5 bg-white/90 rounded-xl shadow-md">
-                  <div className="text-[#1d55b0] font-semibold text-lg md:text-xl mb-2">
+                  <div className="text-[#1a365d] font-semibold text-lg md:text-xl mb-2">
                     Multi-Specialty Care
                   </div>
                   <div className="text-gray-600 text-sm md:text-base">
@@ -61,7 +61,7 @@ const AboutHeader = () => {
                   </div>
                 </div>
                 <div className="p-4 md:p-5 bg-white/90 rounded-xl shadow-md">
-                  <div className="text-[#6ed54e] font-semibold text-lg md:text-xl mb-2">
+                  <div className="text-[#1a365d] font-semibold text-lg md:text-xl mb-2">
                     Modern Equipment
                   </div>
                   <div className="text-gray-600 text-sm md:text-base">

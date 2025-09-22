@@ -66,10 +66,10 @@ const BookAnAppo = () => {
       <div className="max-w-6xl mx-auto px-3">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-16 items-start" >
           <div data-aos="fade-right" className="bg-white/70 backdrop-blur-sm shadow-lg p-5 sm:p-6 lg:p-8 hover:shadow-xl transition-all duration-300 relative">
-            <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-[#2563eb] to-[#22c55e]"></div>
+            <div className="absolute bottom-0 left-0 right-0 h-1 "></div>
             <div className="mb-6 lg:mb-8">
               <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
-                <span className="inline-flex items-center px-3 sm:px-4 py-1.5 sm:py-2 bg-gradient-to-r from-blue-600 to-blue-400 text-white rounded-full text-xs sm:text-sm font-semibold shadow-md">
+                <span className="inline-flex items-center px-3 sm:px-4 py-1.5 sm:py-2 bg-blue-900 text-white rounded-full text-xs sm:text-sm font-semibold shadow-md">
                   <svg className="w-3.5 h-3.5 sm:w-4 sm:h-4 mr-1.5 sm:mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                   </svg>
@@ -197,8 +197,8 @@ const BookAnAppo = () => {
                 type="submit"
                 className={`w-full sm:w-auto px-6 sm:px-8 py-2.5 sm:py-3 text-sm sm:text-base text-white font-medium rounded-lg transition-all duration-300 ${
                   isSubmitting || isFormIncomplete
-                    ? "bg-gradient-to-r from-[#2563eb] to-[#22c55e] hover:opacity-90 shadow-lg hover:shadow-xl cursor-not-allowed"
-                    : "bg-gradient-to-r from-[#2563eb] to-[#22c55e] hover:opacity-90 shadow-lg hover:shadow-xl"
+                    ? "bg-[#1a365d] hover:opacity-90 shadow-lg hover:shadow-xl cursor-not-allowed"
+                    : "bg-[#1a365d] hover:opacity-90 shadow-lg hover:shadow-xl"
                 }`}
                 disabled={isSubmitting || isFormIncomplete}
               >
@@ -223,7 +223,7 @@ const BookAnAppo = () => {
           </div>
           <div data-aos="fade-left">
             <div className="bg-white/70 backdrop-blur-sm shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300 relative">
-              <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-[#2563eb] to-[#22c55e]"></div>
+              <div className="absolute bottom-0 left-0 right-0 h-1 "></div>
               <div className="h-[300px] sm:h-[400px] lg:h-[430px]">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.177650640736!2d76.04619997529201!3d28.709947075622587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39125f984597a7f5%3A0x700110909603a20f!2sBaba%20Yogi%20Neta%20Nath%20Hospital%20%26%20Nursing%20College!5e1!3m2!1sen!2sin!4v1745994802961!5m2!1sen!2sin"
@@ -235,7 +235,7 @@ const BookAnAppo = () => {
               </div>
               <div className="p-4 sm:p-5 lg:p-6 bg-gradient-to-br from-white via-blue-50/10 to-transparent">
                 <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2 sm:mb-3">
-                  Visit Baba Yogi Neta Nath Hospital
+                  Visit R&R Hospital
                 </h3>
                 <div className="space-y-2 sm:space-y-3">
                   <p className="text-gray-700 flex items-start gap-2 sm:gap-3">

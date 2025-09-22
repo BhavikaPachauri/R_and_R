@@ -36,10 +36,10 @@ const NavBar = () => {
         <nav className="flex justify-between items-center xl:max-w-[1293px] mx-auto px-4 py-3 bg-white">
           <a href="/" className="flex items-center">
             <img
-              src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/PuYoS3KCXU.webp"
-              alt="BYN Hospital Logo"
-              width={70}
-              className="md:max-w-[80px] h-auto"
+              src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/fswifKNBvK.webp"
+              alt="R&R Hospital Logo"
+              width={120}
+              className="w-[150px] h-auto"
             />
           </a>
           <ul className="hidden md:flex xl:gap-[31px] md:gap-[17px]">
@@ -47,10 +47,10 @@ const NavBar = () => {
               <li key={index}>
                 <Link
                   to={item.path}
-                  className={`sm:text-[16px] text-[14px]  transition-all duration-300 ${
+                  className={`sm:text-[16px] text-[14px] transition-all duration-300 ${
                     isActive(item.path)
-                      ? "text-[#1d55b0] font-bold"
-                      : "text-[#000] font-medium"
+                      ? "text-[#E31F26] font-bold"
+                      : "text-[#000] font-medium hover:text-[#E31F26]"
                   }`}
                 >
                   {item.label}
@@ -63,17 +63,17 @@ const NavBar = () => {
             className="w-[30px] h-[22px] flex flex-col justify-between items-end cursor-pointer md:hidden z-50"
           >
             <span
-              className={`transition-all duration-300 bg-[#1d55b0] w-full h-[3px] rounded ${
+              className={`transition-all duration-300 bg-[#2D546F] w-full h-[3px] rounded ${
                 isMenuOpen ? "rotate-45 translate-y-[9px]" : ""
               }`}
             ></span>
             <span
-              className={`transition-all duration-300 bg-[#1d55b0] w-full h-[3px] rounded ${
+              className={`transition-all duration-300 bg-[#2D546F] w-full h-[3px] rounded ${
                 isMenuOpen ? "opacity-0" : ""
               }`}
             ></span>
             <span
-              className={`transition-all duration-300 bg-[#1d55b0] w-full h-[3px] rounded ${
+              className={`transition-all duration-300 bg-[#2D546F] w-full h-[3px] rounded ${
                 isMenuOpen ? "-rotate-45 -translate-y-[9px]" : ""
               }`}
             ></span>
@@ -88,8 +88,8 @@ const NavBar = () => {
           <div className="flex justify-between items-center px-3 mb-3 w-full">
             <a href="/">
               <img
-                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/PuYoS3KCXU.webp"
-                alt="BYN Hospital Logo"
+                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/fswifKNBvK.webp"
+                alt="R&R Hospital Logo"
                 width={100}
               />
             </a>
@@ -98,17 +98,17 @@ const NavBar = () => {
               className="w-[30px] h-[22px] flex flex-col justify-between items-end cursor-pointer md:hidden"
             >
               <span
-                className={`transition-all duration-300 bg-[#1d55b0] w-full h-[3px] rounded ${
+                className={`transition-all duration-300 bg-[#2D546F] w-full h-[3px] rounded ${
                   isMenuOpen ? "rotate-45 translate-y-[9px]" : ""
                 }`}
               ></span>
               <span
-                className={`transition-all duration-300 bg-[#1d55b0] w-full h-[3px] rounded ${
+                className={`transition-all duration-300 bg-[#2D546F] w-full h-[3px] rounded ${
                   isMenuOpen ? "opacity-0" : ""
                 }`}
               ></span>
               <span
-                className={`transition-all duration-300 bg-[#1d55b0] w-full h-[3px] rounded ${
+                className={`transition-all duration-300 bg-[#2D546F] w-full h-[3px] rounded ${
                   isMenuOpen ? "-rotate-45 -translate-y-[9px]" : ""
                 }`}
               ></span>
@@ -118,7 +118,11 @@ const NavBar = () => {
             <Link
               key={index}
               to={item.path}
-              className="block py-3 text-lg font-medium text-[#000] hover:text-[#1d55b0]"
+              className={`block py-3 text-lg font-medium ${
+                isActive(item.path)
+                  ? "text-[#2D546F]"
+                  : "text-[#000] hover:text-[#E31F26]"
+              }`}
               onClick={() => setMenuOpen(false)}
             >
               {item.label}

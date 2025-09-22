@@ -117,14 +117,14 @@ const Specialization = () => {
 
     <div className="relative xl:max-w-[1298px] mx-auto px-4">
       <div className="text-center mb-12" data-aos="fade-down">
-        <h3 className="text-sm md:text-base font-medium text-[#1d55b0] tracking-[0.3em] uppercase mb-2">
+        <h3 className="text-sm md:text-base font-medium text-[#1a365d] tracking-[0.3em] uppercase mb-2">
           OUR SPECIALIZATION
         </h3>
 
         <div className="mb-4">
           <h4 className="text-[#1a365d] lg:text-5xl md:text-4xl sm:text-3xl text-[28px] leading-none max-w-3xl mx-auto font-bold mb-1">
             A Wide Range of Specializations{" "}
-            <span className="text-[#1d55b0]"> For Your Best Health</span>
+            <span className="text-[#1a365d]"> For Your Best Health</span>
           </h4>
           <p className="text-gray-600 sm:text-xl text-[16px] font-medium max-w-4xl mx-auto leading-noraml">
             From advanced surgical procedures to specialized care in
@@ -144,7 +144,7 @@ const Specialization = () => {
             onClick={() => navigate(`/speciality/${dept.name.toLowerCase()}`)}
             className="group cursor-pointer bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 relative flex flex-col h-[420px]"
           >
-            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-emerald-500 transform origin-left group-hover:scale-x-100 transition-transform duration-500"></div>
+            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-red-500 transform origin-left group-hover:scale-x-100 transition-transform duration-500"></div>
 
             <div className="relative h-48 overflow-hidden flex-shrink-0">
               <img
@@ -159,7 +159,7 @@ const Specialization = () => {
 
             <div className="p-6 relative bg-gradient-to-b from-white to-gray-50/30 flex-grow flex flex-col">
               <div className="absolute -top-8 right-6 w-14 h-14 bg-white rounded-xl shadow-lg transform -rotate-6 group-hover:rotate-0 transition-transform duration-500 flex items-center justify-center">
-                <div className="bg-gradient-to-br from-blue-500 to-emerald-500 w-12 h-12 rounded-lg flex items-center justify-center transform rotate-6 group-hover:rotate-0 transition-transform duration-500">
+                <div className="bg-gradient-to-br from-blue-500 to-red-500 w-12 h-12 rounded-lg flex items-center justify-center transform rotate-6 group-hover:rotate-0 transition-transform duration-500">
                   {dept.icon}
                 </div>
               </div>
@@ -170,7 +170,7 @@ const Specialization = () => {
               <p className="text-gray-600 text-sm mb-4 leading-relaxed flex-grow line-clamp-3">
                 {dept.description}
               </p>
-              <div className="flex items-center text-[#1d55b0] text-base font-medium">
+              <div className="flex items-center text-[#1a365d] text-base font-medium">
                 Learn more
                 <svg
                   className="w-4 h-4 ml-1"

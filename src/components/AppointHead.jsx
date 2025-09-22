@@ -29,13 +29,13 @@ const AppointHead = () => {
             data-aos-duration="1200"
           >
             <div>
-              <h3 className="text-sm md:text-base font-medium text-[#1d55b0] tracking-[0.3em] uppercase mb-2">
+              <h3 className="text-sm md:text-base font-medium text-[#1a365d] tracking-[0.3em] uppercase mb-2">
                 APPOINTMENT
               </h3>
               <h4 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-[#1a365d] leading-tight sm:mb-4 mb-2">
                 Schedule an appointment
                 <br />
-                <span className="text-[#1d55b0]">with a Specialist</span>
+                <span className="text-[#1a365d]">with a Specialist</span>
               </h4>
               <p className="text-gray-600 text-lg mb-8">
                 Get a second opinion from our super specialist doctors. Book
@@ -45,21 +45,21 @@ const AppointHead = () => {
 
             <div className="space-y-4">
               <div className="flex items-center gap-3">
-                <FaCheckCircle className="text-blue-600 text-xl flex-shrink-0" />
+                <FaCheckCircle className="text-blue-950 text-xl flex-shrink-0" />
                 <span className="text-gray-600">
                   <span className="font-semibold">Fast Booking:</span> Easy
                   online appointment scheduling
                 </span>
               </div>
               <div className="flex items-center gap-3">
-                <FaCheckCircle className="text-blue-600 text-xl flex-shrink-0" />
+                <FaCheckCircle className="text-blue-950 text-xl flex-shrink-0" />
                 <span className="text-gray-600">
                   <span className="font-semibold">Expert Doctors:</span> Consult
                   with top specialists
                 </span>
               </div>
               <div className="flex items-center gap-3">
-                <FaCheckCircle className="text-blue-600 text-xl flex-shrink-0" />
+                <FaCheckCircle className="text-blue-950 text-xl flex-shrink-0" />
                 <span className="text-gray-600">
                   <span className="font-semibold">Personalized Care:</span>{" "}
                   Tailored treatment plans
@@ -68,7 +68,7 @@ const AppointHead = () => {
             </div>
             <a
               href="#appointmentform"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-[#1d55b0] to-[#6ed54e] text-white rounded-lg hover:shadow-lg hover:shadow-[#1d55b0]/20 transition-all duration-300 mt-8 font-semibold text-lg"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-[#1a365d] text-white rounded-lg hover:shadow-lg hover:shadow-[#1d55b0]/20 transition-all duration-300 mt-8 font-semibold text-lg"
               data-aos="fade-up"
               data-aos-duration="1500"
             >

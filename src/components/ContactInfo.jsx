@@ -43,25 +43,25 @@ const ContactInfo = () => {
       href: "https://www.facebook.com/bynhospital/",
       imgSrc:
         "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/QWIxMPX7x3.webp",
-      alt: "Facebook logo - BYN Hospital Bhiwani official page",
+      alt: "Facebook logo - R&R Hospital Bhiwani official page",
     },
     {
       href: "https://x.com/bynhospital",
       imgSrc:
         "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/uTkrkLzxWI.webp",
-      alt: "Twitter logo - BYN Hospital Bhiwani profile",
+      alt: "Twitter logo - R&R Hospital Bhiwani profile",
     },
     {
       href: "https://www.instagram.com/bynhospital",
       imgSrc:
         "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/DtdWsOI7yl.webp",
-      alt: "Instagram logo - BYN Hospital Bhiwani profile",
+      alt: "Instagram logo - R&R Hospital Bhiwani profile",
     },
     {
       href: "https://www.linkedin.com/company/shri-babayogi-netanath-hospital-research-centre/?originalSubdomain=in",
       imgSrc:
         "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Kv71EQxbM2.webp",
-      alt: "LinkedIn logo - BYN Hospital Bhiwani profile",
+      alt: "LinkedIn logo - R&R Hospital Bhiwani profile",
     },
   ];
 
@@ -141,7 +141,7 @@ const ContactInfo = () => {
       <div className="max-w-[1293px] mx-auto px-3">
         <div className="grid lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
           <div
-            className="bg-gradient-to-br from-[#1d55b0] to-[#1645a0] text-white rounded-2xl sm:rounded-3xl p-5 sm:p-6 shadow-xl"
+            className="bg-[#1a365d] text-white rounded-2xl sm:rounded-3xl p-5 sm:p-6 shadow-xl"
             data-aos="fade-right"
           >
             <h3 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6">
@@ -228,7 +228,7 @@ const ContactInfo = () => {
             className="bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-6 shadow-xl border border-gray-100"
             data-aos="fade-left"
           >
-            <h3 className="text-xl sm:text-2xl font-semibold text-[#1d55b0] mb-4 sm:mb-6">
+            <h3 className="text-xl sm:text-2xl font-semibold text-[#1a365d] mb-4 sm:mb-6">
               Send us a Message
             </h3>
 
@@ -252,7 +252,7 @@ const ContactInfo = () => {
               <div className="flex justify-end">
                 <button
                   type="submit"
-                  className="inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-2.5 bg-gradient-to-r from-[#1d55b0] to-[#6ed54e] text-white rounded-lg hover:shadow-lg hover:shadow-[#1d55b0]/20 transition-all duration-300 mt-2 disabled:cursor-not-allowed text-sm sm:text-base"
+                  className="inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-2.5 bg-[#1a365d] text-white rounded-lg hover:shadow-lg hover:shadow-[#1d55b0]/20 transition-all duration-300 mt-2 disabled:cursor-not-allowed text-sm sm:text-base"
                   disabled={submitting || !formik.isValid || !formik.dirty}
                 >
                   {submitting ? "Sending..." : "Send Message"}

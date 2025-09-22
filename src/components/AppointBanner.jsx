@@ -3,7 +3,7 @@ import React from "react";
 const AppointBanner = () => {
   return (
     <>
-      <div className="bg-gradient-to-r from-[#1d55b0] via-[#1d55b0]/90 to-[#1d55b0] py-8 relative overflow-hidden">
+      <div className="bg-[#1a365d] py-8 relative overflow-hidden">
         <div className="absolute top-0 left-0 w-32 h-32 bg-white/10 rounded-full -translate-x-16 -translate-y-16"></div>
         <div className="absolute bottom-0 right-0 w-40 h-40 bg-white/10 rounded-full translate-x-20 translate-y-20"></div>
         
@@ -20,7 +20,7 @@ const AppointBanner = () => {
           <div className="flex flex-row gap-4 mt-5 md:mt-0">
             <a
               href="tel:9050201111"
-              className="bg-white text-[#1d55b0] px-6 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-all duration-300 
+              className="bg-white text-[#1a365d] px-6 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-all duration-300 
                 shadow-lg hover:shadow-xl hover:-translate-y-1 transform flex items-center gap-2 group"
             >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 group-hover:scale-110 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -30,7 +30,7 @@ const AppointBanner = () => {
             </a>
             <a
               href="mailto:yoginetanath@gmail.com"
-              className="bg-white text-[#1d55b0] px-6 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-all duration-300 
+              className="bg-white text-[#1a365d] px-6 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-all duration-300 
                 shadow-lg hover:shadow-xl hover:-translate-y-1 transform flex items-center gap-2 group"
             >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 group-hover:scale-110 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">

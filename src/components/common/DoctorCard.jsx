@@ -1,87 +1,78 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaClock, FaLanguage, FaAward, FaStethoscope } from "react-icons/fa";
 
 const DoctorCard = ({ doctor }) => {
   const [isHovered, setIsHovered] = useState(false);
 
+  const defaultDoctor = {
+    doc_name: "Dr. Sarah Johnson",
+    doc_profile: "Cardiologist Specialist",
+    doc_image:
+      "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300&h=300&fit=crop&crop=face",
+    specialization: "Cardiovascular Surgery",
+    consultation: "30 min consultation",
+    languages: ["English", "Spanish", "French"],
+    achievements: "15+ Years Experience",
+    rating: 4.9,
+    totalReviews: 324,
+    location: "New York Medical Center",
+    availability: "Available Today",
+    doc_details:
+      "Highly skilled cardiologist with expertise in complex cardiovascular surgeries.",
+  };
+
+  // merge default + props
+  const docData = { ...defaultDoctor, ...doctor };
+
   return (
     <div
-      className="w-full max-w-sm bg-white rounded-2xl shadow-lg overflow-hidden transform transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 border border-gray-100"
-      style={{
-        background: "linear-gradient(145deg, #ffffff 0%, #f8f9ff 100%)",
-      }}
-      data-aos="fade-up"
+      className="p-4 bg-white rounded-[16px] shadow-md hover:shadow-lg transition-all duration-300 ease-linear group"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="relative">
-        <div className="absolute inset-0 bg-gradient-to-r from-[#1d55b0]/10 to-[#a6f863]/10 rounded-t-2xl" />
-        <div className="p-6">
-          <div className="flex items-center justify-center mb-4">
-            <div className="relative">
-              <div className="absolute -inset-0.5 bg-gradient-to-r from-[#1d55b0] to-[#a6f863] rounded-full blur opacity-50" />
-              <img
-                src={doctor.doc_image}
-                alt={`Doctor: ${doctor.doc_name}`}
-                className="relative w-32 h-32 rounded-full object-cover border-4 border-white shadow-xl"
-                data-aos="zoom-in"
-              />
-            </div>
-          </div>
-          <h3 className="text-xl font-bold text-center text-gray-800 mb-1 hover:text-[#1d55b0] transition-colors">
-            {doctor.doc_name}
-          </h3>
-          <p className="text-[#1d55b0] text-md font-medium text-center mb-4 bg-gradient-to-r from-[#1d55b0] to-[#a6f863] bg-clip-text text-transparent">
-            {doctor.doc_profile}
-          </p>
+      {/* Doctor Image */}
+      <img
+        src={docData.doc_image}
+        alt={`Expert Doctor: ${docData.doc_name} providing specialized medical care`}
+        className="mb-4 w-full h-64 rounded-[13px] shadow-doctorimg group-hover:scale-[1.02] transition-all duration-300 ease-linear"
+        data-aos="zoom-in"
+      />
 
-          <div className="space-y-3 mb-6 bg-gray-50/50 p-4 rounded-xl">
-            {doctor.specialization && (
-              <div className="flex items-center text-gray-600 hover:text-[#1d55b0] transition-colors group">
-                <div className="p-2 bg-white rounded-lg shadow-sm group-hover:shadow mr-3">
-                  <FaStethoscope className="text-[#1d55b0] text-sm" />
-                </div>
-                <span className="text-sm">{doctor.specialization}</span>
-              </div>
-            )}
-            {doctor.consultation && (
-              <div className="flex items-center text-gray-600 hover:text-[#1d55b0] transition-colors group">
-                <div className="p-2 bg-white rounded-lg shadow-sm group-hover:shadow mr-3">
-                  <FaClock className="text-[#1d55b0] text-sm" />
-                </div>
-                <span className="text-sm">{doctor.consultation}</span>
-              </div>
-            )}
-            {doctor.languages && (
-              <div className="flex items-center text-gray-600 hover:text-[#1d55b0] transition-colors group">
-                <div className="p-2 bg-white rounded-lg shadow-sm group-hover:shadow mr-3">
-                  <FaLanguage className="text-[#1d55b0] text-sm" />
-                </div>
-                <span className="text-sm">{doctor.languages.join(", ")}</span>
-              </div>
-            )}
-            {doctor.achievements && (
-              <div className="flex items-center text-gray-600 hover:text-[#1d55b0] transition-colors group">
-                <div className="p-2 bg-white rounded-lg shadow-sm group-hover:shadow mr-3">
-                  <FaAward className="text-[#1d55b0] text-sm" />
-                </div>
-                <span className="text-sm">{doctor.achievements}</span>
-              </div>
-            )}
-          </div>
-          <Link
-            to="/bookappointment"
-            className="block w-full py-3 px-6 text-center text-white rounded-xl font-medium 
-                     transition-all duration-300 hover:shadow-lg hover:scale-[1.02] relative group"
-            style={{
-              background: "linear-gradient(135deg, #1d55b0 0%, #a6f863 100%)",
-            }}
-          >
-            <span className="relative z-10">Book Appointment</span>
-            <div className="absolute inset-0 bg-gradient-to-r from-[#1d55b0] to-[#88cc52] rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-          </Link>
-        </div>
+      {/* Doctor Info */}
+      <div>
+        <h3
+          className="text-[#3E4958] text-[18px] font-semibold text-center"
+          data-aos="fade-left"
+        >
+          {docData.doc_name}
+        </h3>
+        <p
+          className="text-[#61ADF8] text-[14px] italic text-center"
+          data-aos="fade-left"
+        >
+          {docData.doc_profile}
+        </p>
+        <p
+          className="text-[#747474] text-[14px] font-medium text-center leading-[127%] my-3"
+          dangerouslySetInnerHTML={{ __html: docData.doc_details }}
+          data-aos="fade-up"
+        ></p>
+
+        {/* Appointment Button */}
+        <Link
+          to="/bookappointment"
+          className="group text-white bg-[#61ADF8] hover:bg-[#4a93d9] group-hover:scale-105 transition-all duration-300 ease-linear text-[16px] px-[27px] py-1 font-semibold rounded-[76px] flex justify-center items-center mx-auto mb-2 gap-[14px]"
+          data-aos="zoom-in"
+        >
+          Get Appointment
+          <img
+            src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/YjOq51xI62.png"
+            alt="Arrow icon indicating the action to book appointment"
+            width={7}
+            height={11}
+            className="group-hover:translate-x-1 transition-all duration-300 ease-linear"
+          />
+        </Link>
       </div>
     </div>
   );

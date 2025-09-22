@@ -3,13 +3,13 @@ import React from "react";
 const TopBanner = () => {
   return (
     <>
-      <div className="bg-[#1d55b0] text-white py-2 hidden md:block">
+      <div className="bg-[#2D546F] text-white py-2 hidden md:block">
         <div className="xl:max-w-[1293px] mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center space-x-8">
             <div className="flex items-center space-x-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4"
+                className="h-4 w-4 text-[#E31F26]"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -22,16 +22,16 @@ const TopBanner = () => {
                 />
               </svg>
               <a
-                href="tel:9050201111"
-                className="hover:text-gray-200 transition-colors"
+                href="tel:8432655555"
+                className="hover:text-[#E31F26] transition-colors"
               >
-                90502 01111
+               8432655555
               </a>
             </div>
             <div className="flex items-center space-x-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4"
+                className="h-4 w-4 text-[#E31F26]"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -45,7 +45,7 @@ const TopBanner = () => {
               </svg>
               <a
                 href="mailto:yoginetanath@gmail.com"
-                className="hover:text-gray-200 transition-colors"
+                className="hover:text-[#E31F26] transition-colors"
               >
                 yoginetanath@gmail.com
               </a>
@@ -53,7 +53,7 @@ const TopBanner = () => {
             <div className="flex items-center space-x-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4"
+                className="h-4 w-4 text-[#E31F26]"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -72,10 +72,11 @@ const TopBanner = () => {
                 />
               </svg>
               <a
-                href="https://maps.app.goo.gl/Tjq3g1kN961onbhHA"
+                href="https://maps.app.goo.gl/GMjJD3VTx7kaHhhw5"
                 target="_blank"
+                className="hover:text-[#E31F26] transition-colors"
               >
-                V.P.O, Loharu - Bhiwani Rd, Lohani, Bhiwani, Haryana 127021
+                Churu Road, Sainik Nagar, Basant Vihar, Jhunjhunu, Rajasthan 333001
               </a>
             </div>
           </div>
@@ -84,7 +85,7 @@ const TopBanner = () => {
               href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-gray-200 transition-colors"
+              className="hover:text-[#E31F26] transition-colors"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +100,7 @@ const TopBanner = () => {
               href="https://twitter.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-gray-200 transition-colors"
+              className="hover:text-[#E31F26] transition-colors"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -114,7 +115,7 @@ const TopBanner = () => {
               href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-gray-200 transition-colors"
+              className="hover:text-[#E31F26] transition-colors"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -129,7 +130,7 @@ const TopBanner = () => {
               href="https://youtube.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-gray-200 transition-colors"
+              className="hover:text-[#E31F26] transition-colors"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

@@ -39,7 +39,7 @@ const Gallery = () => {
         <div className="flex justify-center mt-8">
           <Link
             to="/gallery"
-            className="text-white inline-block text-[16px] font-medium px-7 py-2.5 bg-[#1d55b0] rounded-lg hover:bg-white hover:border-[#1d55b0] border-2 transition-all duration-300 ease-linear hover:shadow-shabtn border-solid border-transparent hover:text-[#1d55b0]"
+            className="text-white inline-block text-[16px] font-medium px-7 py-2.5 bg-[#1a365d] rounded-lg hover:bg-white hover:border-[#1a365d] border-2 transition-all duration-300 ease-linear hover:shadow-shabtn border-solid border-transparent hover:text-[#1a365d]"
           >
             View More
           </Link>

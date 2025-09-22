@@ -8,7 +8,7 @@ const PharmacyStore = () => {
         <div className="max-w-[1074px] mx-auto">
           <div className="text-center mb-6 sm:mb-8" data-aos="fade-down">
             <h3 className="lg:text-[40px] md:text-[32px] sm:text-[28px] text-[24px] text-[#000000] leading-tight font-semibold mb-2 sm:mb-3">
-              Byn Hospital Pharmacy Store
+              R&R Hospital Pharmacy Store
             </h3>
             <p className="text-sm sm:text-base text-gray-600 max-w-2xl mx-auto px-4">
               Your trusted partner for quality medicines and healthcare products
@@ -19,7 +19,7 @@ const PharmacyStore = () => {
             <div className="relative h-[180px] sm:h-[250px] rounded-[19px] overflow-hidden group" data-aos="fade-up" data-aos-delay="100">
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/b8PGp9AhEY.webp"
-                alt="Byn Hospital Pharmacy Store"
+                alt="R&R Hospital Pharmacy Store"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-3 sm:p-4">
@@ -32,7 +32,7 @@ const PharmacyStore = () => {
             <div className="relative h-[180px] sm:h-[250px] rounded-[19px] overflow-hidden group" data-aos="fade-up" data-aos-delay="200">
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/eElxtP3yJA.webp"
-                alt="Byn Hospital Pharmacy Store"
+                alt="R&R Hospital Pharmacy Store"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-3 sm:p-4">
@@ -45,7 +45,7 @@ const PharmacyStore = () => {
             <div className="relative h-[180px] sm:h-[250px] rounded-[19px] overflow-hidden group" data-aos="fade-up" data-aos-delay="300">
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/RcLKoo8jHV.webp"
-                alt="Byn Hospital Pharmacy Store"
+                alt="R&R Hospital Pharmacy Store"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-3 sm:p-4">
@@ -59,7 +59,7 @@ const PharmacyStore = () => {
           <div className="bg-white rounded-[19px] p-4 sm:p-6 shadow-lg" data-aos="fade-up">
             <div className="grid md:grid-cols-2 gap-4 sm:gap-6">
               <div className="space-y-2">
-                <h4 className="text-lg sm:text-xl font-bold text-[#1d55b0]">
+                <h4 className="text-lg sm:text-xl font-bold text-[#1a365d]">
                   Get Medicines at Your Doorstep!
                 </h4>
                 <p className="text-xs sm:text-sm text-gray-600">
@@ -68,11 +68,11 @@ const PharmacyStore = () => {
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
-                  <div className="bg-[#1d55b0]/5 p-3 rounded-lg">
+                  <div className="bg-[#1a365d]/5 p-3 rounded-lg">
                     <div className="flex items-start gap-2">
-                      <FaCheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#1d55b0] mt-1" />
+                      <FaCheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#1a365d] mt-1" />
                       <div>
-                        <h5 className="font-semibold text-sm sm:text-base text-[#1d55b0]">
+                        <h5 className="font-semibold text-sm sm:text-base text-[#1a365d]">
                           Flat 10%–20% Discount
                         </h5>
                         <p className="text-xs sm:text-sm text-gray-600">
@@ -82,11 +82,11 @@ const PharmacyStore = () => {
                     </div>
                   </div>
 
-                  <div className="bg-[#1d55b0]/5 p-3 rounded-lg">
+                  <div className="bg-[#1a365d]/5 p-3 rounded-lg">
                     <div className="flex items-start gap-2">
-                      <FaTruck className="w-4 h-4 sm:w-5 sm:h-5 text-[#1d55b0] mt-1" />
+                      <FaTruck className="w-4 h-4 sm:w-5 sm:h-5 text-[#1a365d] mt-1" />
                       <div>
-                        <h5 className="font-semibold text-sm sm:text-base text-[#1d55b0]">
+                        <h5 className="font-semibold text-sm sm:text-base text-[#1a365d]">
                           Free Home Delivery
                         </h5>
                         <p className="text-xs sm:text-sm text-gray-600">
@@ -96,11 +96,11 @@ const PharmacyStore = () => {
                     </div>
                   </div>
 
-                  <div className="bg-[#1d55b0]/5 p-3 rounded-lg">
+                  <div className="bg-[#1a365d]/5 p-3 rounded-lg">
                     <div className="flex items-start gap-2">
-                      <FaCheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#1d55b0] mt-1" />
+                      <FaCheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#1a365d] mt-1" />
                       <div>
-                        <h5 className="font-semibold text-sm sm:text-base text-[#1d55b0]">
+                        <h5 className="font-semibold text-sm sm:text-base text-[#1a365d]">
                           Fast & Reliable Service
                         </h5>
                         <p className="text-xs sm:text-sm text-gray-600">
@@ -110,11 +110,11 @@ const PharmacyStore = () => {
                     </div>
                   </div>
 
-                  <div className="bg-[#1d55b0]/5 p-3 rounded-lg">
+                  <div className="bg-[#1a365d]/5 p-3 rounded-lg">
                     <div className="flex items-start gap-2">
-                      <FaCheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#1d55b0] mt-1" />
+                      <FaCheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#1a365d] mt-1" />
                       <div>
-                        <h5 className="font-semibold text-sm sm:text-base text-[#1d55b0]">
+                        <h5 className="font-semibold text-sm sm:text-base text-[#1a365d]">
                           Trusted by Doctors
                         </h5>
                         <p className="text-xs sm:text-sm text-gray-600">
@@ -126,20 +126,20 @@ const PharmacyStore = () => {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-br from-[#1d55b0]/10 to-[#1d55b0]/5 rounded-lg p-4 sm:p-6 flex flex-col justify-between">
+              <div className="bg-gradient-to-br from-[#1a365d]/10 to-[#1a365d]/5 rounded-lg p-4 sm:p-6 flex flex-col justify-between">
                 <div>
-                  <h5 className="text-base sm:text-lg font-semibold text-[#1d55b0] mb-4">
+                  <h5 className="text-base sm:text-lg font-semibold text-[#1a365d] mb-4">
                     Order Your Medicines Now
                   </h5>
 
                   <div className="space-y-3">
                     <div className="bg-white p-3 rounded-lg shadow-sm">
                       <div className="flex items-center gap-3">
-                        <div className="bg-[#1d55b0]/20 p-2 rounded-full">
-                          <FaPhone className="w-4 h-4 sm:w-5 sm:h-5 text-[#1d55b0]" />
+                        <div className="bg-[#1a365d]/20 p-2 rounded-full">
+                          <FaPhone className="w-4 h-4 sm:w-5 sm:h-5 text-[#1a365d]" />
                         </div>
                         <div>
-                          <p className="text-lg sm:text-xl font-bold text-[#1d55b0]">
+                          <p className="text-lg sm:text-xl font-bold text-[#1a365d]">
                             +91-91665 61893
                           </p>
                           <p className="text-xs sm:text-sm text-gray-600">
@@ -161,7 +161,7 @@ const PharmacyStore = () => {
                 <div className="mt-4 sm:mt-6">
                   <a
                     href="tel:+919166561893"
-                    className="w-full bg-[#1d55b0] flex justify-center items-center text-white py-2 px-4 rounded-lg font-semibold hover:bg-[#1d55b0]/90 transition-colors duration-300 text-sm"
+                    className="w-full bg-[#1a365d] flex justify-center items-center text-white py-2 px-4 rounded-lg font-semibold hover:bg-[#1a365d]/90 transition-colors duration-300 text-sm"
                   >
                     Place Your Order
                   </a>

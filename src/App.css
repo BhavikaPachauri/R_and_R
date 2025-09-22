@@ -18,12 +18,12 @@
   display: none;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #1d55b0;
+  background-color: var(--primary-blue);
   border-radius: 10px;
-  border: 3px solid white;
+  border: 3px solid var(--white);
 }
 ::-webkit-scrollbar-track {
-  background-color: #f1f1f1;
+  background-color: var(--gray-100);
   border-radius: 10px;
 }
 :focus-visible {
@@ -43,7 +43,7 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 .text_gradient {
-  background-image: linear-gradient(#61adf8, #5f55a5);
+  background-image: linear-gradient(var(--secondary-light-blue), var(--primary-blue));
   color: transparent;
   strokewidth: 0.9;
   background-clip: text;
@@ -71,17 +71,17 @@ input[type="number"] {
 @keyframes changeBackground {
   0%,
   100% {
-    background-color: #dd2b1c;
+    background-color: var(--primary-red);
   }
   50% {
-    background-color: #1d55b0;
+    background-color: var(--primary-blue);
   }
 }
 .animated-button {
   animation: changeBackground 0.4s infinite linear;
 }
 .animated-gradient {
-  background: linear-gradient(-45deg, #9747ff, #61adf8, #9747ff, #61adf8);
+  background: linear-gradient(-45deg, var(--primary-blue), var(--secondary-light-blue), var(--primary-blue), var(--secondary-light-blue));
   background-size: 300% 300%;
   animation: gradientShift 4s infinite linear;
 }
@@ -101,13 +101,13 @@ input[type="time"] {
   -moz-appearance: none !important;
 }
 .animated-gradient {
-  background: linear-gradient(270deg, #1d55b0, #9ec285, #6fae42);
+  background: linear-gradient(270deg, var(--primary-blue), var(--secondary-orange), var(--primary-red));
   background-size: 400% 400%;
   animation: gradientMove 6s ease infinite;
 }
 select:focus option:checked  {
-  background-color: #1d55b0 !important;
-  color: white !important;
+  background-color: var(--primary-blue) !important;
+  color: var(--white) !important;
   font-size: 12px !important;
 }
 option  {

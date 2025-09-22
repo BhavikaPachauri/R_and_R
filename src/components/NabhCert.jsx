@@ -25,7 +25,7 @@ const NabhCert = () => {
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/K1lIGqKieG.webp"
                 alt="NABH Accreditation"
-                className="w-full lg:max-w-[300px] max-w-[70%] mx-auto"
+                className="w-full lg:max-w-[250px] max-w-[70%] mx-auto"
               />
             </a>
           </div>
@@ -36,23 +36,26 @@ const NabhCert = () => {
             </h2>
             <div className="space-y-2">
               <p className="text-[#4A5568] text-[16px] font-medium tracking-[2%] leading-[150%]">
-                Baba Yogi Neta Nath Hospital Bhiwani is certified by the
+                Quality and safety are at the heart of everything we do. Our NABH accreditation reflects our commitment to international standards of patient safety, ethical practices, and clinical excellence. This recognition ensures that every patient who walks through our doors receives reliable, transparent, and world-class care.
+              </p>
+              {/* <p className="text-[#4A5568] text-[16px] font-medium tracking-[2%] leading-[150%]">
+                R&R Hospital Bhiwani is certified by the
                 National Accreditation Board for Hospitals and Healthcare
                 Providers (NABH), ensuring the highest standards in patient
                 safety, infection control, administration, and infrastructure.
-              </p>
-              <p className="text-[#4A5568] text-[16px] font-medium tracking-[2%] leading-[150%]">
+              </p> */}
+              {/* <p className="text-[#4A5568] text-[16px] font-medium tracking-[2%] leading-[150%]">
                 NABH accreditation consists of over 500 stringent objective
                 elements that align with international standards such as JCI,
                 HAS (France), NCQA (USA), and more. This certification enhances
                 the global credibility of our healthcare services.
               </p>
               <p className="text-[#4A5568] text-[16px] font-medium tracking-[2%] leading-[150%]">
-                At BYN Hospital, we prioritize patient-centered care through
+                At R&R Hospital, we prioritize patient-centered care through
                 skilled healthcare professionals and advanced diagnostic &amp;
                 therapeutic care. Our NABH certification is a testament to our
                 commitment to excellence.
-              </p>
+              </p> */}
             </div>
 
             <div
@@ -60,13 +63,13 @@ const NabhCert = () => {
               data-aos="zoom-in"
               data-aos-delay="200"
             >
-              <div className="bg-blue-50 px-4 py-2 rounded-full text-blue-600 font-medium text-sm hover:bg-blue-100 transition-colors duration-300">
+              <div className="bg-blue-50 px-4 py-2 rounded-full text-[#1a365d] font-medium text-sm hover:bg-blue-100 transition-colors duration-300">
                 Patient Safety
               </div>
-              <div className="bg-blue-50 px-4 py-2 rounded-full text-blue-600 font-medium text-sm hover:bg-blue-100 transition-colors duration-300">
+              <div className="bg-blue-50 px-4 py-2 rounded-full text-[#1a365d] font-medium text-sm hover:bg-blue-100 transition-colors duration-300">
                 Quality Care
               </div>
-              <div className="bg-blue-50 px-4 py-2 rounded-full text-blue-600 font-medium text-sm hover:bg-blue-100 transition-colors duration-300">
+              <div className="bg-blue-50 px-4 py-2 rounded-full text-[#1a365d] font-medium text-sm hover:bg-blue-100 transition-colors duration-300">
                 International Standards
               </div>
             </div>

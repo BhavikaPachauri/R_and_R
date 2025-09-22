@@ -13,7 +13,7 @@ const BynDoctor = () => {
 
   return (
     <>
-      <div className="bg-[#639e51]">
+      <div className="bg-[#de2226]">
         <div className="text-sm text-gray-600 xl:max-w-[1293px] mx-auto px-3 py-3">
           <span
             className="text-[#ffffff] font-medium cursor-pointer"
@@ -27,7 +27,7 @@ const BynDoctor = () => {
       </div>
 
       <div className="xl:max-w-[1293px] mx-auto px-3 sm:py-16 py-14">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {doctors.map((doctor, index) => (
             <DoctorCard
               key={index}
