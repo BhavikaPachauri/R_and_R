@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 
 const benefits = [
-  "24/7 Emergency Services Available",
-  "Experienced and Caring Medical Staff",
-  "Advanced Medical Equipment",
-  "Multi-Specialty Care Under One Roof",
+"Experienced doctors and surgeons across multiple specialties",
+"NABH-accredited quality standards ensuring global benchmarks",
+"24×7 emergency services, pharmacy, and diagnostics under one roof",
+"Ethical, transparent, and patient-first approach",
+"Affordable pricing and seamless insurance/cashless facilities",
+
 ];
 
 export default function WhyChooseUs() {

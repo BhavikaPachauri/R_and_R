@@ -8,6 +8,7 @@ import NavBar from "../common/Navbar";
 import AppointBanner from "../AppointBanner";
 import ServiceSlider from "../common/ServiceSlider";
 import Faqs from "../Faqs";
+import Facilities from "../Facilities";
 const AboutPage = () => {
   const { pathname } = useLocation();
 
@@ -22,6 +23,7 @@ const AboutPage = () => {
         <AppointBanner />
         <BestServices />
         <ServiceSlider />
+        <Facilities/>
         <WhyChooseUs />
         <ServiceSlider />
         <Faqs />

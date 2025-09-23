@@ -8,6 +8,49 @@ import {
 } from "react-icons/fa";
 
 export default function OurServices() {
+  const services = [
+    {
+      icon: <FaAmbulance size={30} />,
+      title: "24×7 Emergency & Trauma Care",
+      desc: "Immediate response with fully equipped emergency units and ambulance services.",
+    },
+    {
+      icon: <FaStethoscope size={30} />,
+      title: "Advanced Operation Theatres",
+      desc: "Modular OTs equipped with modern technology for safe and precise surgeries.",
+    },
+    {
+      icon: <FaHospital size={28} />,
+      title: "Critical Care Units (ICU)",
+      desc: "Specialized care with advanced monitoring and life support.",
+    },
+    {
+      icon: <FaXRay size={30} />,
+      title: "Radiology & Diagnostics",
+      desc: "State-of-the-art MRI, CT (Outsource), Ultrasound, and X-ray facilities.",
+    },
+    {
+      icon: <FaProcedures size={30} />,
+      title: "Pathology & Laboratory Services",
+      desc: "NABL-standard labs ensuring accurate and reliable test reports.",
+    },
+    {
+      icon: <FaHospital size={28} />,
+      title: "Pharmacy & Blood Bank",
+      desc: "In-house pharmacy and outsourced blood bank available 24×7.",
+    },
+    {
+      icon: <FaBaby size={30} />,
+      title: "Preventive Health Check-ups",
+      desc: "Complete health packages to detect risks early and promote wellness.",
+    },
+    {
+      icon: <FaProcedures size={30} />,
+      title: "Insurance & Cashless Facility",
+      desc: "Partnerships with leading insurance providers for hassle-free patient experience.",
+    },
+  ];
+
   return (
     <section className="bg-gradient-to-b from-white to-gray-50 lg:py-20 py-16">
       <div className="xl:max-w-[1298px] px-6 mx-auto">
@@ -16,95 +59,41 @@ export default function OurServices() {
           <h2 className="text-4xl md:text-5xl font-bold text-[#1a365d]">
             Our Services
           </h2>
-          <div className="w-28 h-1 bg-[#E31F26] mx-auto my-4 rounded-full"></div>
+          <div className="w-28 h-1 bg-[#E31F26] mx-auto my-3 rounded-full"></div>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            At <span className="font-semibold text-[#1a365d]">R&R Multispeciality Hospital</span>, we provide
-            comprehensive healthcare under one roof, ensuring convenience, quality, and safety.
+            At{" "}
+            <span className="font-semibold text-[#1a365d]">
+              R&R Multispeciality Hospital
+            </span>
+            , we provide comprehensive healthcare under one roof, ensuring
+            convenience, quality, and safety.
           </p>
         </div>
 
         {/* Service Highlights */}
-        <div
-          className="bg-white shadow-md rounded-2xl p-8 border border-gray-100"
-          data-aos="fade-up"
-        >
-          <h3 className="text-2xl font-semibold text-[#1a365d] mb-6">
+        <div data-aos="fade-up">
+          <h3 className="text-3xl text-center font-semibold text-[#1a365d] mb-10">
             What We Offer
           </h3>
-          <ul className="grid gap-5 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 text-gray-700">
-            <li className="flex items-start gap-3">
-              <FaAmbulance className="text-[#E31F26] mt-1" size={20} />
-              <span>
-                <span className="font-semibold text-[#1a365d]">
-                  24×7 Emergency & Trauma Care:
-                </span>{" "}
-                Immediate response with fully equipped emergency units and ambulance services.
-              </span>
-            </li>
-            <li className="flex items-start gap-3">
-              <FaStethoscope className="text-[#E31F26] mt-1" size={20} />
-              <span>
-                <span className="font-semibold text-[#1a365d]">
-                  Advanced Operation Theatres:
-                </span>{" "}
-                Modular OTs equipped with modern technology for safe and precise surgeries.
-              </span>
-            </li>
-            <li className="flex items-start gap-3">
-              <FaHospital className="text-[#E31F26] mt-1" size={20} />
-              <span>
-                <span className="font-semibold text-[#1a365d]">
-                  Critical Care Units (ICU):
-                </span>{" "}
-                Specialized care with advanced monitoring and life support.
-              </span>
-            </li>
-            <li className="flex items-start gap-3">
-              <FaXRay className="text-[#E31F26] mt-1" size={20} />
-              <span>
-                <span className="font-semibold text-[#1a365d]">
-                  Radiology & Diagnostics:
-                </span>{" "}
-                State-of-the-art MRI, CT (Outsource), Ultrasound, and X-ray facilities.
-              </span>
-            </li>
-            <li className="flex items-start gap-3">
-              <FaProcedures className="text-[#E31F26] mt-1" size={20} />
-              <span>
-                <span className="font-semibold text-[#1a365d]">
-                  Pathology & Laboratory Services:
-                </span>{" "}
-                NABL-standard labs ensuring accurate and reliable test reports.
-              </span>
-            </li>
-            <li className="flex items-start gap-3">
-              <FaHospital className="text-[#E31F26] mt-1" size={20} />
-              <span>
-                <span className="font-semibold text-[#1a365d]">
-                  Pharmacy & Blood Bank:
-                </span>{" "}
-                In-house pharmacy and outsourced blood bank available 24×7.
-              </span>
-            </li>
-            <li className="flex items-start gap-3">
-              <FaBaby className="text-[#E31F26] mt-1" size={20} />
-              <span>
-                <span className="font-semibold text-[#1a365d]">
-                  Preventive Health Check-ups:
-                </span>{" "}
-                Complete health packages to detect risks early and promote wellness.
-              </span>
-            </li>
-            <li className="flex items-start gap-3">
-              <FaProcedures className="text-[#E31F26] mt-1" size={20} />
-              <span>
-                <span className="font-semibold text-[#1a365d]">
-                  Insurance & Cashless Facility:
-                </span>{" "}
-                Partnerships with leading insurance providers for hassle-free patient experience.
-              </span>
-            </li>
-          </ul>
+          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            {services.map((service, idx) => (
+              <div
+                key={idx}
+                className="bg-white shadow-md rounded-2xl p-6 flex flex-col items-start gap-4 border border-gray-100 
+                hover:shadow-lg hover:border-[#E31F26]/30 transition-all duration-300 group"
+              >
+                <div className="flex items-center justify-center w-14 h-14 rounded-full bg-[#E31F26]/10 text-[#E31F26] group-hover:scale-110 transition-transform duration-300">
+                  {service.icon}
+                </div>
+                <h4 className="text-lg font-semibold text-[#1a365d] group-hover:text-[#E31F26] transition-colors">
+                  {service.title}
+                </h4>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  {service.desc}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

@@ -1,5 +1,7 @@
 import { FaCogs, FaBullseye, FaAward } from "react-icons/fa";
 
+import { IoIosArrowDroprightCircle } from "react-icons/io";
+
 export default function Mission() {
   return (
     <>
@@ -24,9 +26,7 @@ export default function Mission() {
                 Mission
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Our mission is to provide exceptional Multi-Super Specialty
-                care, prioritizing patient well-being and excellence while
-                embracing social responsibility.
+                To deliver ethical, affordable, and compassionate healthcare powered by clinical expertise and modern technology.
               </p>
             </div>
             <div
@@ -41,9 +41,7 @@ export default function Mission() {
                 Vision
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Our vision is to lead in Multi-Super Specialty care by
-                transforming patient experiences with innovation, compassion,
-                and a commitment to community health.
+                To become the most trusted healthcare provider in Jhunjhunu by setting new benchmarks in patient care and treatment excellence.
               </p>
             </div>
             <div
@@ -57,10 +55,13 @@ export default function Mission() {
               <h3 className="lg:text-[24px] text-[18px] font-semibold text-[#1d55b0] my-1">
                 Core Values
               </h3>
-              <p className="text-gray-600 leading-relaxed">
-                Our core values highlight patient care, excellence, integrity,
-                and compassion, along with innovation, teamwork, and a
-                commitment to health equity.
+              <p className="text-gray-600 leading-relaxed text-left">
+               
+                  <span className="flex gap-2 "><IoIosArrowDroprightCircle size={30}/>Compassion in Care – Treat every patient with empathy and dignity.<br></br></span>
+                  <span className="flex gap-2 "><IoIosArrowDroprightCircle size={30}/>Excellence in Service – Deliver the highest standards of medical treatment.<br></br></span>
+                  <span className="flex gap-2 "><IoIosArrowDroprightCircle size={30}/>Innovation in Treatment – Leverage advanced technologies and methods.<br></br></span>
+                  <span className="flex gap-2 "><IoIosArrowDroprightCircle size={30}/>Integrity & Ethics – Practice transparent, ethical, and patient-centered care.<br></br></span>
+
               </p>
             </div>
           </div>
