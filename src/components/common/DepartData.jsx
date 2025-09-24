@@ -2,565 +2,663 @@ const DepartData = {
   orthopaedics: {
     title: "Orthopaedics",
     description:
-      "We specialize in treating bone, joint, and muscle disorders with advanced orthopedic care. Our expert team provides comprehensive treatment plans, ensuring quick recovery and mobility restoration.",
+      "Our orthopedic department offers cutting-edge treatment for musculoskeletal conditions, from sports injuries to joint replacements. We combine advanced surgical techniques with personalized rehabilitation programs to restore your mobility and quality of life.",
     highlights: {
-      "Advanced Orthopedic Care":
-        "State-of-the-art facilities for precise and effective treatment, ensuring minimal recovery time.",
-      "Expert Doctors":
-        "Highly trained orthopedic specialists with years of experience in treating complex orthopedic cases.",
-      "Comprehensive Services":
-        "End-to-end care from diagnosis to rehabilitation, including physiotherapy and post-surgical support.",
+      "Minimally Invasive Surgery":
+        "Advanced arthroscopic and endoscopic procedures that reduce recovery time and surgical trauma.",
+      "Joint Replacement Excellence":
+        "Specialized in knee, hip, and shoulder replacements using latest prosthetic technology.",
+      "Sports Medicine Focus":
+        "Comprehensive care for athletes with rapid recovery protocols and performance optimization.",
     },
     doctors: [
       {
-        name: "Dr. K.P Singh",
-        designation: "MS (General Surgery)",
-        experience: "30+ years of experience",
+        name: "Dr. Deepak Jhaidia",
+        designation: "MBBS, MS (Ortho)",
+        experience: "Endoscopic Spine & Joint Replacement Surgeon",
         image:
-          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/0vyO7gNm0b.webp",
-      },
-      {
-        name: "Dr. Chirag Jain",
-        designation: "MS (Orthopaedics)",
-        experience: "10+ years of experience",
-        image:
-          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/qH28HoZUjU.webp",
+          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
       },
     ],
     testimonials: [
       {
-        name: "Rohit Verma",
+        name: "Vikash Sharma",
         feedback:
-          "Excellent orthopedic treatment. My knee surgery was a success, and the post-surgical care was top-notch!",
+          "After my ACL reconstruction, I was back to playing cricket within 4 months. The surgical precision and aftercare were outstanding.",
       },
       {
-        name: "Neha Gupta",
+        name: "Sunita Agarwal",
         feedback:
-          "Doctors are very supportive and skilled. Highly recommended for bone and joint issues!",
+          "My hip replacement surgery was painless and the recovery was much faster than I expected. Walking without pain after 2 years feels like a miracle.",
       },
     ],
     faqs: [
       {
-        question: "What types of orthopedic surgeries do you perform?",
+        question: "What makes endoscopic spine surgery better than traditional methods?",
         answer:
-          "We offer joint replacement, arthroscopy, spinal surgery, sports injury management, and pediatric orthopedic treatments.",
+          "Endoscopic spine surgery uses tiny incisions and advanced visualization, resulting in less muscle damage, reduced blood loss, and faster recovery compared to open surgery.",
       },
       {
-        question:
-          "How long does it take to recover from joint replacement surgery?",
+        question: "How do I know if I need joint replacement surgery?",
         answer:
-          "Recovery time varies but typically takes 6-12 weeks with proper rehabilitation and physiotherapy.",
+          "Joint replacement is considered when conservative treatments fail and you experience severe pain, limited mobility, or significant joint deformity that affects daily activities.",
       },
       {
-        question: "What are the non-surgical treatment options for arthritis?",
+        question: "What is the lifespan of artificial joints?",
         answer:
-          "We offer pain management, physiotherapy, medication, and lifestyle modifications to help manage arthritis symptoms.",
+          "Modern joint implants typically last 15-25 years or more, depending on the patient's activity level, age, and implant type.",
       },
       {
-        question: "Do you provide physiotherapy after surgery?",
+        question: "Can young athletes return to sports after orthopedic surgery?",
         answer:
-          "Yes, we have a dedicated physiotherapy team to assist in post-surgical recovery and rehabilitation.",
+          "With proper rehabilitation and clearance from our sports medicine team, most young athletes can return to their sport, often with improved performance.",
       },
       {
-        question: "How can I prevent sports injuries?",
+        question: "What rehabilitation services do you provide post-surgery?",
         answer:
-          "Regular exercise, proper warm-ups, using the right equipment, and strength training can help prevent sports injuries.",
-      },
-      {
-        question: "What is the success rate of knee replacement surgery?",
-        answer:
-          "Knee replacement surgery has a success rate of over 90%, with most patients experiencing significant pain relief and improved mobility.",
-      },
-      {
-        question: "How do I know if I need spinal surgery?",
-        answer:
-          "Spinal surgery is typically considered when conservative treatments fail to relieve symptoms, or when there's significant nerve compression or spinal instability.",
+          "We offer comprehensive physiotherapy, occupational therapy, and customized exercise programs to ensure optimal recovery and function.",
       },
     ],
   },
   radiology: {
     title: "Radiology",
     description:
-      "Advanced diagnostic imaging services with state-of-the-art equipment for accurate diagnosis and treatment planning.",
+      "Our radiology department features the latest in medical imaging technology, providing accurate diagnoses through advanced CT, MRI, ultrasound, and digital X-ray services. We ensure quick turnaround times with precise reporting.",
     highlights: {
-      "Advanced Imaging Technology":
-        "Latest diagnostic equipment for precise and detailed imaging.",
-      "Expert Radiologists":
-        "Highly skilled specialists interpreting complex imaging results.",
-      "Comprehensive Diagnostic Services":
-        "From routine X-rays to advanced imaging techniques for accurate diagnosis.",
+      "High-Resolution Imaging":
+        "Latest generation MRI and CT scanners providing crystal-clear images for accurate diagnosis.",
+      "AI-Assisted Diagnosis":
+        "Advanced software integration for enhanced accuracy in detecting abnormalities and conditions.",
+      "Same-Day Results":
+        "Rapid reporting system with most results available within hours of imaging completion.",
     },
     doctors: [
       {
-        name: "Dr. Anuj Jain",
-        designation: "DNB (Radiology & Diagnostics)",
-        experience: "10+ years of experience",
+        name: "Dr. Sunil Saini",
+        designation: "MD (Radiodiagnosis)",
+        experience: "Radiologist",
         image:
-          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/ZKaOSBNXib.webp",
+          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
       },
     ],
     testimonials: [
       {
-        name: "Rajesh Kumar",
+        name: "Manoj Gupta",
         feedback:
-          "Quick and accurate diagnosis. The radiology team was very professional.",
+          "The MRI experience was comfortable and the detailed report helped my doctor plan the perfect treatment strategy for my condition.",
       },
       {
-        name: "Priya Sharma",
+        name: "Rashmi Kapoor",
         feedback:
-          "The MRI scan was comfortable and the results were explained clearly.",
+          "Quick appointment scheduling and results within 2 hours. The radiologist explained every finding clearly during consultation.",
       },
     ],
     faqs: [
       {
-        question: "What is the difference between CT and MRI?",
+        question: "How accurate are your imaging results?",
         answer:
-          "CT uses X-rays for cross-sectional imaging, while MRI uses magnetic fields and radio waves for detailed soft tissue imaging.",
+          "Our advanced equipment combined with experienced radiologists provides over 99% diagnostic accuracy for most conditions.",
       },
       {
-        question: "How should I prepare for an MRI scan?",
+        question: "Do you offer emergency imaging services?",
         answer:
-          "Remove all metal objects, inform about any implants, and follow specific instructions regarding food and drink restrictions before the scan.",
+          "Yes, we provide 24/7 emergency imaging services including CT scans, X-rays, and ultrasounds for urgent medical situations.",
       },
       {
-        question: "Are imaging procedures safe during pregnancy?",
+        question: "Can I get a second opinion on my imaging results?",
         answer:
-          "While X-rays and CT scans are generally avoided during pregnancy, ultrasound and MRI are considered safe when medically necessary.",
+          "Absolutely. We encourage patients to seek second opinions and can provide detailed imaging reports and films for external consultation.",
       },
       {
-        question: "How long does a CT scan take?",
+        question: "What should I expect during an MRI scan?",
         answer:
-          "Most CT scans take 10-30 minutes, depending on the area being scanned and whether contrast material is needed.",
+          "MRI scans are painless but can be noisy. You'll lie still on a table that slides into the machine. Most scans take 20-45 minutes.",
       },
       {
-        question: "What is contrast material and why is it used?",
+        question: "Are there any risks associated with medical imaging?",
         answer:
-          "Contrast material helps highlight specific areas in imaging studies, making it easier to detect abnormalities in blood vessels, organs, and tissues.",
+          "Most imaging procedures are very safe. We follow strict protocols to minimize any potential risks and ensure patient safety.",
       },
     ],
   },
   pediatrics: {
     title: "Pediatrics",
     description:
-      "Comprehensive pediatric care for children from birth to adolescence, focusing on their unique health needs and development.",
+      "Dedicated to providing comprehensive healthcare for children from newborns to adolescents. Our child-friendly environment and specialized pediatric expertise ensure your little ones receive the best care during their developmental years.",
     highlights: {
-      "Child-Friendly Environment":
-        "Specially designed facilities to make children comfortable during treatment.",
-      "Expert Pediatricians":
-        "Highly trained specialists in children's health and development.",
-      "Comprehensive Pediatric Care":
-        "From routine check-ups to specialized treatments for various conditions.",
+      "Child-Centric Care":
+        "Specially trained staff and colorful, welcoming facilities designed to reduce anxiety in young patients.",
+      "Comprehensive Vaccination":
+        "Complete immunization programs following national and international guidelines for optimal protection.",
+      "Growth Monitoring":
+        "Advanced developmental assessments and growth tracking to ensure healthy childhood development.",
     },
-    doctors: [
-      {
-        name: "Dr. Pinky Gupta",
-        designation: "MD/DNB (Pediatrics)",
-        experience: "10+ years of experience",
-        image:
-          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/xxabxQegSC.webp",
-      },
-    ],
+    doctors: [],
     testimonials: [
       {
-        name: "Amit Patel",
+        name: "Kavita Jain",
         feedback:
-          "My child feels comfortable with the doctor. The treatment was effective.",
+          "My 5-year-old actually looks forward to doctor visits now! The pediatric team made vaccinations stress-free for both of us.",
       },
       {
-        name: "Neha Singh",
+        name: "Ravi Patel",
         feedback:
-          "The pediatric team is very caring and explains everything clearly.",
+          "The developmental guidance we received helped us understand our child's milestones better. The care is truly comprehensive.",
       },
     ],
     faqs: [
       {
-        question: "When should I bring my child for their first check-up?",
+        question: "At what age should my child start regular check-ups?",
         answer:
-          "We recommend bringing your child for their first check-up within the first week after birth, followed by regular visits according to the vaccination schedule.",
+          "Regular pediatric check-ups should begin within the first week of birth, with frequent visits in the first year and annual check-ups thereafter.",
       },
       {
-        question: "What vaccinations are required for my child?",
+        question: "How do you handle anxious or fearful children?",
         answer:
-          "We follow the national immunization schedule, which includes vaccines for diseases like polio, measles, hepatitis B, and more. A detailed schedule will be provided during your visit.",
+          "Our staff uses child-friendly communication, distraction techniques, and a comfortable environment to help children feel at ease during visits.",
       },
       {
-        question: "How often should my child visit the pediatrician?",
+        question: "What childhood emergencies should I be aware of?",
         answer:
-          "Regular check-ups are recommended at 1, 2, 4, 6, 9, 12, 15, 18, and 24 months, then annually until age 5, and as needed after that.",
+          "High fever, difficulty breathing, severe allergic reactions, and injuries require immediate attention. We provide 24/7 emergency pediatric care.",
       },
       {
-        question: "What are common childhood illnesses to watch for?",
+        question: "How can I prepare my child for their first visit?",
         answer:
-          "Common illnesses include colds, ear infections, stomach bugs, and respiratory infections. We provide guidance on symptoms to watch for and when to seek medical attention.",
+          "Read them books about doctor visits, bring comfort items, and explain that the doctor helps keep them healthy and strong.",
       },
       {
-        question: "How can I help my child develop healthy habits?",
+        question: "Do you provide nutritional counseling for children?",
         answer:
-          "We offer guidance on nutrition, sleep, physical activity, and screen time to help establish healthy habits from an early age.",
+          "Yes, we offer comprehensive nutritional guidance for healthy growth, managing childhood obesity, and addressing feeding difficulties.",
       },
     ],
   },
   obstetrics: {
     title: "Obstetrics",
     description:
-      "Comprehensive care for expectant mothers throughout pregnancy, labor, and postpartum period.",
+      "Supporting mothers through every stage of pregnancy with comprehensive prenatal care, safe delivery options, and postnatal support. Our experienced team ensures both mother and baby receive the highest quality care throughout the journey.",
     highlights: {
-      "Advanced Obstetric Care":
-        "State-of-the-art facilities for safe and comfortable delivery.",
-      "Expert Obstetricians":
-        "Highly skilled specialists in pregnancy and childbirth.",
-      "Comprehensive Maternal Care":
-        "From conception to postpartum, ensuring the health of both mother and baby.",
+      "High-Risk Pregnancy Care":
+        "Specialized monitoring and management for complicated pregnancies with advanced fetal medicine services.",
+      "Natural Birth Support":
+        "Promoting natural delivery with pain management options and birthing suite facilities.",
+      "Lactation Consulting":
+        "Expert breastfeeding support and guidance for new mothers to ensure successful nursing.",
     },
     doctors: [
       {
-        name: "Dr. Meenu Khandelwal",
-        designation: "MS (Obstetrics & Gynecology)",
-        experience: "22+ years of experience",
+        name: "Dr. Dharma Saini",
+        designation: "MBBS, MS (OBS & Gynae)",
+        experience: "Women & Maternity Specialist",
         image:
-          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/OkRFROfm7D.webp",
+          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
       },
     ],
     testimonials: [
       {
-        name: "Priya Sharma",
+        name: "Neha Agarwal",
         feedback:
-          "The obstetric team was supportive throughout my pregnancy. The delivery was smooth.",
+          "Dr. Dharma Saini guided me through my high-risk pregnancy with such care and expertise. Both my twins are healthy and thriving now.",
       },
       {
-        name: "Anita Verma",
+        name: "Pooja Verma",
         feedback:
-          "I felt safe and well-cared for during my high-risk pregnancy.",
+          "The natural birth experience was beautiful, and the lactation support helped me establish breastfeeding successfully from day one.",
       },
     ],
     faqs: [
       {
-        question: "How often should I visit during pregnancy?",
+        question: "What prenatal tests are essential during pregnancy?",
         answer:
-          "Regular check-ups are recommended monthly until the 28th week, then every two weeks until the 36th week, and weekly until delivery.",
+          "Essential tests include blood work, ultrasounds, glucose tolerance test, and genetic screening. We'll customize based on your specific needs and risk factors.",
       },
       {
-        question: "What tests are required during pregnancy?",
+        question: "When should I create a birth plan?",
         answer:
-          "Essential tests include blood tests, ultrasound scans, glucose screening, and regular blood pressure monitoring to ensure the health of both mother and baby.",
+          "We recommend discussing your birth plan around 32-36 weeks of pregnancy, allowing time for adjustments based on your pregnancy progress.",
       },
       {
-        question: "What are the signs of labor?",
+        question: "What are the warning signs during pregnancy that need immediate attention?",
         answer:
-          "Signs include regular contractions, water breaking, lower back pain, and the 'bloody show'. Contact your doctor immediately if you experience any of these signs.",
+          "Severe abdominal pain, heavy bleeding, persistent headaches, vision changes, or decreased fetal movement require immediate medical evaluation.",
       },
       {
-        question: "What pain relief options are available during delivery?",
+        question: "How soon after delivery can I go home?",
         answer:
-          "Options include epidural anesthesia, natural pain management techniques, and other medical pain relief methods. We'll discuss these options during your prenatal visits.",
+          "For normal deliveries, discharge is typically 24-48 hours. C-section patients usually stay 2-3 days, depending on recovery progress.",
       },
       {
-        question: "How soon can I start breastfeeding after delivery?",
+        question: "What support do you provide for postpartum depression?",
         answer:
-          "We encourage starting breastfeeding within the first hour after birth, and our lactation consultants are available to provide support and guidance.",
+          "We offer comprehensive mental health screening, counseling services, and connection to support groups for maternal mental wellness.",
       },
     ],
   },
   gynecology: {
     title: "Gynecology",
     description:
-      "Comprehensive women's health care focusing on reproductive and gynecological health throughout different life stages.",
+      "Comprehensive women's healthcare addressing reproductive health, hormonal concerns, and gynecological conditions. We provide confidential, compassionate care for women at every life stage, from adolescence through menopause.",
     highlights: {
-      "Advanced Gynecological Care":
-        "State-of-the-art facilities for diagnosis and treatment of women's health issues.",
-      "Expert Gynecologists":
-        "Highly skilled specialists in women's reproductive health.",
-      "Comprehensive Women's Health Care":
-        "From adolescence to menopause, addressing all aspects of women's health.",
+      "Minimally Invasive Procedures":
+        "Advanced laparoscopic surgeries for faster recovery and reduced scarring in treating gynecological conditions.",
+      "Hormonal Health Management":
+        "Comprehensive hormone therapy and management for PCOS, menopause, and reproductive health optimization.",
+      "Cancer Screening Programs":
+        "Regular cervical and breast cancer screening with early detection protocols and prevention strategies.",
     },
     doctors: [
       {
-        name: "Dr. Manisha Rastogi",
-        designation: "DGO (Gynecology)",
-        experience: "30+ years of experience",
+        name: "Dr. Dharma Saini",
+        designation: "MBBS, MS (OBS & Gynae)",
+        experience: "Women & Maternity Specialist",
         image:
-          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/ANLKUxInCN.webp",
+          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
       },
     ],
     testimonials: [
       {
-        name: "Riya Gupta",
+        name: "Shalini Kumari",
         feedback:
-          "The gynecologist was very understanding and helped me manage my menstrual issues effectively.",
+          "The PCOS management plan completely changed my life. My symptoms are controlled and I feel healthier than I have in years.",
       },
       {
-        name: "Sneha Patel",
+        name: "Rekha Singh",
         feedback:
-          "I felt comfortable discussing my health concerns. The treatment was successful.",
+          "The laparoscopic fibroid removal was so much easier than I expected. Back to normal activities within a week with minimal discomfort.",
       },
     ],
     faqs: [
       {
-        question: "How often should I have a gynecological check-up?",
+        question: "How often should I have gynecological screenings?",
         answer:
-          "We recommend annual gynecological check-ups for women of reproductive age, including Pap smears every 3 years or as recommended.",
+          "Annual exams are recommended, with Pap smears every 3 years for ages 21-65, and mammograms starting at age 40 or as recommended based on risk factors.",
       },
       {
-        question: "What are common gynecological problems?",
+        question: "What are the treatment options for PCOS?",
         answer:
-          "Common issues include menstrual disorders, PCOS, endometriosis, fibroids, and infections. Regular check-ups help in early detection and treatment.",
+          "PCOS treatment includes lifestyle modifications, hormonal therapy, fertility treatments if needed, and management of associated symptoms like insulin resistance.",
       },
       {
-        question: "What is a Pap smear and how often should I get one?",
+        question: "When should I be concerned about irregular periods?",
         answer:
-          "A Pap smear is a screening test for cervical cancer. It's recommended every 3 years for women aged 21-65, or as advised by your gynecologist.",
+          "Consult if you experience very heavy bleeding, periods lasting longer than 7 days, cycles shorter than 21 days or longer than 35 days, or sudden changes in pattern.",
       },
       {
-        question: "What are the symptoms of menopause?",
+        question: "What are the benefits of laparoscopic surgery?",
         answer:
-          "Common symptoms include hot flashes, night sweats, mood changes, and irregular periods. We offer various treatment options to manage these symptoms.",
+          "Laparoscopic procedures offer smaller incisions, less pain, shorter hospital stays, faster recovery, and reduced risk of infection compared to open surgery.",
       },
       {
-        question: "What contraceptive options are available?",
+        question: "How can I manage menopausal symptoms?",
         answer:
-          "We provide information about various contraceptive methods including pills, IUDs, implants, and permanent options, helping you choose what's best for your needs.",
+          "We offer various options including hormone replacement therapy, lifestyle modifications, and alternative treatments tailored to your specific symptoms and health profile.",
       },
     ],
   },
   generalmedicine: {
     title: "General Medicine",
     description:
-      "Comprehensive medical care for adults, focusing on prevention, diagnosis, and treatment of various medical conditions.",
+      "Your first line of healthcare providing comprehensive medical services for adults. We focus on preventive care, chronic disease management, and acute illness treatment with a holistic approach to your overall wellbeing.",
     highlights: {
-      "Comprehensive Medical Care":
-        "Holistic approach to health, addressing both physical and mental well-being.",
-      "Expert Physicians":
-        "Highly experienced doctors providing personalized care.",
-      "Preventive Health Focus":
-        "Emphasis on disease prevention and health promotion.",
+      "Preventive Health Programs":
+        "Comprehensive health screenings and wellness programs designed to prevent disease and maintain optimal health.",
+      "Chronic Disease Management":
+        "Specialized care plans for diabetes, hypertension, heart disease, and other long-term conditions.",
+      "Telemedicine Services":
+        "Virtual consultations and remote monitoring capabilities for convenient healthcare access.",
     },
     doctors: [
       {
-        name: "Dr. Pawan Sharma",
-        designation: "MD (General Medicine & Diabetology)",
-        experience: "10+ years of experience",
+        name: "Dr. Imran Ahmad Khan",
+        designation: "MBBS, MD (General Medicine)",
+        experience: "General Physician",
         image:
-          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/KXWW7yRCDF.webp",
+          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
       },
     ],
     testimonials: [
       {
-        name: "Rajesh Kumar",
+        name: "Suresh Kumar",
         feedback:
-          "The doctor was thorough in his examination and explained everything clearly.",
+          "Dr. Khan's comprehensive approach helped me understand my health better. The preventive care plan has kept me healthy for over 3 years now.",
       },
       {
-        name: "Meera Singh",
+        name: "Anjali Sharma",
         feedback:
-          "I appreciate the preventive health advice that helped me manage my condition better.",
+          "The chronic disease management program helped me control my blood pressure effectively. Regular monitoring gives me peace of mind.",
       },
     ],
     faqs: [
       {
-        question: "How often should I have a general health check-up?",
+        question: "What does a comprehensive health check-up include?",
         answer:
-          "We recommend annual health check-ups for adults, with more frequent visits for those with chronic conditions or specific health concerns.",
+          "Complete physical exam, blood tests, ECG, chest X-ray, and specialized screenings based on age and risk factors to assess overall health status.",
+      },
+      {
+        question: "How often should healthy adults see a doctor?",
+        answer:
+          "Annual check-ups are recommended for adults, with more frequent visits for those over 50 or with chronic conditions requiring ongoing management.",
+      },
+      {
+        question: "What lifestyle factors do you address in preventive care?",
+        answer:
+          "We focus on nutrition, exercise, stress management, sleep quality, smoking cessation, and alcohol moderation as key pillars of health maintenance.",
+      },
+      {
+        question: "Can you help coordinate care with specialists?",
+        answer:
+          "Yes, we serve as your primary care coordinator, managing referrals to specialists and ensuring all aspects of your care are well-integrated.",
+      },
+      {
+        question: "Do you provide executive health packages?",
+        answer:
+          "We offer comprehensive executive health packages with advanced screenings, priority scheduling, and detailed health reports for busy professionals.",
       },
     ],
   },
   diabetology: {
     title: "Diabetology",
     description:
-      "Specialized care for diabetes management, focusing on blood sugar control, complications prevention, and lifestyle modifications.",
+      "Specialized diabetes care focusing on blood sugar management, complication prevention, and lifestyle optimization. Our comprehensive approach helps patients live full, healthy lives while effectively managing their diabetes.",
     highlights: {
-      "Advanced Diabetes Care":
-        "State-of-the-art facilities for comprehensive diabetes management.",
-      "Expert Diabetologists":
-        "Highly skilled specialists in diabetes care and management.",
-      "Holistic Approach":
-        "Addressing all aspects of diabetes, from medication to lifestyle changes.",
+      "Advanced Glucose Monitoring":
+        "Continuous glucose monitoring systems and latest HbA1c testing for precise diabetes management.",
+      "Diabetic Complication Prevention":
+        "Comprehensive screening for eye, kidney, nerve, and cardiovascular complications with early intervention.",
+      "Nutritional Counseling":
+        "Personalized meal planning and dietary education to optimize blood sugar control and overall health.",
     },
     doctors: [
       {
-        name: "Dr. Pawan Sharma",
-        designation: "MD (General Medicine & Diabetology)",
-        experience: "10+ years of experience",
+        name: "Dr. Imran Ahmad Khan",
+        designation: "MBBS, MD (General Medicine)",
+        experience: "General Physician",
         image:
-          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/KXWW7yRCDF.webp",
+          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
       },
     ],
     testimonials: [
       {
-        name: "Amit Verma",
+        name: "Ramesh Patel",
         feedback:
-          "The diabetes management plan was effective. My blood sugar is now under control.",
+          "My HbA1c dropped from 9.2 to 6.8 in just 6 months with the comprehensive diabetes management program. I feel energetic again.",
       },
       {
-        name: "Priya Sharma",
+        name: "Meera Joshi",
         feedback:
-          "The nutritional advice helped me make better food choices for managing my diabetes.",
+          "The nutritional counseling transformed my relationship with food. Managing diabetes doesn't feel restrictive anymore - it feels empowering.",
       },
     ],
     faqs: [
       {
-        question: "How can I prevent diabetes complications?",
+        question: "What is the target HbA1c level for diabetics?",
         answer:
-          "Regular blood sugar monitoring, a balanced diet, regular exercise, and adherence to prescribed medications can help prevent complications.",
+          "Generally, an HbA1c below 7% is recommended for most adults with diabetes, though individual targets may vary based on age and health conditions.",
+      },
+      {
+        question: "How often should diabetics monitor their blood sugar?",
+        answer:
+          "Monitoring frequency depends on treatment type and control level. Type 1 diabetics may check 4+ times daily, while well-controlled Type 2 may check less frequently.",
+      },
+      {
+        question: "What are the warning signs of diabetic complications?",
+        answer:
+          "Watch for vision changes, numbness in hands/feet, slow-healing wounds, frequent infections, or persistent fatigue - all require immediate medical attention.",
+      },
+      {
+        question: "Can diabetes be reversed or cured?",
+        answer:
+          "Type 2 diabetes can sometimes be put into remission through significant lifestyle changes, but it requires ongoing management. Type 1 diabetes currently requires lifelong treatment.",
+      },
+      {
+        question: "What role does exercise play in diabetes management?",
+        answer:
+          "Regular exercise improves insulin sensitivity, helps control blood sugar, aids weight management, and reduces cardiovascular risk - it's essential for diabetes care.",
       },
     ],
   },
   generalsurgery: {
     title: "General Surgery",
     description:
-      "Comprehensive surgical care for a wide range of conditions, from routine procedures to complex surgeries, with a focus on patient safety and optimal outcomes.",
+      "Expert surgical care for a wide range of conditions using both traditional and minimally invasive techniques. Our experienced surgical team prioritizes patient safety, optimal outcomes, and rapid recovery.",
     highlights: {
-      "Advanced Surgical Techniques":
-        "State-of-the-art facilities and minimally invasive procedures for faster recovery.",
-      "Expert Surgeons":
-        "Highly skilled surgical team with extensive experience in various procedures.",
-      "Comprehensive Surgical Care":
-        "From pre-operative assessment to post-operative care, ensuring complete patient support.",
+      "Laparoscopic Expertise":
+        "Advanced minimally invasive surgical techniques reducing recovery time and post-operative complications.",
+      "Day Surgery Services":
+        "Same-day surgical procedures allowing patients to recover in the comfort of their homes.",
+      "Emergency Surgery Readiness":
+        "24/7 surgical team availability for urgent procedures with state-of-the-art operating facilities.",
     },
     doctors: [
       {
-        name: "Dr. K.P Singh",
-        designation: "MS (General Surgery)",
-        experience: "30+ years of experience",
+        name: "Dr. Vitul Vaikar",
+        designation: "MBBS, DNB (General Surgery)",
+        experience: "General & Laparoscopic Surgeon",
         image:
-          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/0vyO7gNm0b.webp",
+          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
       },
     ],
     testimonials: [
       {
-        name: "Rahul Sharma",
+        name: "Kiran Mehra",
         feedback:
-          "The laparoscopic surgery was smooth and recovery was quick. Excellent care from the surgical team.",
+          "My gallbladder surgery was performed laparoscopically and I was back to work in just one week. The tiny scars are barely visible now.",
       },
       {
-        name: "Anita Patel",
+        name: "Deepak Agarwal",
         feedback:
-          "Dr. K.P Singh is a highly skilled surgeon. The hernia repair was successful and the follow-up care was excellent.",
+          "Dr. Vaikar's expertise in hernia repair using mesh technique gave me confidence. No complications and excellent results after 2 years.",
       },
     ],
     faqs: [
       {
-        question: "What is laparoscopic surgery?",
+        question: "What conditions require general surgery?",
         answer:
-          "Laparoscopic surgery is a minimally invasive technique that uses small incisions and a camera to perform surgical procedures, resulting in less pain and faster recovery.",
+          "We treat hernias, gallbladder disease, appendicitis, bowel conditions, thyroid disorders, and various abdominal conditions requiring surgical intervention.",
       },
       {
-        question: "How long does it take to recover from general surgery?",
+        question: "How do I prepare for surgery?",
         answer:
-          "Recovery time varies depending on the procedure, but most patients can return to normal activities within 2-6 weeks with proper post-operative care.",
+          "Pre-operative preparation includes medical clearance, fasting instructions, medication adjustments, and detailed discussion of the procedure and recovery expectations.",
+      },
+      {
+        question: "What are the advantages of laparoscopic surgery?",
+        answer:
+          "Laparoscopic surgery offers smaller incisions, less pain, shorter hospital stays, faster recovery, reduced infection risk, and better cosmetic results.",
+      },
+      {
+        question: "How long is the typical recovery period?",
+        answer:
+          "Recovery varies by procedure - laparoscopic procedures typically require 1-2 weeks, while open surgeries may need 4-6 weeks for full recovery.",
+      },
+      {
+        question: "What should I expect during post-operative care?",
+        answer:
+          "Post-operative care includes pain management, wound care instructions, activity restrictions, follow-up appointments, and monitoring for complications.",
       },
     ],
   },
   urology: {
     title: "Urology",
     description:
-      "Specialized care for urinary tract and male reproductive system disorders, offering advanced diagnostic and treatment options for various urological conditions.",
+      "Comprehensive urological care for kidney, bladder, and reproductive system disorders. We offer advanced diagnostic capabilities and both surgical and non-surgical treatment options for optimal patient outcomes.",
     highlights: {
-      "Advanced Urological Care":
-        "State-of-the-art facilities for precise diagnosis and treatment of urological conditions.",
-      "Expert Urologists":
-        "Highly skilled specialists with extensive experience in treating complex urological cases.",
-      "Comprehensive Treatment":
-        "From diagnosis to post-treatment care, ensuring complete patient support and recovery.",
+      "Laser Stone Treatment":
+        "Advanced laser lithotripsy for kidney stones with minimal invasive approach and faster recovery times.",
+      "Robotic Surgery":
+        "State-of-the-art robotic-assisted procedures for prostate and kidney surgeries with enhanced precision.",
+      "Male Fertility Services":
+        "Comprehensive evaluation and treatment of male reproductive health and fertility issues.",
     },
-    doctors: [],
+    doctors: [
+      {
+        name: "Dr. Mukesh Kumar",
+        designation: "MBBS, MS, M.Ch (Urology)",
+        experience: "Kidney & Urinary Specialist",
+        image:
+          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
+      },
+    ],
     testimonials: [
       {
-        name: "Rahul Verma",
+        name: "Ajay Malhotra",
         feedback:
-          "The kidney stone treatment was successful and the recovery was smooth. The urology team provided excellent care.",
+          "The laser treatment for my kidney stones was amazing - no cuts, minimal pain, and I passed the fragments within days. Technology at its best!",
       },
       {
-        name: "Anil Kumar",
+        name: "Sanjay Gupta",
         feedback:
-          "The prostate surgery was handled with great expertise. The follow-up care was excellent.",
+          "Dr. Mukesh Kumar's approach to my prostate condition was thorough and reassuring. The robotic surgery results exceeded my expectations.",
       },
     ],
     faqs: [
       {
-        question: "What are the common symptoms of urological problems?",
+        question: "What are the latest treatments for kidney stones?",
         answer:
-          "Common symptoms include frequent urination, pain during urination, blood in urine, difficulty in urination, and lower abdominal pain.",
+          "We offer laser lithotripsy, shock wave lithotripsy, and percutaneous procedures depending on stone size and location, with most being minimally invasive.",
       },
       {
-        question: "How can I prevent kidney stones?",
+        question: "How is prostate enlargement treated?",
         answer:
-          "Drinking plenty of water, maintaining a balanced diet, reducing salt intake, and regular exercise can help prevent kidney stones.",
+          "Treatment options range from medications to minimally invasive procedures like laser therapy, and surgical options including robotic-assisted surgery when needed.",
+      },
+      {
+        question: "What should I do if I have blood in my urine?",
+        answer:
+          "Blood in urine requires immediate evaluation to rule out infections, stones, or more serious conditions. Contact us for urgent consultation and diagnostic workup.",
+      },
+      {
+        question: "Are urological conditions hereditary?",
+        answer:
+          "Some conditions like kidney stones and certain cancers can have genetic components. We provide family risk assessment and screening recommendations.",
+      },
+      {
+        question: "How can I maintain good urological health?",
+        answer:
+          "Stay hydrated, maintain healthy weight, practice good hygiene, avoid smoking, limit alcohol, and have regular check-ups especially after age 50.",
       },
     ],
   },
   dental: {
     title: "Dental",
     description:
-      "Comprehensive dental care with modern facilities and expert dentists. We provide a wide range of dental treatments to ensure optimal oral health for our patients.",
+      "Complete oral healthcare services using modern dental technology and techniques. From routine cleanings to complex restorative procedures, we ensure your smile stays healthy and beautiful throughout your life.",
     highlights: {
-      "Modern Dental Care":
-        "State-of-the-art dental equipment and facilities for precise and comfortable treatment.",
-      "Expert Dentists":
-        "Highly skilled dental specialists with extensive experience in various dental procedures.",
-      "Comprehensive Services":
-        "From routine check-ups to complex dental procedures, ensuring complete oral health care.",
+      "Digital Dentistry":
+        "Advanced digital X-rays, intraoral cameras, and CAD/CAM technology for precise diagnosis and treatment.",
+      "Cosmetic Excellence":
+        "Professional teeth whitening, veneers, and smile makeover services for enhanced dental aesthetics.",
+      "Pain-Free Procedures":
+        "Modern anesthesia techniques and sedation options ensuring comfortable dental experiences.",
     },
-    doctors: [],
+    doctors: [
+      {
+        name: "Dr. Amit Singh",
+        designation: "BDS (Dental Surgeon)",
+        experience: "Oral & Dental Care",
+        image:
+          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
+      },
+    ],
     testimonials: [
       {
-        name: "Amit Sharma",
+        name: "Priyanka Shah",
         feedback:
-          "The dental treatment was painless and the staff was very caring. Highly recommended!",
+          "My smile transformation with veneers was incredible! Dr. Singh's attention to detail and artistic approach gave me the confidence I always wanted.",
       },
       {
-        name: "Priya Verma",
+        name: "Rohit Jain",
         feedback:
-          "Excellent dental care with modern equipment. The root canal treatment was smooth and comfortable.",
+          "The root canal treatment was completely painless - I was dreading it for months! The digital technology made everything so much more comfortable.",
       },
     ],
     faqs: [
       {
-        question: "How often should I visit the dentist?",
+        question: "How often should I visit the dentist for check-ups?",
         answer:
-          "We recommend visiting the dentist every 6 months for routine check-ups and cleanings to maintain optimal oral health.",
+          "We recommend visits every 6 months for cleanings and check-ups, though some patients with gum disease or other conditions may need more frequent visits.",
       },
       {
-        question: "What are the signs that I need to see a dentist?",
+        question: "What are the signs I need immediate dental attention?",
         answer:
-          "Common signs include tooth pain, bleeding gums, sensitivity, bad breath, and visible cavities. Regular check-ups can help prevent these issues.",
+          "Severe tooth pain, swelling, bleeding gums, loose teeth, or dental trauma require immediate attention to prevent complications.",
+      },
+      {
+        question: "Are dental X-rays safe?",
+        answer:
+          "Modern digital X-rays use significantly less radiation than traditional films and are considered very safe with appropriate protective measures.",
+      },
+      {
+        question: "What cosmetic dental options do you offer?",
+        answer:
+          "We provide teeth whitening, veneers, dental bonding, crowns, and complete smile makeovers tailored to your aesthetic goals and budget.",
+      },
+      {
+        question: "How can I prevent dental problems?",
+        answer:
+          "Good oral hygiene with regular brushing and flossing, limiting sugary foods, not smoking, and regular dental visits are key to preventing problems.",
       },
     ],
   },
   physiotherapy: {
     title: "Physiotherapy",
     description:
-      "Specialized physiotherapy services to help patients recover from injuries, manage pain, and improve mobility. Our expert physiotherapists provide personalized treatment plans for optimal recovery.",
+      "Expert rehabilitation services helping patients recover from injuries, manage chronic conditions, and optimize physical function. Our evidence-based approach ensures effective treatment and lasting results.",
     highlights: {
-      "Expert Physiotherapists":
-        "Highly trained specialists in various physiotherapy techniques.",
+      "Sports Rehabilitation":
+        "Specialized programs for athletes focusing on injury recovery and performance enhancement with return-to-sport protocols.",
+      "Manual Therapy Excellence":
+        "Hands-on treatment techniques including joint mobilization, soft tissue work, and specialized movement therapy.",
       "Modern Equipment":
-        "Advanced physiotherapy equipment for effective treatment.",
-      "Personalized Care":
-        "Customized treatment plans based on individual needs and conditions.",
+        "Advanced therapeutic modalities including electrotherapy, ultrasound, and computerized exercise equipment.",
     },
-    doctors: [],
+    doctors: [
+      {
+        name: "Dr. Sameer Khan",
+        designation: "Physiotherapist (MPT)",
+        experience: "Physiotherapy Specialist",
+        image:
+          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
+      },
+    ],
     testimonials: [
       {
-        name: "Rahul Gupta",
+        name: "Arjun Thakur",
         feedback:
-          "The physiotherapy sessions helped me recover from my sports injury quickly. The therapist was very professional and supportive.",
+          "After my shoulder surgery, Dr. Khan's rehabilitation program got me back to playing tennis at a competitive level. The progress was remarkable.",
       },
       {
-        name: "Meena Patel",
+        name: "Sudha Reddy",
         feedback:
-          "Excellent rehabilitation program after my knee surgery. The exercises were well-explained and effective.",
+          "The chronic back pain that bothered me for years is finally manageable. The exercise program and manual therapy made all the difference.",
       },
     ],
     faqs: [
       {
-        question: "How long does a physiotherapy session last?",
+        question: "When should I start physiotherapy after injury or surgery?",
         answer:
-          "A typical physiotherapy session lasts about 45-60 minutes, depending on the treatment plan and individual needs.",
+          "Early intervention is usually best - often within 24-48 hours post-injury or as soon as cleared by your surgeon for post-operative cases.",
       },
       {
-        question: "What conditions can physiotherapy help with?",
+        question: "How many sessions will I need?",
         answer:
-          "Physiotherapy can help with sports injuries, post-surgical recovery, chronic pain, neurological conditions, and mobility issues.",
+          "Treatment duration varies based on condition severity, individual response, and goals. Most conditions improve within 6-12 sessions with home exercise compliance.",
+      },
+      {
+        question: "What should I wear to physiotherapy sessions?",
+        answer:
+          "Wear comfortable, loose-fitting clothes that allow easy movement and access to the treatment area. Athletic wear is usually ideal.",
+      },
+      {
+        question: "Will physiotherapy be painful?",
+        answer:
+          "Some discomfort during treatment is normal, but we work within your tolerance levels. Pain should not significantly increase during or after treatment.",
+      },
+      {
+        question: "Can physiotherapy help with chronic conditions?",
+        answer:
+          "Yes, we effectively treat chronic conditions like arthritis, fibromyalgia, and chronic pain through specialized exercise programs and manual therapy techniques.",
       },
     ],
   },

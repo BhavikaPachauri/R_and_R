@@ -51,29 +51,27 @@ const AboutHeader = () => {
                 we combine advanced medical technology with compassionate care
                 to serve the community of Bhiwani and surrounding regions.
               </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
-                <div className="p-4 md:p-5 bg-white/90 rounded-xl shadow-md">
-                  <div className="text-[#1a365d] font-semibold text-lg md:text-xl mb-2">
-                    Multi-Specialty Care
-                  </div>
-                  <div className="text-gray-600 text-sm md:text-base">
-                    Comprehensive medical services with expert care
-                  </div>
-                </div>
-                <div className="p-4 md:p-5 bg-white/90 rounded-xl shadow-md">
-                  <div className="text-[#1a365d] font-semibold text-lg md:text-xl mb-2">
-                    Modern Equipment
-                  </div>
-                  <div className="text-gray-600 text-sm md:text-base">
-                    State-of-the-art medical technology
-                  </div>
-                </div>
-              </div>
+             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
+               <div className="p-4 md:p-5 bg-white/90 rounded-xl shadow-md">
+                 <div className="text-[#1a365d] font-semibold text-lg md:text-xl mb-2">
+                   All-in-One Care
+                 </div>
+                 <div className="text-gray-600 text-sm md:text-base">
+                   Doctors from different fields working together for your health
+                 </div>
+               </div>
+               <div className="p-4 md:p-5 bg-white/90 rounded-xl shadow-md">
+                 <div className="text-[#1a365d] font-semibold text-lg md:text-xl mb-2">
+                   Latest Tools
+                 </div>
+                 <div className="text-gray-600 text-sm md:text-base">
+                   Modern machines and equipment for quick and accurate treatment
+                 </div>
+               </div>
+             </div>
+
               <p className="text-gray-600 text-base md:text-lg leading-relaxed pl-4 border-l-2 border-[#1d55b0]">
-                Our state-of-the-art facility is equipped with modern medical
-                infrastructure and staffed by experienced healthcare
-                professionals, ensuring the highest standards of patient care
-                and treatment outcomes.
+                Our advanced facility blends next-generation medical technology with an expert team of healthcare professionals, providing exceptional patient care and superior treatment results.
               </p>
             </div>
           </div>

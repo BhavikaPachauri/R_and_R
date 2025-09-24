@@ -161,10 +161,10 @@ const ContactInfo = () => {
                     Phone Number
                   </p>
                   <a
-                    href="tel:9050201111"
+                    href="tel:9773319919"
                     className="text-lg sm:text-xl font-medium hover:text-white/90 transition"
                   >
-                    9050201111
+                    9773319919
                   </a>
                 </div>
               </div>
@@ -182,10 +182,10 @@ const ContactInfo = () => {
                     Email Address
                   </p>
                   <a
-                    href="mailto:yoginetanath@gmail.com"
+                    href="mailto:rrhospital@gmail.com"
                     className="text-lg sm:text-xl font-medium hover:text-white/90 transition break-all"
                   >
-                    yoginetanath@gmail.com
+                    rrhospital@gmail.com
                   </a>
                 </div>
               </div>
@@ -203,11 +203,11 @@ const ContactInfo = () => {
                     Our Location
                   </p>
                   <a
-                    href="https://maps.app.goo.gl/HgNAV1dBbFzCJi4j9"
+                    href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2899.9548016623344!2d75.38284!3d28.133438599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391338f9bfffffff%3A0x974f9a7254458cba!2sR%26R%20Multispeciality%20Hospital!5e1!3m2!1sen!2sin!4v1758698843905!5m2!1sen!2sin"
                     target="_blank"
                     className="text-base sm:text-lg lg:text-xl font-medium hover:text-white/90 transition break-words"
                   >
-                    V.P.O, Loharu - Bhiwani Rd, Lohani, Bhiwani, Haryana 127021
+                    23, Churu Road, Basant Vihar, Jhunjhunu, Rajasthan 333001
                   </a>
                 </div>
               </div>

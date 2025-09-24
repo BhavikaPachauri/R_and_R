@@ -77,7 +77,7 @@ const BookAnAppo = () => {
                 </span>
               </div>
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-2 sm:mb-3">
-                Effortless Online Booking
+              Seamless Appointment Scheduling
               </h2>
               <p className="text-base sm:text-lg text-gray-600">
                 Schedule Your Medical Visit Today
@@ -225,12 +225,12 @@ const BookAnAppo = () => {
             <div className="bg-white/70 backdrop-blur-sm shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300 relative">
               <div className="absolute bottom-0 left-0 right-0 h-1 "></div>
               <div className="h-[300px] sm:h-[400px] lg:h-[430px]">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.177650640736!2d76.04619997529201!3d28.709947075622587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39125f984597a7f5%3A0x700110909603a20f!2sBaba%20Yogi%20Neta%20Nath%20Hospital%20%26%20Nursing%20College!5e1!3m2!1sen!2sin!4v1745994802961!5m2!1sen!2sin"
-                  className="w-full h-full border-0"
-                  allowFullScreen=""
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2899.9548016623344!2d75.38284!3d28.133438599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391338f9bfffffff%3A0x974f9a7254458cba!2sR%26R%20Multispeciality%20Hospital!5e1!3m2!1sen!2sin!4v1758699102411!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade" 
                 ></iframe>
               </div>
               <div className="p-4 sm:p-5 lg:p-6 bg-gradient-to-br from-white via-blue-50/10 to-transparent">
@@ -244,7 +244,7 @@ const BookAnAppo = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
                     <span className="text-sm sm:text-base leading-relaxed">
-                      V.P.O, Loharu - Bhiwani Rd, Lohani, Bhiwani, Haryana 127021
+                      23, Churu Road, Basant Vihar, Jhunjhunu, Rajasthan 333001
                     </span>
                   </p>
                   <p className="text-gray-700 flex items-start gap-2 sm:gap-3">

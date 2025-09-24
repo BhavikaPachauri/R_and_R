@@ -42,9 +42,7 @@ export default function Facilities() {
       id="facilities"
     >
       <div className="max-w-[1280px] px-6 mx-auto space-y-24">
-        {/* Section 1: Operation Theatres */}
         <div className="grid md:grid-cols-2 gap-10 items-center" data-aos="fade-up">
-          {/* Image Placeholder (replace with real image) */}
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <img
               src="./Surgical Team Working.jpeg"
@@ -52,7 +50,6 @@ export default function Facilities() {
               className="w-full h-[350px] object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
-          {/* Text */}
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-[#1a365d] mb-4">
               State-of-the-Art Operation Theatres
@@ -68,9 +65,7 @@ export default function Facilities() {
           </div>
         </div>
 
-        {/* Section 2: Critical Care Unit */}
         <div className="grid md:grid-cols-2 gap-10 items-center" data-aos="fade-up">
-          {/* Text */}
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-[#1a365d] mb-4">
               Critical Care Unit
@@ -84,7 +79,6 @@ export default function Facilities() {
               continuous attention.
             </p>
           </div>
-          {/* Image Placeholder (replace with real image) */}
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <img
               src="./ICU.jpg"
@@ -94,7 +88,6 @@ export default function Facilities() {
           </div>
         </div>
 
-        {/* Section 3: Infrastructure & Facilities */}
         <div data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-[#1a365d] mb-4">
             Infrastructure & Facilities

@@ -21,7 +21,7 @@ const Specialization = () => {
       name: "GeneralSurgery",
       icon: <FaSyringe className="w-8 h-8 text-white" />,
       description:
-        "Expert surgical care for a wide range of conditions, utilizing advanced minimally invasive techniques and state-of-the-art technology for optimal patient outcomes.",
+        "Comprehensive surgical care with advanced techniques for safe and faster recovery.",
       image:
         "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=600&h=400&fit=crop",
     },
@@ -29,7 +29,7 @@ const Specialization = () => {
       name: "Orthopaedics",
       icon: <FaBone className="w-8 h-8 text-white" />,
       description:
-        "Comprehensive care for bone, joint, and muscle conditions. Specializing in joint replacement, sports injuries, spine care, and fracture management.",
+        "Expert treatment for bone, joint, and spine conditions with personalized rehabilitation.",
       image:
         "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/sn0LVu0NaY.webp",
     },
@@ -37,7 +37,7 @@ const Specialization = () => {
       name: "Radiology",
       icon: <FaXRay className="w-8 h-8 text-white" />,
       description:
-        "Advanced diagnostic imaging services including MRI, CT scan, X-ray, and ultrasound, providing accurate and timely diagnosis for better treatment planning.",
+        "Accurate diagnostic imaging using advanced MRI, CT, and ultrasound technology.",
       image:
         "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/RtTvnBYjvc.webp",
     },
@@ -45,7 +45,7 @@ const Specialization = () => {
       name: "Pediatrics",
       icon: <FaBaby className="w-8 h-8 text-white" />,
       description:
-        "Specialized healthcare for children from newborns to adolescents. Offering preventive care, vaccinations, and treatment for childhood illnesses.",
+        "Specialized child healthcare ensuring growth, development, and overall wellness.",
       image:
         "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?q=80&w=600&h=400&fit=crop",
     },
@@ -53,7 +53,7 @@ const Specialization = () => {
       name: "Obstetrics",
       icon: <FaUserNurse className="w-8 h-8 text-white" />,
       description:
-        "Complete pregnancy care from conception to delivery. Offering prenatal care, high-risk pregnancy management, and modern delivery facilities.",
+        "Compassionate maternity care from pregnancy to safe delivery and postnatal support.",
       image:
         "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/MUfi1sEZb7.webp",
     },
@@ -61,7 +61,7 @@ const Specialization = () => {
       name: "Gynecology",
       icon: <FaFemale className="w-8 h-8 text-white" />,
       description:
-        "Comprehensive women's health services including routine check-ups, fertility treatments, and advanced surgical procedures for gynecological conditions.",
+        "Complete women’s healthcare solutions for reproductive and hormonal health.",
       image:
         "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/G4yrZfTNZ4.webp",
     },
@@ -69,7 +69,7 @@ const Specialization = () => {
       name: "GeneralMedicine",
       icon: <FaStethoscope className="w-8 h-8 text-white" />,
       description:
-        "Primary healthcare services for all ages. Managing chronic conditions, preventive care, and providing comprehensive health assessments.",
+        "Holistic care for acute and chronic illnesses with evidence-based treatments.",
       image:
         "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/qwlrqBpHF3.webp",
     },
@@ -77,7 +77,7 @@ const Specialization = () => {
       name: "Diabetology",
       icon: <FaPills className="w-8 h-8 text-white" />,
       description:
-        "Specialized care for diabetes management, including blood sugar monitoring, insulin therapy, and lifestyle modification guidance for better control.",
+        "Advanced diabetes management for better control and improved quality of life.",
       image:
         "https://images.unsplash.com/photo-1628771065518-0d82f1938462?q=80&w=600&h=400&fit=crop",
     },
@@ -85,7 +85,7 @@ const Specialization = () => {
       name: "Urology",
       icon: <FaProcedures className="w-8 h-8 text-white" />,
       description:
-        "Expert care for urinary tract and male reproductive system. Treating kidney stones, prostate issues, and other urological conditions.",
+        "Specialized care for kidney, bladder, and urinary tract conditions in men and women.",
       image:
         "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/eF7XcqRgR9.webp",
     },
@@ -93,7 +93,7 @@ const Specialization = () => {
       name: "Dental",
       icon: <FaTooth className="w-8 h-8 text-white" />,
       description:
-        "Complete dental care including preventive, cosmetic, and restorative treatments. Utilizing modern techniques for optimal oral health.",
+        "Comprehensive dental treatments for healthy teeth, gums, and confident smiles.",
       image:
         "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/iKcZkCYt0f.webp",
     },
@@ -101,7 +101,7 @@ const Specialization = () => {
       name: "Physiotherapy",
       icon: <FaRunning className="w-8 h-8 text-white" />,
       description:
-        "Rehabilitation services for injury recovery, chronic pain management, and mobility improvement. Personalized treatment plans for optimal recovery.",
+        "Restorative therapies to improve mobility, strength, and pain relief.",
       image:
         "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=600&h=400&fit=crop",
     },
@@ -123,14 +123,13 @@ const Specialization = () => {
 
         <div className="mb-4">
           <h4 className="text-[#1a365d] lg:text-5xl md:text-4xl sm:text-3xl text-[28px] leading-none max-w-3xl mx-auto font-bold mb-1">
-            A Wide Range of Specializations{" "}
-            <span className="text-[#1a365d]"> For Your Best Health</span>
-          </h4>
+           Comprehensive Care{" "}
+           <span className="text-[#1a365d]">Across Every Specialty</span>
+         </h4>
+
           <p className="text-gray-600 sm:text-xl text-[16px] font-medium max-w-4xl mx-auto leading-noraml">
-            From advanced surgical procedures to specialized care in
-            orthopedics, pediatrics, and women's health. Our state-of-the-art
-            facilities and expert medical team ensure comprehensive treatment
-            for you and your family's well-being.
+            We offer everything from advanced surgery to expert care in orthopaedics, paediatrics, and women’s health.
+            Our modern facilities and skilled team provide complete, personalised treatment for you and your family.
           </p>
         </div>
       </div>

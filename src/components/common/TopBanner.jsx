@@ -25,7 +25,7 @@ const TopBanner = () => {
                 href="tel:8432655555"
                 className="hover:text-[#E31F26] transition-colors"
               >
-               8432655555
+                9773319919
               </a>
             </div>
             <div className="flex items-center space-x-2">
@@ -44,10 +44,10 @@ const TopBanner = () => {
                 />
               </svg>
               <a
-                href="mailto:yoginetanath@gmail.com"
+                href="mailto:rrhospital@gmail.com"
                 className="hover:text-[#E31F26] transition-colors"
               >
-                yoginetanath@gmail.com
+                rrhospital@gmail.com
               </a>
             </div>
             <div className="flex items-center space-x-2">
@@ -76,7 +76,8 @@ const TopBanner = () => {
                 target="_blank"
                 className="hover:text-[#E31F26] transition-colors"
               >
-                Churu Road, Sainik Nagar, Basant Vihar, Jhunjhunu, Rajasthan 333001
+                Churu Road, Sainik Nagar, Basant Vihar, Jhunjhunu, Rajasthan
+                333001
               </a>
             </div>
           </div>

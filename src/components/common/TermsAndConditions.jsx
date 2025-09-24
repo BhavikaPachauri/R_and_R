@@ -64,9 +64,9 @@ const TermsAndConditions = () => {
         </h2>
         <p className="mb-4 ">
           All content, trademarks, and other intellectual property on the
-          website are owned by or licensed to R&R Hospital. You
-          may not reproduce, distribute, modify, or use any content from the
-          website without our prior written consent.
+          website are owned by or licensed to R&R Hospital. You may not
+          reproduce, distribute, modify, or use any content from the website
+          without our prior written consent.
         </p>
 
         <h2 className="text-xl font-semibold mt-4 text-[#1d55b0] ">
@@ -83,10 +83,9 @@ const TermsAndConditions = () => {
           6. Limitation of Liability
         </h2>
         <p className="mb-4 ">
-          In no event shall R&R Hospital be liable for any
-          damages arising from the use of or inability to use the website. This
-          includes, but is not limited to, direct, indirect, incidental, or
-          consequential damages.
+          In no event shall R&R Hospital be liable for any damages arising from
+          the use of or inability to use the website. This includes, but is not
+          limited to, direct, indirect, incidental, or consequential damages.
         </p>
 
         <h2 className="text-xl font-semibold mt-4 text-[#1d55b0] ">
@@ -94,10 +93,10 @@ const TermsAndConditions = () => {
         </h2>
         <p className="mb-4 ">
           Our website may contain links to third-party websites that are not
-          controlled by R&R Hospital. We have no control over
-          the content and privacy practices of these websites. We encourage you
-          to review the terms and conditions and privacy policies of any
-          third-party sites you visit.
+          controlled by R&R Hospital. We have no control over the content and
+          privacy practices of these websites. We encourage you to review the
+          terms and conditions and privacy policies of any third-party sites you
+          visit.
         </p>
 
         <h2 className="text-xl font-semibold mt-4 text-[#1d55b0] ">
@@ -112,10 +111,10 @@ const TermsAndConditions = () => {
           9. Changes to the Terms
         </h2>
         <p className="mb-4 ">
-          R&R Hospital reserves the right to update or change
-          these terms and conditions at any time. We will notify you of any
-          changes by posting the new terms on this page. You are advised to
-          review these terms periodically for any changes.
+          R&R Hospital reserves the right to update or change these terms and
+          conditions at any time. We will notify you of any changes by posting
+          the new terms on this page. You are advised to review these terms
+          periodically for any changes.
         </p>
 
         <h2 className="text-xl font-semibold mt-4 text-[#1d55b0] ">
@@ -125,19 +124,19 @@ const TermsAndConditions = () => {
           If you have any questions about these terms, please get in touch with
           us at:{" "}
           <a
-            href="mailto:yoginetanath@gmail.com"
+            href="mailto:rrhospital@gmail.com"
             className="text-blue-600 hover:underline"
           >
-            yoginetanath@gmail.com
+            rrhospital@gmail.com
           </a>{" "}
           or on WhatsApp:{" "}
           <a
-            href="https://wa.me/919050201111"
+            href="https://wa.me/91 9773319919"
             target="_blank"
             rel="noopener noreferrer"
             className="text-green-600 hover:underline"
           >
-            +91-9050201111
+            +91- 9773319919
           </a>
           .
         </p>

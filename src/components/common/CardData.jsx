@@ -1,59 +1,59 @@
 const dummyData = [
   {
-    doc_name: "Dr. Govind Singh",
-    doc_profile: "MD (General Medicine)",
-    doc_details: "35+ years of experience",
+    doc_name: "Dr. Imran Ahmad Khan",
+    doc_profile: "MBBS, MD (General Medicine)",
+    doc_details: "General Physician",
     doc_image:
       "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
   },
   {
-    doc_name: "Dr. K.P Singh",
-    doc_profile: "MS (General Surgery)",
-    doc_details: "30+ years of experience",
+    doc_name: "Dr. Deepak Jhaidia",
+    doc_profile: "MBBS, MS (Ortho)",
+    doc_details: "Endoscopic Spine & Joint Replacement Surgeon",
     doc_image:
-      "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/0vyO7gNm0b.webp",
+      "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
   },
   {
-    doc_name: "Dr. Anuj Jain",
-    doc_profile: "DNB (Radiology & Diagnostics)",
-    doc_details: "10+ years of experience",
+    doc_name: "Dr. Dharma Saini",
+    doc_profile: "MBBS, MS (OBS & Gynae)",
+    doc_details: "Women & Maternity Specialist",
     doc_image:
-      "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/ZKaOSBNXib.webp",
+      "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
   },
   {
-    doc_name: "Dr. Pinky Gupta",
-    doc_profile: "MD/DNB (Pediatrics)",
-    doc_details: "10+ years of experience",
+    doc_name: "Dr. Vitul Vaikar",
+    doc_profile: "MBBS, DNB (General Surgery)",
+    doc_details: "General & Laparoscopic Surgeon",
     doc_image:
-      "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/xxabxQegSC.webp",
+      "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
   },
   {
-    doc_name: "Dr. Meenu Khandelwal",
-    doc_profile: "MS (Obstetrics & Gynecology)",
-    doc_details: "22+ years of experience",
+    doc_name: "Dr. Mukesh Kumar",
+    doc_profile: "MBBS, MS, M.Ch (Urology)",
+    doc_details: "Kidney & Urinary Specialist",
     doc_image:
-      "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/OkRFROfm7D.webp",
+      "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
   },
   {
-    doc_name: "Dr. Manisha Rastogi",
-    doc_profile: "DGO (Gynecology)",
-    doc_details: "30+ years of experience",
+    doc_name: "Dr. Sunil Saini",
+    doc_profile: "MD (Radiodiagnosis)",
+    doc_details: "Radiologist",
     doc_image:
-      "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/ANLKUxInCN.webp",
+      "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
   },
   {
-    doc_name: "Dr. Pawan Sharma",
-    doc_profile: "MD (General Medicine & Diabetology)",
-    doc_details: "10+ years of experience",
+    doc_name: "Dr. Amit Singh",
+    doc_profile: "BDS (Dental Surgeon)",
+    doc_details: "Oral & Dental Care",
     doc_image:
-      "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/KXWW7yRCDF.webp",
+      "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
   },
   {
-    doc_name: "Dr. Chirag Jain",
-    doc_profile: "MS (Orthopaedics)",
-    doc_details: "10+ years of experience",
+    doc_name: "Dr. Sameer Khan",
+    doc_profile: "Physiotherapist (MPT)",
+    doc_details: "Physiotherapy Specialist",
     doc_image:
-      "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/qH28HoZUjU.webp",
+      "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
   },
 ];
 

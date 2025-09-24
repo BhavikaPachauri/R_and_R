@@ -73,22 +73,26 @@ const Footer = () => {
   const socialLinks = [
     {
       href: "https://www.facebook.com/bynhospital/",
-      imgSrc: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/QWIxMPX7x3.webp",
+      imgSrc:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/QWIxMPX7x3.webp",
       alt: "Facebook logo - R&R Hospital Bhiwani official page",
     },
     {
       href: "https://x.com/bynhospital",
-      imgSrc: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/uTkrkLzxWI.webp",
+      imgSrc:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/uTkrkLzxWI.webp",
       alt: "Twitter logo - R&R Hospital Bhiwani profile",
     },
     {
       href: "https://www.instagram.com/bynhospital",
-      imgSrc: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/DtdWsOI7yl.webp",
+      imgSrc:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/DtdWsOI7yl.webp",
       alt: "Instagram logo - R&R Hospital Bhiwani profile",
     },
     {
       href: "https://www.linkedin.com/company/shri-babayogi-netanath-hospital-research-centre/?originalSubdomain=in",
-      imgSrc: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Kv71EQxbM2.webp",
+      imgSrc:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Kv71EQxbM2.webp",
       alt: "LinkedIn logo - R&R Hospital Bhiwani profile",
     },
   ];
@@ -128,8 +132,7 @@ const Footer = () => {
               className="md:max-w-[100px] max-w-[80px] h-auto bg-white rounded-sm"
             />
             <p className="text-[#1a365d]/80 text-[16px] font-medium leading-[164%] xl:max-w-[331px] my-7">
-              Experience outstanding care in every specialty at Baba Yogi Neta
-              Nath Hospital in Bhiwani.
+              Expert care in every specialty at RR Hospital, Jhunjhunu.
             </p>
             <div className="flex gap-2.5">
               {socialLinks.map((link, index) => (
@@ -149,20 +152,20 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="tel:9050201111"
+                  href="tel:9773319919"
                   className="flex items-center gap-3 text-[16px] text-[#1a365d]/80 hover:text-[#1a365d] transition-all duration-300 ease-linear font-medium leading-[180%]"
                 >
-                  <FaPhoneAlt size={20}/>
-                  9050201111
+                  <FaPhoneAlt size={20} />
+                  9773319919
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:yoginetanath@gmail.com"
+                  href="mailto:rrhospital@gmail.com"
                   className="flex items-center gap-3 text-[16px] text-[#1a365d]/80 hover:text-[#1a365d] transition-all duration-300 ease-linear font-medium leading-[180%]"
                 >
                   <MdEmail size={20} />
-                  yoginetanath@gmail.com
+                  rrhospital@gmail.com
                 </a>
               </li>
               <li>
@@ -173,7 +176,7 @@ const Footer = () => {
                 >
                   {" "}
                   <FaLocationDot size={25} />
-                  V.P.O, Loharu - Bhiwani Rd, Lohani, Bhiwani, Haryana 127021
+                  23, Churu Road, Basant Vihar, Jhunjhunu, Rajasthan 333001
                 </a>
               </li>
               <li className="text-[16px] text-[#1a365d]/80 font-medium leading-[180%]">
@@ -186,7 +189,7 @@ const Footer = () => {
 
         <div className="py-5 flex flex-wrap justify-between items-center gap-5">
           <p className="text-[#1a365d]/80 text-[15px] font-medium text-center max-sm:mx-auto">
-            Copyrights &copy; {year} bynhospital | Reserved
+            Copyrights &copy; {year} RR Hospital | Reserved
           </p>
           <p className="text-[#1a365d]/80 text-[15px] max-sm:mx-auto font-medium">
             <Link

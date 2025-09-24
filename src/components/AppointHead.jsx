@@ -16,7 +16,7 @@ const AppointHead = () => {
           >
             <div className="relative w-full aspect-[4/3] rounded-[30px] overflow-hidden bg-gradient-to-br from-blue-50 to-blue-100">
               <img
-                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wWMmWRSE7W.webp"
+                src="./RR-Doctor.jpg"
                 alt="Doctor Appointment"
                 className="w-full h-full object-cover"
                 style={{ filter: "blur(0.5px) brightness(0.92)" }}
@@ -38,34 +38,31 @@ const AppointHead = () => {
                 <span className="text-[#1a365d]">with a Specialist</span>
               </h4>
               <p className="text-gray-600 text-lg mb-8">
-                Get a second opinion from our super specialist doctors. Book
-                your visit for personalized care and expert consultation.
+                Consult our super specialist doctors for expert guidance. Book your appointment today for personalized care.
               </p>
             </div>
 
             <div className="space-y-4">
-              <div className="flex items-center gap-3">
-                <FaCheckCircle className="text-blue-950 text-xl flex-shrink-0" />
-                <span className="text-gray-600">
-                  <span className="font-semibold">Fast Booking:</span> Easy
-                  online appointment scheduling
-                </span>
-              </div>
-              <div className="flex items-center gap-3">
-                <FaCheckCircle className="text-blue-950 text-xl flex-shrink-0" />
-                <span className="text-gray-600">
-                  <span className="font-semibold">Expert Doctors:</span> Consult
-                  with top specialists
-                </span>
-              </div>
-              <div className="flex items-center gap-3">
-                <FaCheckCircle className="text-blue-950 text-xl flex-shrink-0" />
-                <span className="text-gray-600">
-                  <span className="font-semibold">Personalized Care:</span>{" "}
-                  Tailored treatment plans
-                </span>
-              </div>
-            </div>
+               <div className="flex items-center gap-3">
+                 <FaCheckCircle className="text-blue-950 text-xl flex-shrink-0" />
+                 <span className="text-gray-600">
+                   <span className="font-semibold">Quick Appointments:</span> Book instantly with hassle-free scheduling
+                 </span>
+               </div>
+               <div className="flex items-center gap-3">
+                 <FaCheckCircle className="text-blue-950 text-xl flex-shrink-0" />
+                 <span className="text-gray-600">
+                   <span className="font-semibold">Super Specialists:</span> Access highly qualified and trusted doctors
+                 </span>
+               </div>
+               <div className="flex items-center gap-3">
+                 <FaCheckCircle className="text-blue-950 text-xl flex-shrink-0" />
+                 <span className="text-gray-600">
+                   <span className="font-semibold">Comprehensive Care:</span> Personalized guidance at every step
+                 </span>
+               </div>
+             </div>
+
             <a
               href="#appointmentform"
               className="inline-flex items-center gap-2 px-6 py-3 bg-[#1a365d] text-white rounded-lg hover:shadow-lg hover:shadow-[#1d55b0]/20 transition-all duration-300 mt-8 font-semibold text-lg"

@@ -37,33 +37,32 @@ const ContactHead = () => {
                 <span className="text-[#1a365d]">with Us Today</span>
               </h4>
               <p className="text-gray-600 text-lg mb-8">
-                We're here to provide you with exceptional healthcare services.
-                Reach out to us for appointments, inquiries, or any assistance
-                you need.
+                Your health is our priority. Connect with us for appointments,
+                questions, or support anytime.
               </p>
             </div>
             <div className="space-y-4">
               <a
-                href="tel:9050201111"
+                href="tel:: 9773319919"
                 className="flex items-center gap-3 group hover:text-[#1a365d] transition-colors"
-                aria-label="Call 9050201111"
+                aria-label="Call : 9773319919"
                 data-aos="fade-up"
               >
                 <FaCheckCircle className="text-blue-950 text-xl flex-shrink-0 group-hover:text-[#1d55b0] transition-colors" />
                 <span className="text-gray-600 group-hover:text-[#1d55b0]">
-                  <span className="font-semibold">Phone:</span> 9050201111
+                  <span className="font-semibold">Phone:</span> : 9773319919
                 </span>
               </a>
               <a
-                href="mailto:yoginetanath@gmail.com"
+                href="mailto:rrhospital@gmail.com"
                 className="flex items-center gap-3 group hover:text-[#1a365d] transition-colors"
-                aria-label="Email yoginetanath@gmail.com"
+                aria-label="Email rrhospital@gmail.com"
                 data-aos="fade-up"
               >
                 <FaCheckCircle className="text-blue-950 text-xl flex-shrink-0 group-hover:text-[#1a365d] transition-colors" />
                 <span className="text-gray-600 group-hover:text-[#1d55b0]">
                   <span className="font-semibold">Email:</span>{" "}
-                  yoginetanath@gmail.com
+                  rrhospital@gmail.com
                 </span>
               </a>
               <a
@@ -76,8 +75,8 @@ const ContactHead = () => {
               >
                 <FaCheckCircle className="text-blue-950 text-xl flex-shrink-0 group-hover:text-[#1a365d] transition-colors" />
                 <span className="text-gray-600 group-hover:text-[#1a365d]">
-                  <span className="font-semibold">Location:</span> V.P.O, Loharu
-                  - Bhiwani Rd, Lohani, Bhiwani, Haryana 127021
+                  <span className="font-semibold">Location:</span> 23, Churu
+                  Road, Basant Vihar, Jhunjhunu, Rajasthan 333001
                 </span>
               </a>
               <div className="flex items-center gap-3" data-aos="fade-up">
@@ -89,7 +88,7 @@ const ContactHead = () => {
               </div>
             </div>
             <a
-              href="tel:9050201111"
+              href="tel: 9773319919"
               className="inline-flex items-center gap-2 px-6 py-3 bg-[#1a365d] text-white rounded-lg hover:shadow-lg hover:shadow-[#1d55b0]/20 transition-all duration-300 mt-8"
               data-aos="fade-up"
             >
