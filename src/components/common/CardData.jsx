@@ -9,7 +9,7 @@ const dummyData = [
   {
     doc_name: "Dr. Deepak Jhaidia",
     doc_profile: "MBBS, MS (Ortho)",
-    doc_details: "Endoscopic Spine & Joint Replacement Surgeon",
+    doc_details: "Endoscopic Spine & Joint Surgeon",
     doc_image:
       "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
   },

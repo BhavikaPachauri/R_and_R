@@ -22,7 +22,7 @@ const BynDoctor = () => {
             HOME
           </span>
           <span className="mx-2 text-white">&gt;</span>
-          <span className="font-medium text-white underline">OUR DOCTORS</span>
+          <span className="font-medium text-white ">OUR DOCTORS</span>
         </div>
       </div>
 

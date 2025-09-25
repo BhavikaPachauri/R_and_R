@@ -26,7 +26,7 @@ const DoctorCard = ({ doctor }) => {
 
   return (
     <div
-      className="p-4 bg-white rounded-[16px] shadow-md hover:shadow-lg transition-all duration-300 ease-linear group"
+      className="p-5 bg-white rounded-[16px] shadow-md hover:shadow-lg transition-all duration-300 ease-linear group"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -61,7 +61,7 @@ const DoctorCard = ({ doctor }) => {
         {/* Appointment Button */}
         <Link
           to="/bookappointment"
-          className="group text-white bg-[#61ADF8] hover:bg-[#4a93d9] group-hover:scale-105 transition-all duration-300 ease-linear text-[16px] px-[27px] py-1 font-semibold rounded-[76px] flex justify-center items-center mx-auto mb-2 gap-[14px]"
+          className="group text-white bg-[#1a365d] group-hover:scale-105 transition-all duration-300 ease-linear text-[16px] px-[27px] py-1 font-semibold rounded-[76px] flex justify-center items-center mx-auto  mb-2 gap-[14px]"
           data-aos="zoom-in"
         >
           Get Appointment
