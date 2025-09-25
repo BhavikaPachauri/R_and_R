@@ -46,7 +46,7 @@ const HomeAboutUs = () => {
               </h3>
               <div className="space-y-4">
                 <p className="text-gray-600 leading-relaxed">
-                  R&R Multispeciality Hospital is one of Jhunjhunu’s most trusted healthcare institutions, built with the vision of delivering quality treatment with compassion. With highly qualified doctors, modern infrastructure, and advanced medical technology, we provide care across multiple specialties. Our mission is simple yet powerful: to heal with compassion, ethics, and excellence.
+                  R&R Multispeciality Hospital is one ofthe most trusted healthcare institutions in jhunjhunu, built with the vision of delivering quality treatment with care compassion & commitment. With highly qualified medical specialists, modern infrastructure, and advanced medical technology. Our mission is to provide affordable health services-Patients first.
                 </p>
                 {/* <p className="text-gray-600 leading-relaxed">
                   Our state-of-the-art facility is equipped with modern medical
