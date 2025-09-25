@@ -36,34 +36,35 @@ const MainHeader = () => {
               </span>
             </h1>
             <p className="text-base sm:text-lg text-gray-700 max-w-xl leading-relaxed">
-              At R&R Multispeciality Hospital, Jhunjhunu, we offer medical Experts,g advanced care, and 24×7 supportfor routine
-              checkups, emergencies, or quick services like booking appointments
-              and finding specialists.
+              At R&R Multispeciality Hospital, Jhunjhunu, we offer medical
+              Experts,g advanced care, and 24×7 supportfor routine checkups,
+              emergencies, or quick services like booking appointments and
+              finding specialists.
             </p>
 
             <a
-                  href="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/SHCO-2023-0845_3rd+Edition.pdf"
-                  target="_blank"
-                  className="flex items-center sm:gap-2.5 gap-1 cursor-pointer max-lg:justify-center"
-                  data-aos="zoom-in"
-                >
-                  <img
-                    src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/2ypqvdXUa0.webp"
-                    alt="NABH Accreditation Logo for Quality Medical Care"
-                    width={40}
-                    height={40}
-                    className="lg:w-[68px] sm:w-[40px] w-[35px]"
-                  />
-                  <div>
-                    <p className="lg:text-[18px] sm:text-[12px] text-[10px] text-[#606C78] font-semibold leading-[117%] mb-1">
-                      "Awards and Honors "
-                    </p>
-                    <p className="lg:text-[18px] sm:text-[10px] text-[10px] text-[#606C78] font-normal leading-[117%] italic ">
-                      Ensuring Excellence in Medical Care
-                      <br /> and Service Standards.
-                    </p>
-                  </div>
-                </a>
+              href="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/SHCO-2023-0845_3rd+Edition.pdf"
+              target="_blank"
+              className="flex items-center sm:gap-2.5 gap-1 cursor-pointer max-lg:justify-center"
+              data-aos="zoom-in"
+            >
+              <img
+                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/2ypqvdXUa0.webp"
+                alt="NABH Accreditation Logo for Quality Medical Care"
+                width={40}
+                height={40}
+                className="lg:w-[68px] sm:w-[40px] w-[35px]"
+              />
+              <div>
+                <p className="lg:text-[18px] sm:text-[12px] text-[10px] text-[#606C78] font-semibold leading-[117%] mb-1">
+                  "Awards and Honors "
+                </p>
+                <p className="lg:text-[18px] sm:text-[10px] text-[10px] text-[#606C78] font-normal leading-[117%] italic ">
+                  Ensuring Excellence in Medical Care
+                  <br /> and Service Standards.
+                </p>
+              </div>
+            </a>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 pt-2">
               <Link
