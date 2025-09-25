@@ -167,7 +167,7 @@ const Faqs = () => {
             className="md:col-span-1 space-y-4 sm:space-y-6 lg:flex flex-col hidden"
             data-aos="fade-left"
           >
-            <div className="bg-gradient-to-br from-[#1a365d] via-blue-800 to-purple-300 rounded-xl sm:rounded-2xl p-6 sm:p-8 text-white shadow-xl transition-transform duration-300 hover:scale-105">
+            {/* <div className="bg-gradient-to-br from-[#1a365d] via-blue-800 to-purple-300 rounded-xl sm:rounded-2xl p-6 sm:p-8 text-white shadow-xl transition-transform duration-300 hover:scale-105">
               <div className="flex items-center gap-3 mb-4 sm:mb-6">
                 <div className="w-12 sm:w-14 h-12 sm:h-14 bg-white/20 backdrop-blur-lg rounded-xl sm:rounded-2xl flex items-center justify-center">
                   <svg
@@ -198,9 +198,9 @@ const Faqs = () => {
               >
                 Contact Us
               </Link>
-            </div>
+            </div> */}
 
-            <div className="bg-gradient-to-br from-white to-blue-50 rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-lg border border-blue-100 transition-transform duration-300 hover:scale-105">
+            {/* <div className="bg-gradient-to-br from-white to-blue-50 rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-lg border border-blue-100 transition-transform duration-300 hover:scale-105">
               <div className="flex items-center gap-3 mb-4 sm:mb-6">
                 <div className="w-12 sm:w-14 h-12 sm:h-14 bg-[#1a365d] rounded-xl sm:rounded-2xl flex items-center justify-center">
                   <svg
@@ -244,7 +244,7 @@ const Faqs = () => {
                   />
                 </svg>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

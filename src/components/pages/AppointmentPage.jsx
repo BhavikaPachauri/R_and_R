@@ -16,7 +16,7 @@ const AppointmentPage = () => {
       <NavBar />
       <div className="overflow-x-hidden">
         <AppointHead />
-        <AppointBanner />
+        {/* <AppointBanner /> */}
         <BookAnAppo />
         <Footer />
       </div>

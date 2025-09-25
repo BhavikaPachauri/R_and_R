@@ -7,6 +7,8 @@ import OurLocation from "../OurLocation";
 import NavBar from "../common/Navbar";
 import AppointBanner from "../AppointBanner";
 import ServiceSlider from "../common/ServiceSlider";
+import Backseat from "../Backseat";
+
 
 const ContactPage = () => {
   const { pathname } = useLocation();
@@ -19,10 +21,11 @@ const ContactPage = () => {
     <>
       <NavBar />
       <div className="overflow-x-hidden">
-        <ContactHead />
-        <ServiceSlider/>
+        {/* <ContactHead /> */}
+        <Backseat />
+        {/* <ServiceSlider/> */}
         <ContactInfo />
-        <ServiceSlider/>  
+        {/* <ServiceSlider/>   */}
         <OurLocation />
         <Footer />
       </div>

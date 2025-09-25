@@ -2,14 +2,14 @@ const DepartData = {
   orthopaedics: {
     title: "Orthopaedics",
     description:
-      "Our orthopedic department offers cutting-edge treatment for musculoskeletal conditions, from sports injuries to joint replacements. We combine advanced surgical techniques with personalized rehabilitation programs to restore your mobility and quality of life.",
+      "Specialized orthopaedic care for various bone, joint, and spine issues focused on mobility, strength, and long-term health.",
     highlights: {
-      "Minimally Invasive Surgery":
-        "Advanced arthroscopic and endoscopic procedures that reduce recovery time and surgical trauma.",
-      "Joint Replacement Excellence":
-        "Specialized in knee, hip, and shoulder replacements using latest prosthetic technology.",
-      "Sports Medicine Focus":
-        "Comprehensive care for athletes with rapid recovery protocols and performance optimization.",
+      "Advanced treatments":
+        "Our team are advanced specialists in joint replacements, spine surgery, and sports medicine. ",
+      "Experienced specialists":
+        "Our specialists provide in-depth conversations including patients with fractures, arthritis, and complex musculoskeletal conditions.",
+      "Individualized rehabilitation":
+        "We will work to develop the best physiotherapy and rehabilitation plan for each individual's recovery. ",
     },
     doctors: [
       {
@@ -63,14 +63,14 @@ const DepartData = {
   radiology: {
     title: "Radiology",
     description:
-      "Our radiology department features the latest in medical imaging technology, providing accurate diagnoses through advanced CT, MRI, ultrasound, and digital X-ray services. We ensure quick turnaround times with precise reporting.",
+      "Accurate imaging and diagnosis using state-of-the-art technology for timely and appropriate medical decision-making. ",
     highlights: {
-      "High-Resolution Imaging":
-        "Latest generation MRI and CT scanners providing crystal-clear images for accurate diagnosis.",
-      "AI-Assisted Diagnosis":
-        "Advanced software integration for enhanced accuracy in detecting abnormalities and conditions.",
-      "Same-Day Results":
-        "Rapid reporting system with most results available within hours of imaging completion.",
+      "Advanced Technology":
+        "Using state-of-the-art hi-resolution MRI, CT scans, ultrasound, and digital x-rays for accuracy and clarity.",
+      "Expert radiologists":
+        "Our radiologists provide full imaging assessments and accurate reporting.",
+      "Full imaging services":
+        "We can provide imaging services up across several specialties and have a quick turnaround time for the report.",
     },
     doctors: [
       {
@@ -124,14 +124,14 @@ const DepartData = {
   pediatrics: {
     title: "Pediatrics",
     description:
-      "Dedicated to providing comprehensive healthcare for children from newborns to adolescents. Our child-friendly environment and specialized pediatric expertise ensure your little ones receive the best care during their developmental years.",
+      "Caring and focused pediatric care for your child's growth, development, and overall health.",
     highlights: {
-      "Child-Centric Care":
-        "Specially trained staff and colorful, welcoming facilities designed to reduce anxiety in young patients.",
-      "Comprehensive Vaccination":
-        "Complete immunization programs following national and international guidelines for optimal protection.",
-      "Growth Monitoring":
-        "Advanced developmental assessments and growth tracking to ensure healthy childhood development.",
+      "Child-Friendly Environment":
+        "Safe and inviting setting designed for children.",
+      "Specialized Pediatricians":
+        "Trained to manage health for newborns, infants, and adolescents.",
+      "Preventive & Developmental Care":
+        " Child wellness care, from immunizations to ride-up monitoring.",
     },
     doctors: [],
     testimonials: [
@@ -177,14 +177,14 @@ const DepartData = {
   obstetrics: {
     title: "Obstetrics",
     description:
-      "Supporting mothers through every stage of pregnancy with comprehensive prenatal care, safe delivery options, and postnatal support. Our experienced team ensures both mother and baby receive the highest quality care throughout the journey.",
+      "Complete maternity care from conception to delivery and beyond, to Kre longer, safer journey. ",
     highlights: {
-      "High-Risk Pregnancy Care":
-        "Specialized monitoring and management for complicated pregnancies with advanced fetal medicine services.",
-      "Natural Birth Support":
-        "Promoting natural delivery with pain management options and birthing suite facilities.",
-      "Lactation Consulting":
-        "Expert breastfeeding support and guidance for new mothers to ensure successful nursing.",
+      "Expert Obstetricians":
+        "Trained in normal and high risk pregnancies.",
+      "Modern Labor Environment":
+        "State of the art delivery room and neonatal care, for mother and baby. ",
+      "Prenatal & Postpartum Care":
+        "Education, monitoring, and support for mothers.",
     },
     doctors: [
       {
@@ -238,14 +238,14 @@ const DepartData = {
   gynecology: {
     title: "Gynecology",
     description:
-      "Comprehensive women's healthcare addressing reproductive health, hormonal concerns, and gynecological conditions. We provide confidential, compassionate care for women at every life stage, from adolescence through menopause.",
+      "Complete women's healthcare needs, reproductive, hormonal, and overall health and well-being.",
     highlights: {
-      "Minimally Invasive Procedures":
-        "Advanced laparoscopic surgeries for faster recovery and reduced scarring in treating gynecological conditions.",
-      "Hormonal Health Management":
-        "Comprehensive hormone therapy and management for PCOS, menopause, and reproductive health optimization.",
-      "Cancer Screening Programs":
-        "Regular cervical and breast cancer screening with early detection protocols and prevention strategies.",
+      "Qualified Gynecologists":
+        "Trained in menstrual, fertility, menopausal, and ob-gyn care.",
+      "Supported with Advanced Diagnostic Services":
+        " Assessing and screening for gynecological healthcare needs.",
+      "Personalized Women's Health":
+        "Preventive health care amd trust your health in a wellness plan. ",
     },
     doctors: [
       {
@@ -299,14 +299,14 @@ const DepartData = {
   generalmedicine: {
     title: "General Medicine",
     description:
-      "Your first line of healthcare providing comprehensive medical services for adults. We focus on preventive care, chronic disease management, and acute illness treatment with a holistic approach to your overall wellbeing.",
+      "Meet all your acute and chronic medical conditions, based on an evidence-based treatment plan.",
     highlights: {
-      "Preventive Health Programs":
-        "Comprehensive health screenings and wellness programs designed to prevent disease and maintain optimal health.",
-      "Chronic Disease Management":
-        "Specialized care plans for diabetes, hypertension, heart disease, and other long-term conditions.",
-      "Telemedicine Services":
-        "Virtual consultations and remote monitoring capabilities for convenient healthcare access.",
+      "Experienced Physicians":
+        "Trained to assess and manage many forms of illness. ",
+      "Coordinated Approach":
+        "Works as a team to plan for the diagnosis and treatment of this illness.",
+      "Preventive Health":
+        "Lifestyle coaching, and wellness check-ups for your health.",
     },
     doctors: [
       {
@@ -360,14 +360,14 @@ const DepartData = {
   diabetology: {
     title: "Diabetology",
     description:
-      "Specialized diabetes care focusing on blood sugar management, complication prevention, and lifestyle optimization. Our comprehensive approach helps patients live full, healthy lives while effectively managing their diabetes.",
+      "Expert diabetes managements designed especially you to achieve better control and live healthier.",
     highlights: {
-      "Advanced Glucose Monitoring":
-        "Continuous glucose monitoring systems and latest HbA1c testing for precise diabetes management.",
-      "Diabetic Complication Prevention":
-        "Comprehensive screening for eye, kidney, nerve, and cardiovascular complications with early intervention.",
-      "Nutritional Counseling":
-        "Personalized meal planning and dietary education to optimize blood sugar control and overall health.",
+      "Personalized Diabetes Plans":
+        "Nutrition, medication and lifestyle advices for every client.",
+      "Advanced Monitoring":
+        "Regular follow up with accurate blood sugar and metabolic monitoring.",
+      "Preventive Care":
+        "Focus on preventing complications and long-term health measure.",
     },
     doctors: [
       {
@@ -421,14 +421,14 @@ const DepartData = {
   generalsurgery: {
     title: "General Surgery",
     description:
-      "Expert surgical care for a wide range of conditions using both traditional and minimally invasive techniques. Our experienced surgical team prioritizes patient safety, optimal outcomes, and rapid recovery.",
+      "Total surgical care for a range of conditions from standard surgical treatment to complex surgical care focused on patient safety and best outcomes. ",
     highlights: {
-      "Laparoscopic Expertise":
-        "Advanced minimally invasive surgical techniques reducing recovery time and post-operative complications.",
-      "Day Surgery Services":
-        "Same-day surgical procedures allowing patients to recover in the comfort of their homes.",
-      "Emergency Surgery Readiness":
-        "24/7 surgical team availability for urgent procedures with state-of-the-art operating facilities.",
+      "Surgical expertise":
+        "We have a state-of-the-art experience with minimally invasive surgical treatment with less recovery time.",
+      "Exemplary surgeons":
+        "Our highly skilled and experienced surgical team consistently performs a wide range of surgical procedures.",
+      "Total surgical care":
+        "We have total care experience, from pre-operative assessment to post-operative care. ",
     },
     doctors: [
       {
@@ -482,7 +482,7 @@ const DepartData = {
   urology: {
     title: "Urology",
     description:
-      "Comprehensive urological care for kidney, bladder, and reproductive system disorders. We offer advanced diagnostic capabilities and both surgical and non-surgical treatment options for optimal patient outcomes.",
+      "Comprehensive urological cares your kidney, bladder, prostate and urinary health.",
     highlights: {
       "Laser Stone Treatment":
         "Advanced laser lithotripsy for kidney stones with minimal invasive approach and faster recovery times.",
@@ -543,14 +543,14 @@ const DepartData = {
   dental: {
     title: "Dental",
     description:
-      "Complete oral healthcare services using modern dental technology and techniques. From routine cleanings to complex restorative procedures, we ensure your smile stays healthy and beautiful throughout your life.",
+      "Comprehensive dental care to keep your teeth, gums healthy and smiling with confidence.",
     highlights: {
-      "Digital Dentistry":
-        "Advanced digital X-rays, intraoral cameras, and CAD/CAM technology for precise diagnosis and treatment.",
-      "Cosmetic Excellence":
-        "Professional teeth whitening, veneers, and smile makeover services for enhanced dental aesthetics.",
-      "Pain-Free Procedures":
-        "Modern anesthesia techniques and sedation options ensuring comfortable dental experiences.",
+      "Expert Dentists":
+        "Knowledgeable specialists in cosmetic, restorative and preventive dentistry.",
+      "Modern Dental Equipment & Technology":
+        "Digital X-rays, painless procedures and the latest equipment.",
+      "Comprehensive Oral Care":
+        "Comprehensive, routine cares and complex dental treatments.",
     },
     doctors: [
       {
@@ -604,14 +604,14 @@ const DepartData = {
   physiotherapy: {
     title: "Physiotherapy",
     description:
-      "Expert rehabilitation services helping patients recover from injuries, manage chronic conditions, and optimize physical function. Our evidence-based approach ensures effective treatment and lasting results.",
+      "Restorative physiotherapy treatments designed to improve your mobility, strength and recovery.",
     highlights: {
-      "Sports Rehabilitation":
-        "Specialized programs for athletes focusing on injury recovery and performance enhancement with return-to-sport protocols.",
-      "Manual Therapy Excellence":
-        "Hands-on treatment techniques including joint mobilization, soft tissue work, and specialized movement therapy.",
-      "Modern Equipment":
-        "Advanced therapeutic modalities including electrotherapy, ultrasound, and computerized exercise equipment.",
+      "Expert Physiotherapists":
+        "Skilled physiotherapists who specialize in rehabilitation for orthopaedic, neurological and sports injury.",
+      "Personalized Therapy Plans":
+        "Tailored exercises, home programs and recovery for each individual.",
+      "Holistic Rehabilitation":
+        "Pain in treatment recovery, posture correction and them long-term, whole-body function improvement.",
     },
     doctors: [
       {

@@ -18,8 +18,8 @@ const Specialityfrontpage = () => {
         <div className="bg-gray-100">
           <Specialization />
         </div>
-        <AppointBanner />
-        <BookAnAppo/>
+        {/* <AppointBanner /> */}
+        {/* <BookAnAppo/> */}
         <Footer />
       </div>
     </>

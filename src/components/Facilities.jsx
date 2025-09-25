@@ -38,10 +38,10 @@ export default function Facilities() {
 
   return (
     <section
-      className="bg-gradient-to-b from-white to-gray-50 py-16 lg:py-20"
+      className="bg-gray-100 py-16 lg:py-20"
       id="facilities"
     >
-      <div className="max-w-[1280px] px-6 mx-auto space-y-24">
+      <div className="max-w-[1280px]  px-6 mx-auto space-y-24">
         <div className="grid md:grid-cols-2 gap-10 items-center" data-aos="fade-up">
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <img

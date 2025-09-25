@@ -68,16 +68,16 @@ const BookAnAppo = () => {
           <div data-aos="fade-right" className="bg-white/70 backdrop-blur-sm shadow-lg p-5 sm:p-6 lg:p-8 hover:shadow-xl transition-all duration-300 relative">
             <div className="absolute bottom-0 left-0 right-0 h-1 "></div>
             <div className="mb-6 lg:mb-8">
-              <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
+              {/* <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
                 <span className="inline-flex items-center px-3 sm:px-4 py-1.5 sm:py-2 bg-blue-900 text-white rounded-full text-xs sm:text-sm font-semibold shadow-md">
                   <svg className="w-3.5 h-3.5 sm:w-4 sm:h-4 mr-1.5 sm:mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                   </svg>
                   BOOK AN APPOINTMENT
                 </span>
-              </div>
+              </div> */}
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-2 sm:mb-3">
-              Seamless Appointment Scheduling
+              Appointment
               </h2>
               <p className="text-base sm:text-lg text-gray-600">
                 Schedule Your Medical Visit Today

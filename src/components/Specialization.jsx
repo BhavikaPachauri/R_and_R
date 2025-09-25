@@ -127,7 +127,7 @@ const Specialization = () => {
            <span className="text-[#1a365d]">Across Every Specialty</span>
          </h4>
 
-          <p className="text-gray-600 sm:text-xl text-[16px] font-medium max-w-4xl mx-auto leading-noraml">
+          <p className="text-gray-600 sm:text-xl text-[16px] font-medium max-w-4xl mx-auto leading-noraml mt-5">
             We offer everything from advanced surgery to expert care in orthopaedics, paediatrics, and women’s health.
             Our modern facilities and skilled team provide complete, personalised treatment for you and your family.
           </p>

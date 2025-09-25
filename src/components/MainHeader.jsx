@@ -25,28 +25,47 @@ const MainHeader = () => {
             data-aos="fade-right"
             data-aos-duration="1000"
           >
-            <h1 className="text-[34px] sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-[#1a365d] drop-shadow-md">
+            <h1 className="text-[34px] sm:text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight text-[#1a365d] drop-shadow-md">
               <span className="bg-[#1a365d] bg-clip-text text-transparent">
-               Delivering Excellence
+                Delivering Excellence
               </span>{" "}
-               in
+              in
               <br />
               <span className="bg-[#1a365d] bg-clip-text text-transparent">
-               Healthcare
+                Healthcare
               </span>
             </h1>
-            <p className="text-base sm:text-lg text-gray-700 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-              At R&R Multispeciality Hospital, Jhunjhunu, we bring together compassionate medical professionals, advanced technology, and patient-focused care. Our goal is to deliver reliable, ethical, and world-class healthcare services to the people of Jhunjhunu and beyond. Whether it’s a routine consultation or a complex surgical procedure, we are here for you 24×7.
-              <br></br>
-              <br></br>
-              <b>Quick Access:</b>
-              <br></br>
-              •	Book an Appointment with expert doctors
-              <br></br>
-              •	Find a Doctor by speciality
-              <br></br>
-              •	24×7 Emergency Helpline for urgent medical support
+            <p className="text-base sm:text-lg text-gray-700 max-w-xl leading-relaxed">
+              At R&R Multispeciality Hospital, Jhunjhunu, we offer expert
+              doctors, advanced care, and 24×7 support—whether for routine
+              checkups, emergencies, or quick services like booking appointments
+              and finding specialists.
             </p>
+
+            <a
+                  href="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/SHCO-2023-0845_3rd+Edition.pdf"
+                  target="_blank"
+                  className="flex items-center sm:gap-2.5 gap-1 cursor-pointer max-lg:justify-center"
+                  data-aos="zoom-in"
+                >
+                  <img
+                    src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/2ypqvdXUa0.webp"
+                    alt="NABH Accreditation Logo for Quality Medical Care"
+                    width={40}
+                    height={40}
+                    className="lg:w-[68px] sm:w-[40px] w-[35px]"
+                  />
+                  <div>
+                    <p className="lg:text-[18px] sm:text-[12px] text-[10px] text-[#606C78] font-semibold leading-[117%] mb-1">
+                      "Awards and Honors "
+                    </p>
+                    <p className="lg:text-[18px] sm:text-[10px] text-[10px] text-[#606C78] font-normal leading-[117%] italic ">
+                      Ensuring Excellence in Medical Care
+                      <br /> and Service Standards.
+                    </p>
+                  </div>
+                </a>
+
             <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 pt-2">
               <Link
                 to="/bookappointment"

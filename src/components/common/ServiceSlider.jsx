@@ -33,35 +33,35 @@ const ServiceSlider = () => {
   const services = [
     {
       title: "Emergency Care",
-      icon: "🏥",
+      icon: "",
     },
     {
       title: "Cardiology",
-      icon: "❤️",
+      icon: "",
     },
     {
       title: "Neurology",
-      icon: "🧠",
+      icon: "",
     },
     {
       title: "Pediatrics",
-      icon: "👶",
+      icon: "",
     },
     {
       title: "Laboratory",
-      icon: "🔬",
+      icon: "",
     },
     {
       title: "Surgery",
-      icon: "⚕️",
+      icon: "",
     },
     {
       title: "Orthopedics",
-      icon: "🦴",
+      icon: "",
     },
     {
       title: "Pharmacy",
-      icon: "💊",
+      icon: "",
     },
   ];
 

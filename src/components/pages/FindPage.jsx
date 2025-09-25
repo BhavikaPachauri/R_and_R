@@ -5,6 +5,7 @@ import BynDoctor from "../BynDoctor";
 import NavBar from "../common/Navbar";
 import DoctorHeader from "../DoctorHeader";
 import AppointBanner from "../AppointBanner";
+import MedicalExperts from "../MedicalExperts";
 
 const FindPage = () => {
   const { pathname } = useLocation();
@@ -16,7 +17,8 @@ const FindPage = () => {
     <>
       <NavBar />
       <div className="overflow-x-hidden">
-        <DoctorHeader />
+        <MedicalExperts />
+        {/* <DoctorHeader /> */}
         <AppointBanner/>
         <BynDoctor />
         <Footer />

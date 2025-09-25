@@ -4,7 +4,7 @@ import Footer from "../common/Footer";
 import MainHeader from "../MainHeader";
 import OurServices from "../OurServices";
 import HomeAboutUs from "../HomeAboutUs";
-import Department from "../Specialization";
+import Department from "../SpecializationDetail";
 import TieUps from "../TieUps";
 import NavBar from "../common/Navbar";
 import NabhCert from "../NabhCert"; 
@@ -24,7 +24,7 @@ const HomePage = () => {
         <HomeAboutUs />
         <ServiceSlider />
         <OurServices />
-        <ServiceSlider />
+        {/* <ServiceSlider /> */}
         <NabhCert />
         <Department />
         <TieUps />

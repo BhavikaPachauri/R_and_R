@@ -60,7 +60,7 @@ const DoctorHeader = () => {
                 className="w-full h-full object-cover rounded-2xl shadow-2xl"
               />
             </div>
-            <div className="absolute inset-0 bg-gradient-to-br from-[#1a365d] to-[#6ed54e] rounded-2xl transform lg:translate-x-4 lg:translate-y-4 -z-10 opacity-90"></div>
+            {/* <div className="absolute inset-0 bg-gradient-to-br from-[#1a365d] to-[#6ed54e] rounded-2xl transform lg:translate-x-4 lg:translate-y-4 -z-10 opacity-90"></div> */}
           </div>
         </div>
       </div>

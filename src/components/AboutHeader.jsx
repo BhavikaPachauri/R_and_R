@@ -10,16 +10,7 @@ const AboutHeader = () => {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
-          <div className="relative group" data-aos="fade-right">
-            <div className="absolute inset-0 bg-gradient-to-r from-[#1d55b0]/20 to-[#6ed54e]/20 rounded-2xl transform rotate-6 scale-105 transition-transform group-hover:rotate-3"></div>
-            <div className="relative z-10 rounded-2xl overflow-hidden shadow-xl">
-              <img
-                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/ONLYVbShaa.webp"
-                alt="R&R Hospital Facilities"
-                className="w-full h-auto"
-              />
-            </div>
-          </div>
+          
           <div className="md:pl-8" data-aos="fade-left">
             <div className="space-y-6">
               <div className="flex items-center gap-4 mb-6">
@@ -51,7 +42,11 @@ const AboutHeader = () => {
                 we combine advanced medical technology with compassionate care
                 to serve the community of Bhiwani and surrounding regions.
               </p>
-             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
+             
+              <p className="text-gray-600 text-base md:text-lg leading-relaxed pl-4 border-l-2 border-[#1d55b0]">
+                Our advanced facility blends next-generation medical technology with an expert team of healthcare professionals, providing exceptional patient care and superior treatment results.
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
                <div className="p-4 md:p-5 bg-white/90 rounded-xl shadow-md">
                  <div className="text-[#1a365d] font-semibold text-lg md:text-xl mb-2">
                    All-in-One Care
@@ -70,9 +65,16 @@ const AboutHeader = () => {
                </div>
              </div>
 
-              <p className="text-gray-600 text-base md:text-lg leading-relaxed pl-4 border-l-2 border-[#1d55b0]">
-                Our advanced facility blends next-generation medical technology with an expert team of healthcare professionals, providing exceptional patient care and superior treatment results.
-              </p>
+            </div>
+          </div>
+          <div className="relative group" data-aos="fade-right">
+            {/* <div className="absolute inset-0 bg-gradient-to-r from-[#1d55b0]/20 to-[#6ed54e]/20 rounded-2xl transform rotate-6 scale-105 transition-transform group-hover:rotate-3"></div> */}
+            <div className="relative z-10 rounded-2xl overflow-hidden shadow-xl">
+              <img
+                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/ONLYVbShaa.webp"
+                alt="R&R Hospital Facilities"
+                className="w-full h-auto"
+              />
             </div>
           </div>
         </div>
