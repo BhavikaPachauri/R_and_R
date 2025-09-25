@@ -108,7 +108,7 @@ const SpecialityPage = () => {
                         <img
                           src={doctor.image}
                           alt={doctor.name}
-                          className="w-40 h-40 rounded-full object-cover border-4 border-white mb-6 shadow-md relative z-10"
+                          className="w-40 h-40 rounded-full  border-4 border-white mb-6 shadow-md relative z-10"
                         />
                       </div>
                     ) : (

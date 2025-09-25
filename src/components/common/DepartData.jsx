@@ -17,7 +17,7 @@ const DepartData = {
         designation: "MBBS, MS (Ortho)",
         experience: "Endoscopic Spine & Joint Replacement Surgeon",
         image:
-          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
+          "./Deepak-Jhaidia.png",
       },
     ],
     testimonials: [
@@ -192,7 +192,7 @@ const DepartData = {
         designation: "MBBS, MS (OBS & Gynae)",
         experience: "Women & Maternity Specialist",
         image:
-          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
+          "./Dharma-Saini.png",
       },
     ],
     testimonials: [
@@ -253,7 +253,7 @@ const DepartData = {
         designation: "MBBS, MS (OBS & Gynae)",
         experience: "Women & Maternity Specialist",
         image:
-          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
+          "./Dharma-Saini.png",
       },
     ],
     testimonials: [
@@ -314,7 +314,7 @@ const DepartData = {
         designation: "MBBS, MD (General Medicine)",
         experience: "General Physician",
         image:
-          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
+          "./Imran-Ahmad-Khan.png",
       },
     ],
     testimonials: [
@@ -375,7 +375,7 @@ const DepartData = {
         designation: "MBBS, MD (General Medicine)",
         experience: "General Physician",
         image:
-          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
+          "./Imran-Ahmad-Khan.png",
       },
     ],
     testimonials: [

@@ -26,7 +26,7 @@ const DoctorCard = ({ doctor }) => {
 
   return (
     <div
-      className="p-5 bg-white rounded-[16px] shadow-md hover:shadow-lg transition-all duration-300 ease-linear group"
+      className="p-5 bg-gray-100 rounded-[16px] shadow-md hover:shadow-lg transition-all duration-300 ease-linear group"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -34,7 +34,7 @@ const DoctorCard = ({ doctor }) => {
       <img
         src={docData.doc_image}
         alt={`Expert Doctor: ${docData.doc_name} providing specialized medical care`}
-        className="mb-4 w-full h-64 rounded-[13px] shadow-doctorimg group-hover:scale-[1.02] transition-all duration-300 ease-linear"
+        className="mb-4 w-full h-56 rounded-[13px] shadow-doctorimg group-hover:scale-[1.02] transition-all duration-300 ease-linear"
         data-aos="zoom-in"
       />
 
