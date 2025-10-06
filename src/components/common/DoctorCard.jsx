@@ -34,7 +34,7 @@ const DoctorCard = ({ doctor }) => {
       <img
         src={docData.doc_image}
         alt={`Expert Doctor: ${docData.doc_name} providing specialized medical care`}
-        className="mb-4 w-full h-56 rounded-[13px] shadow-doctorimg group-hover:scale-[1.02] transition-all duration-300 ease-linear"
+        className="mb-4 bg-gray-200 w-full h-56 rounded-[13px] shadow-doctorimg group-hover:scale-[1.02] transition-all duration-300 ease-linear"
         data-aos="zoom-in"
       />
 

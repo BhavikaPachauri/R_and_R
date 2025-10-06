@@ -4,21 +4,21 @@ const dummyData = [
     doc_profile: "MBBS, MD (General Medicine)",
     doc_details: "General Physician",
     doc_image:
-      "./speciality/Imran-Ahmad-Khan.png",
+      "./img/Imran-Ahmad-Khan.png",
   },
   {
     doc_name: "Dr. Deepak Jhaidia",
     doc_profile: "MBBS, MS (Ortho)",
     doc_details: "Endoscopic Spine & Joint Surgeon",
     doc_image:
-      "./speciality/Deepak-Jhaidia.png",
+      "./img/Deepak-Jhaidia.png",
   },
   {
     doc_name: "Dr. Dharma Saini",
     doc_profile: "MBBS, MS (OBS & Gynae)",
     doc_details: "Women & Maternity Specialist",
     doc_image:
-      "./speciality/Dharma-Saini.png",
+      "./img/Dharma-Saini.png",
   },
   {
     doc_name: "Dr. Vitul Vaikar",
@@ -32,7 +32,7 @@ const dummyData = [
     doc_profile: "MBBS, MS, M.Ch (Urology)",
     doc_details: "Kidney & Urinary Specialist",
     doc_image:
-      "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
+      "./img/Mukesh-Kumar.png",
   },
   {
     doc_name: "Dr. Sunil Saini",
@@ -46,7 +46,7 @@ const dummyData = [
     doc_profile: "BDS (Dental Surgeon)",
     doc_details: "Oral & Dental Care",
     doc_image:
-      "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
+      "./img/Amit-singh.png",
   },
   {
     doc_name: "Dr. Sameer Khan",

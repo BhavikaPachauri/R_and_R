@@ -17,7 +17,7 @@ const DepartData = {
         designation: "MBBS, MS (Ortho)",
         experience: "Endoscopic Spine & Joint Replacement Surgeon",
         image:
-          "./Deepak-Jhaidia.png",
+          "./img/Deepak-Jhaidia.png",
       },
     ],
     testimonials: [
@@ -192,7 +192,7 @@ const DepartData = {
         designation: "MBBS, MS (OBS & Gynae)",
         experience: "Women & Maternity Specialist",
         image:
-          "./Dharma-Saini.png",
+          "./img/Dharma-Saini.png",
       },
     ],
     testimonials: [
@@ -253,7 +253,7 @@ const DepartData = {
         designation: "MBBS, MS (OBS & Gynae)",
         experience: "Women & Maternity Specialist",
         image:
-          "./Dharma-Saini.png",
+          "./img/Dharma-Saini.png",
       },
     ],
     testimonials: [
@@ -314,7 +314,7 @@ const DepartData = {
         designation: "MBBS, MD (General Medicine)",
         experience: "General Physician",
         image:
-          "./Imran-Ahmad-Khan.png",
+          "./img/Imran-Ahmad-Khan.png",
       },
     ],
     testimonials: [
@@ -375,7 +375,7 @@ const DepartData = {
         designation: "MBBS, MD (General Medicine)",
         experience: "General Physician",
         image:
-          "./Imran-Ahmad-Khan.png",
+          "./img/Imran-Ahmad-Khan.png",
       },
     ],
     testimonials: [
@@ -497,7 +497,7 @@ const DepartData = {
         designation: "MBBS, MS, M.Ch (Urology)",
         experience: "Kidney & Urinary Specialist",
         image:
-          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
+          "./img/Mukesh-Kumar.png",
       },
     ],
     testimonials: [
@@ -558,7 +558,7 @@ const DepartData = {
         designation: "BDS (Dental Surgeon)",
         experience: "Oral & Dental Care",
         image:
-          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
+          "./img/Amit-singh.png",
       },
     ],
     testimonials: [
