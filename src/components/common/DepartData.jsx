@@ -78,7 +78,7 @@ const DepartData = {
         designation: "MD (Radiodiagnosis)",
         experience: "Radiologist",
         image:
-          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
+          "./img/Sunil-Saini.png",
       },
     ],
     testimonials: [
@@ -436,7 +436,7 @@ const DepartData = {
         designation: "MBBS, DNB (General Surgery)",
         experience: "General & Laparoscopic Surgeon",
         image:
-          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
+          "./img/Vitul-Vaikar.png",
       },
     ],
     testimonials: [
@@ -497,7 +497,7 @@ const DepartData = {
         designation: "MBBS, MS, M.Ch (Urology)",
         experience: "Kidney & Urinary Specialist",
         image:
-          "./img/Mukesh-Kumar.png",
+          "./img/Mukesh-kumar.png",
       },
     ],
     testimonials: [
@@ -619,7 +619,7 @@ const DepartData = {
         designation: "Physiotherapist (MPT)",
         experience: "Physiotherapy Specialist",
         image:
-          "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wgvbhPnJy4.webp",
+          "./img/SameerKhan.png",
       },
     ],
     testimonials: [

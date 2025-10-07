@@ -10,7 +10,7 @@ import {
   FaProcedures,
   FaTooth,
   FaRunning,
-  FaArrowRight, // ✅ Added missing import
+  FaArrowRight, 
 } from "react-icons/fa";
 
 const SpecializationDetail = () => {
