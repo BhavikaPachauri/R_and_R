@@ -16,8 +16,7 @@ const DepartData = {
         name: "Dr. Deepak Jhaidia",
         designation: "MBBS, MS (Ortho)",
         experience: "Endoscopic Spine & Joint Replacement Surgeon",
-        image:
-          "./img/Deepak-Jhaidia.png",
+        image: "./img/Deepak-Jhaidia.png",
       },
     ],
     testimonials: [
@@ -34,7 +33,8 @@ const DepartData = {
     ],
     faqs: [
       {
-        question: "What makes endoscopic spine surgery better than traditional methods?",
+        question:
+          "What makes endoscopic spine surgery better than traditional methods?",
         answer:
           "Endoscopic spine surgery uses tiny incisions and advanced visualization, resulting in less muscle damage, reduced blood loss, and faster recovery compared to open surgery.",
       },
@@ -49,7 +49,8 @@ const DepartData = {
           "Modern joint implants typically last 15-25 years or more, depending on the patient's activity level, age, and implant type.",
       },
       {
-        question: "Can young athletes return to sports after orthopedic surgery?",
+        question:
+          "Can young athletes return to sports after orthopedic surgery?",
         answer:
           "With proper rehabilitation and clearance from our sports medicine team, most young athletes can return to their sport, often with improved performance.",
       },
@@ -77,8 +78,7 @@ const DepartData = {
         name: "Dr. Sunil Saini",
         designation: "MD (Radiodiagnosis)",
         experience: "Radiologist",
-        image:
-          "./img/Sunil-Saini.png",
+        image: "./img/Sunil-Saini.png",
       },
     ],
     testimonials: [
@@ -95,7 +95,8 @@ const DepartData = {
     ],
     faqs: [
       {
-        question: "How accurate are your imaging results?",
+        question:
+          "What level of accuracy we can expect from your imaging results?",
         answer:
           "Our advanced equipment combined with experienced radiologists provides over 99% diagnostic accuracy for most conditions.",
       },
@@ -174,67 +175,7 @@ const DepartData = {
       },
     ],
   },
-  obstetrics: {
-    title: "Obstetrics",
-    description:
-      "Complete maternity care from conception to delivery and beyond, to Kre longer, safer journey. ",
-    highlights: {
-      "Expert Obstetricians":
-        "Trained in normal and high risk pregnancies.",
-      "Modern Labor Environment":
-        "State of the art delivery room and neonatal care, for mother and baby. ",
-      "Prenatal & Postpartum Care":
-        "Education, monitoring, and support for mothers.",
-    },
-    doctors: [
-      {
-        name: "Dr. Dharma Saini",
-        designation: "MBBS, MS (OBS & Gynae)",
-        experience: "Women & Maternity Specialist",
-        image:
-          "./img/Dharma-Saini.png",
-      },
-    ],
-    testimonials: [
-      {
-        name: "Neha Agarwal",
-        feedback:
-          "Dr. Dharma Saini guided me through my high-risk pregnancy with such care and expertise. Both my twins are healthy and thriving now.",
-      },
-      {
-        name: "Pooja Verma",
-        feedback:
-          "The natural birth experience was beautiful, and the lactation support helped me establish breastfeeding successfully from day one.",
-      },
-    ],
-    faqs: [
-      {
-        question: "What prenatal tests are essential during pregnancy?",
-        answer:
-          "Essential tests include blood work, ultrasounds, glucose tolerance test, and genetic screening. We'll customize based on your specific needs and risk factors.",
-      },
-      {
-        question: "When should I create a birth plan?",
-        answer:
-          "We recommend discussing your birth plan around 32-36 weeks of pregnancy, allowing time for adjustments based on your pregnancy progress.",
-      },
-      {
-        question: "What are the warning signs during pregnancy that need immediate attention?",
-        answer:
-          "Severe abdominal pain, heavy bleeding, persistent headaches, vision changes, or decreased fetal movement require immediate medical evaluation.",
-      },
-      {
-        question: "How soon after delivery can I go home?",
-        answer:
-          "For normal deliveries, discharge is typically 24-48 hours. C-section patients usually stay 2-3 days, depending on recovery progress.",
-      },
-      {
-        question: "What support do you provide for postpartum depression?",
-        answer:
-          "We offer comprehensive mental health screening, counseling services, and connection to support groups for maternal mental wellness.",
-      },
-    ],
-  },
+  
   gynecology: {
     title: "Gynecology",
     description:
@@ -252,8 +193,7 @@ const DepartData = {
         name: "Dr. Dharma Saini",
         designation: "MBBS, MS (OBS & Gynae)",
         experience: "Women & Maternity Specialist",
-        image:
-          "./img/Dharma-Saini.png",
+        image: "./img/Dharma-Saini.png",
       },
     ],
     testimonials: [
@@ -311,10 +251,9 @@ const DepartData = {
     doctors: [
       {
         name: "Dr. Imran Ahmad Khan",
-        designation: "MBBS, MD (General Medicine)",
-        experience: "General Physician",
-        image:
-          "./img/Imran-Ahmad-Khan.png",
+        designation: "MBBS, MD (Internal Medicine)",
+        experience: "Consulting Physician",
+        image: "./img/Imran-Ahmad-Khan.png",
       },
     ],
     testimonials: [
@@ -346,78 +285,19 @@ const DepartData = {
           "We focus on nutrition, exercise, stress management, sleep quality, smoking cessation, and alcohol moderation as key pillars of health maintenance.",
       },
       {
-        question: "Can you help coordinate care with specialists?",
+        question:
+          "Can you helps us in coordination with specialists for better care?",
         answer:
           "Yes, we serve as your primary care coordinator, managing referrals to specialists and ensuring all aspects of your care are well-integrated.",
       },
       {
         question: "Do you provide executive health packages?",
         answer:
-          "We offer comprehensive executive health packages with advanced screenings, priority scheduling, and detailed health reports for busy professionals.",
+          "We offer executive health packages with advanced screenings, priority scheduling, and detailed health reports for busy professionals.",
       },
     ],
   },
-  diabetology: {
-    title: "Diabetology",
-    description:
-      "Expert diabetes managements designed especially you to achieve better control and live healthier.",
-    highlights: {
-      "Personalized Diabetes Plans":
-        "Nutrition, medication and lifestyle advices for every client.",
-      "Advanced Monitoring":
-        "Regular follow up with accurate blood sugar and metabolic monitoring.",
-      "Preventive Care":
-        "Focus on preventing complications and long-term health measure.",
-    },
-    doctors: [
-      {
-        name: "Dr. Imran Ahmad Khan",
-        designation: "MBBS, MD (General Medicine)",
-        experience: "General Physician",
-        image:
-          "./img/Imran-Ahmad-Khan.png",
-      },
-    ],
-    testimonials: [
-      {
-        name: "Ramesh Patel",
-        feedback:
-          "My HbA1c dropped from 9.2 to 6.8 in just 6 months with the comprehensive diabetes management program. I feel energetic again.",
-      },
-      {
-        name: "Meera Joshi",
-        feedback:
-          "The nutritional counseling transformed my relationship with food. Managing diabetes doesn't feel restrictive anymore - it feels empowering.",
-      },
-    ],
-    faqs: [
-      {
-        question: "What is the target HbA1c level for diabetics?",
-        answer:
-          "Generally, an HbA1c below 7% is recommended for most adults with diabetes, though individual targets may vary based on age and health conditions.",
-      },
-      {
-        question: "How often should diabetics monitor their blood sugar?",
-        answer:
-          "Monitoring frequency depends on treatment type and control level. Type 1 diabetics may check 4+ times daily, while well-controlled Type 2 may check less frequently.",
-      },
-      {
-        question: "What are the warning signs of diabetic complications?",
-        answer:
-          "Watch for vision changes, numbness in hands/feet, slow-healing wounds, frequent infections, or persistent fatigue - all require immediate medical attention.",
-      },
-      {
-        question: "Can diabetes be reversed or cured?",
-        answer:
-          "Type 2 diabetes can sometimes be put into remission through significant lifestyle changes, but it requires ongoing management. Type 1 diabetes currently requires lifelong treatment.",
-      },
-      {
-        question: "What role does exercise play in diabetes management?",
-        answer:
-          "Regular exercise improves insulin sensitivity, helps control blood sugar, aids weight management, and reduces cardiovascular risk - it's essential for diabetes care.",
-      },
-    ],
-  },
+  
   generalsurgery: {
     title: "General Surgery",
     description:
@@ -435,8 +315,7 @@ const DepartData = {
         name: "Dr. Vitul Vaikar",
         designation: "MBBS, DNB (General Surgery)",
         experience: "General & Laparoscopic Surgeon",
-        image:
-          "./img/Vitul-Vaikar.png",
+        image: "./img/Vitul-Vaikar.png",
       },
     ],
     testimonials: [
@@ -496,8 +375,7 @@ const DepartData = {
         name: "Dr. Mukesh Kumar",
         designation: "MBBS, MS, M.Ch (Urology)",
         experience: "Kidney & Urinary Specialist",
-        image:
-          "./img/Mukesh-kumar.png",
+        image: "./img/Mukesh-kumar.png",
       },
     ],
     testimonials: [
@@ -557,8 +435,7 @@ const DepartData = {
         name: "Dr. Amit Singh",
         designation: "BDS (Dental Surgeon)",
         experience: "Oral & Dental Care",
-        image:
-          "./img/Amit-singh.png",
+        image: "./img/Amit-singh.png",
       },
     ],
     testimonials: [
@@ -618,8 +495,7 @@ const DepartData = {
         name: "Dr. Sameer Khan",
         designation: "Physiotherapist (MPT)",
         experience: "Physiotherapy Specialist",
-        image:
-          "./img/SameerKhan.png",
+        image: "./img/SameerKhan.png",
       },
     ],
     testimonials: [
