@@ -4,7 +4,7 @@ const TieUps = () => {
   return (
     <>
    
-      <div className="bg-[url('https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/uNAXAB0uZ2.webp')] bg-no-repeat bg-bgfull" id="tieups">
+      <div className="bg-[url('./Frame1.png')] bg-no-repeat bg-bgfull" id="tieups">
         <div className="xl:max-w-[910px] mx-auto px-3 py-16">
           <h3
             className="xl:text-[64px] lg:text-[58px]  md:text-[54px] sm:text-[36px] text-[30px] text-center text-[#ffffff] lg:leading-[83px] leading-none font-semibold"
@@ -19,23 +19,24 @@ const TieUps = () => {
             <div className="w-[26.33%]" data-aos="zoom-in" data-aos-delay="300">
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/iamWXAxZbI.webp"
-                alt="PmJay Healthcare Partnership for Affordable Medical Care"
+                 alt="PmJay Healthcare Partnership for Affordable Medical Care"
                 className="h-auto w-auto"
               />
             </div>
             <div className="w-[26.33%]" data-aos="zoom-in" data-aos-delay="400">
-              <img
-                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/92AasBovTB.webp"
-                alt="Coe Healthcare Collaboration for Enhanced Medical Services"
-                className="h-auto w-auto"
-              />
-            </div>
-            <div className="w-[26.33%]" data-aos="zoom-in" data-aos-delay="500">
-              <img
+                 <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/QoBhKtQE6q.webp"
                 alt="Railway Healthcare Partnership for Better Patient Access"
                 className="h-auto w-auto"
               />
+            </div>
+            <div className="w-[26.33%]" data-aos="zoom-in" data-aos-delay="500">
+               <img
+                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/92AasBovTB.webp"
+                alt="Coe Healthcare Collaboration for Enhanced Medical Services"
+                className="h-auto w-auto"
+              />
+             
             </div>
           </div>
           <div
