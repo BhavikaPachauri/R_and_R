@@ -473,7 +473,7 @@ const DepartData = {
           "Recovery varies by procedure - laparoscopic procedures typically require 1-2 weeks, while open surgeries may need 4-6 weeks for full recovery.",
       },
       {
-        question: "What should I expect during post-operative care?",
+        question: "What I should take care of after post-operative care?",
         answer:
           "Post-operative care includes pain management, wound care instructions, activity restrictions, follow-up appointments, and monitoring for complications.",
       },
