@@ -43,25 +43,25 @@ const ContactInfo = () => {
       href: "https://www.facebook.com/bynhospital/",
       imgSrc:
         "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/QWIxMPX7x3.webp",
-      alt: "Facebook logo - R&R Hospital Bhiwani official page",
+      alt: "Facebook logo - R&R Hospital Jhunjhunui official page",
     },
     {
       href: "https://x.com/bynhospital",
       imgSrc:
         "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/uTkrkLzxWI.webp",
-      alt: "Twitter logo - R&R Hospital Bhiwani profile",
+      alt: "Twitter logo - R&R Hospital Jhunjhunui profile",
     },
     {
       href: "https://www.instagram.com/bynhospital",
       imgSrc:
         "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/DtdWsOI7yl.webp",
-      alt: "Instagram logo - R&R Hospital Bhiwani profile",
+      alt: "Instagram logo - R&R Hospital Jhunjhunui profile",
     },
     {
       href: "https://www.linkedin.com/company/shri-babayogi-netanath-hospital-research-centre/?originalSubdomain=in",
       imgSrc:
         "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Kv71EQxbM2.webp",
-      alt: "LinkedIn logo - R&R Hospital Bhiwani profile",
+      alt: "LinkedIn logo - R&R Hospital Jhunjhunui profile",
     },
   ];
 

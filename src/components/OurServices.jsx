@@ -11,7 +11,7 @@ export default function OurServices() {
   const services = [
     {
       icon: <FaAmbulance size={30} />,
-      title: "24×7 Emergency & Trauma Care",
+      title: "24×7 Emergency",
       desc: "Immediate response with fully equipped emergency units and ambulance services.",
     },
     {

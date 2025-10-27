@@ -75,25 +75,25 @@ const Footer = () => {
       href: "https://www.facebook.com/bynhospital/",
       imgSrc:
         "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/QWIxMPX7x3.webp",
-      alt: "Facebook logo - R&R Hospital Bhiwani official page",
+      alt: "Facebook logo - R&R Hospital Jhunjhunui official page",
     },
     {
       href: "https://x.com/bynhospital",
       imgSrc:
         "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/uTkrkLzxWI.webp",
-      alt: "Twitter logo - R&R Hospital Bhiwani profile",
+      alt: "Twitter logo - R&R Hospital Jhunjhunui profile",
     },
     {
       href: "https://www.instagram.com/bynhospital",
       imgSrc:
         "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/DtdWsOI7yl.webp",
-      alt: "Instagram logo - R&R Hospital Bhiwani profile",
+      alt: "Instagram logo - R&R Hospital Jhunjhunui profile",
     },
     {
       href: "https://www.linkedin.com/company/shri-babayogi-netanath-hospital-research-centre/?originalSubdomain=in",
       imgSrc:
         "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Kv71EQxbM2.webp",
-      alt: "LinkedIn logo - R&R Hospital Bhiwani profile",
+      alt: "LinkedIn logo - R&R Hospital Jhunjhunui profile",
     },
   ];
 
@@ -132,7 +132,7 @@ const Footer = () => {
               className="md:max-w-[100px] max-w-[80px] h-auto bg-white rounded-sm"
             />
             <p className="text-[#1a365d]/80 text-[16px] font-medium leading-[164%] xl:max-w-[331px] my-7">
-              Expert care in every specialty at RR Hospital, Jhunjhunu.
+              Expert care in every specialty at R&R Hospital, Jhunjhunu.
             </p>
             <div className="flex gap-2.5">
               {socialLinks.map((link, index) => (
@@ -180,8 +180,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className="text-[16px] text-[#1a365d]/80 font-medium leading-[180%]">
-                Our Support and Sales team is available 365/24/7 to answer your
-                queries.
+                Our Support and Sales team is available 24×7, 365 days a year to answer your queries.
               </li>
             </ul>
           </div>

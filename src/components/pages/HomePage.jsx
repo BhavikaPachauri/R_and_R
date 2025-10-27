@@ -26,7 +26,7 @@ const HomePage = () => {
         <OurServices />
         {/* <ServiceSlider /> */}
         <NabhCert />
-        <Department />
+        {/* <Department /> */}
         <TieUps />
         <Footer />
       </div>

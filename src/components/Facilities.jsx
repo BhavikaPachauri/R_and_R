@@ -12,26 +12,26 @@ export default function Facilities() {
     {
       icon: <FaBed size={26} />,
       title: "Spacious NABH-standard Patient Rooms",
-      desc: "General, Semi-private, Private & Deluxe rooms designed for comfort and safety.",
+      desc: "General, Semi-private, Private And Deluxe rooms designed for comfort and safety.",
     },
     {
       icon: <FaAmbulance size={26} />,
-      title: "24×7 Emergency & Ambulance",
+      title: "24×7 Emergency And Ambulance",
       desc: "Immediate response and rapid transfer with fully equipped emergency services.",
     },
     {
       icon: <FaMicroscope size={26} />,
-      title: "Advanced Imaging & Diagnostics",
+      title: "Advanced Imaging And Diagnostics",
       desc: "Modern MRI, CT (Outsource), Ultrasound, and X-ray for accurate results.",
     },
     {
       icon: <FaHospital size={26} />,
-      title: "Pharmacy & Blood Bank",
+      title: "Pharmacy And Blood Bank",
       desc: "In-house pharmacy and outsourced blood bank available 24×7.",
     },
     {
       icon: <FaHospital size={26} />,
-      title: "Comfort & Convenience",
+      title: "Comfort And Convenience",
       desc: "Comfortable waiting lounges, hygienic cafeteria, and ample parking for families.",
     },
   ];
@@ -90,7 +90,7 @@ export default function Facilities() {
 
         <div data-aos="fade-up">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-[#1a365d] mb-4">
-            Infrastructure & Facilities
+            Infrastructure And Facilities
           </h2>
           <div className="w-20 h-1 bg-[#E31F26] mx-auto mb-6 rounded-full"></div>
           <p className="text-gray-600 text-lg leading-relaxed max-w-3xl mx-auto text-center mb-12">

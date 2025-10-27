@@ -18,7 +18,7 @@ const Specialization = () => {
   const navigate = useNavigate();
   const departments = [
     {
-      name: "GeneralSurgery",
+      name: "General Surgery",
       icon: <FaSyringe className="w-8 h-8 text-white" />,
       description:
         "Comprehensive surgical care with advanced techniques for safe and faster recovery.",
@@ -66,7 +66,7 @@ const Specialization = () => {
         "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/G4yrZfTNZ4.webp",
     },
     {
-      name: "GeneralMedicine",
+      name: "General Medicine",
       icon: <FaStethoscope className="w-8 h-8 text-white" />,
       description:
         "Holistic care for acute and chronic illnesses with evidence-based treatments.",

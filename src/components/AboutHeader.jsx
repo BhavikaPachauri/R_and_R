@@ -34,13 +34,13 @@ const AboutHeader = () => {
                 </div>
                 <h4 className="text-2xl md:text-3xl font-bold text-[#1a365d]">
                   Excellence in Healthcare
-                </h4>
+                </h4> 
               </div>
               <p className="text-gray-600 text-base md:text-lg leading-relaxed">
-                R&R Hospital in Bhiwani stands as a beacon of
+                R&R Hospital in Jhunjhunu  stands as a beacon of
                 excellence in healthcare. As a leading multi-specialty hospital,
                 we combine advanced medical technology with compassionate care
-                to serve the community of Bhiwani and surrounding regions.
+                to serve the community of Jhunjhunu and surrounding regions.
               </p>
              
               <p className="text-gray-600 text-base md:text-lg leading-relaxed pl-4 border-l-2 border-[#1d55b0]">

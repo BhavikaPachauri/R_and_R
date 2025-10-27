@@ -8,12 +8,12 @@ const Faqs = () => {
 
   const faqData = [
     {
-      question: "What services does R+R Hospital provide?",
+      question: "What services does R&R Hospital provide?",
       answer:
-        "R+R Hospital offers multi-specialty healthcare services, including emergency care, critical care, surgery, diagnostics, preventive health check-ups, and specialty treatments.",
+        "R&R Hospital offers multi-specialty healthcare services, including emergency care, critical care, surgery, diagnostics, preventive health check-ups, and specialty treatments.",
     },
     {
-      question: "Where is R+R Hospital located?",
+      question: "Where is R&R Hospital located?",
       answer: (
         <p>
           The hospital is conveniently located at{" "}
@@ -34,7 +34,7 @@ const Faqs = () => {
       ),
     },
     {
-      question: "Does R+R Hospital have a 24/7 emergency department?",
+      question: "Does R&R Hospital have a 24/7 emergency department?",
       answer: (
         <p>
           Yes, our Emergency Department is open{" "}
@@ -44,14 +44,14 @@ const Faqs = () => {
       ),
     },
     {
-      question: "How can I book an appointment at R+R Hospital?",
+      question: "How can I book an appointment at R&R Hospital?",
       answer:
         "You can book appointments via our hospital website, helpline number, or directly at the reception desk.",
     },
     {
       question: "Does the hospital accept health insurance?",
       answer:
-        "R+R Hospital has tie-ups with leading insurance providers and supports cashless treatment facilities. Patients are advised to confirm with our billing desk.",
+        "R&R Hospital has tie-ups with leading insurance providers and supports cashless treatment facilities. Patients are advised to confirm with our billing desk.",
     },
     {
       question:
@@ -65,12 +65,12 @@ const Faqs = () => {
         "Our hospital provides general wards, semi-private and private rooms with modern amenities and 24/7 nursing care, and cafeteria services.",
     },
     {
-      question: "Does R+R Hospital have diagnostic and pharmacy services?",
+      question: "Does R&R Hospital have diagnostic and pharmacy services?",
       answer:
         <p>Yes, we have a <b>(fully equipped diagnostic center)</b> and in-house pharmacy, both available round the clock.</p>,
     },
     {
-      question: "How can I contact R+R Hospital for emergencies?",
+      question: "How can I contact R&R Hospital for emergencies?",
       answer: (
         <p>
           You can reach our emergency helpline at: <b>9773319919</b>, available

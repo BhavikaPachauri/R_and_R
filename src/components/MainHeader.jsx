@@ -36,10 +36,7 @@ const MainHeader = () => {
               </span>
             </h1>
             <p className="text-base sm:text-lg text-gray-700 max-w-xl leading-relaxed">
-              At R&R Multispeciality Hospital, Jhunjhunu, we offer medical
-              Experts,g advanced care, and 24×7 supportfor routine checkups,
-              emergencies, or quick services like booking appointments and
-              finding specialists.
+               At R&R Multispeciality Hospital, Jhunjhunu, we provide expert medical care, advanced treatments, and round-the-clock support , whether you need a routine checkup, emergency assistance, or quick services like scheduling appointments and consulting specialists.
             </p>
 
             <a

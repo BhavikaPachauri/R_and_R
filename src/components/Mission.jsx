@@ -11,7 +11,7 @@ export default function Mission() {
             className="md:text-[48px] sm:text-[36px] text-[26px] text-[#1d55b0] font-semibold tracking-tight md:mb-10 mb-6 text-center relative"
             data-aos="fade-up"
           >
-            Mission, Vision & Values
+            Mission, Vision And Values
           </h4>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-8">
             <div

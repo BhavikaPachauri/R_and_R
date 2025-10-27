@@ -16,9 +16,9 @@ const dummyData = [
   {
     doc_name: "Dr. Dharma Saini",
     doc_profile: "MBBS, MS (OBS & Gynae)",
-    doc_details: "Women & Maternity Specialist",
+    doc_details: "Maternity Specialist",
     doc_image:
-      "./speciality/img/Dharma-Saini.png",
+      "./speciality/img/Dharma-Saini.png",  
   },
   {
     doc_name: "Dr. Vitul Vaikar",

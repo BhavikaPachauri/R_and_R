@@ -31,7 +31,7 @@ const NavBar = () => {
 
   return (
     <>
-      <TopBanner />
+      {/* <TopBanner /> */}
       <div className="bg-white shadow-lg sticky top-0 z-[1000] w-full">
         <nav className="flex justify-between items-center xl:max-w-[1293px] mx-auto px-4 py-3 bg-white">
           <a href="/" className="flex items-center">
