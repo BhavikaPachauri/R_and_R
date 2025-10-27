@@ -43,10 +43,7 @@ const ServiceSlider = () => {
       title: "Neurology",
       icon: "",
     },
-    {
-      title: "Pediatrics",
-      icon: "",
-    },
+    
     {
       title: "Laboratory",
       icon: "",

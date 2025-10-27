@@ -122,59 +122,59 @@ const DepartData = {
       },
     ],
   },
-  pediatrics: {
-    title: "Pediatrics",
-    description:
-      "Caring and focused pediatric care for your child's growth, development, and overall health.",
-    highlights: {
-      "Child-Friendly Environment":
-        "Safe and inviting setting designed for children.",
-      "Specialized Pediatricians":
-        "Trained to manage health for newborns, infants, and adolescents.",
-      "Preventive & Developmental Care":
-        " Child wellness care, from immunizations to ride-up monitoring.",
-    },
-    doctors: [],
-    testimonials: [
-      {
-        name: "Kavita Jain",
-        feedback:
-          "My 5-year-old actually looks forward to doctor visits now! The pediatric team made vaccinations stress-free for both of us.",
-      },
-      {
-        name: "Ravi Patel",
-        feedback:
-          "The developmental guidance we received helped us understand our child's milestones better. The care is truly comprehensive.",
-      },
-    ],
-    faqs: [
-      {
-        question: "At what age should my child start regular check-ups?",
-        answer:
-          "Regular pediatric check-ups should begin within the first week of birth, with frequent visits in the first year and annual check-ups thereafter.",
-      },
-      {
-        question: "How do you handle anxious or fearful children?",
-        answer:
-          "Our staff uses child-friendly communication, distraction techniques, and a comfortable environment to help children feel at ease during visits.",
-      },
-      {
-        question: "What childhood emergencies should I be aware of?",
-        answer:
-          "High fever, difficulty breathing, severe allergic reactions, and injuries require immediate attention. We provide 24/7 emergency pediatric care.",
-      },
-      {
-        question: "How can I prepare my child for their first visit?",
-        answer:
-          "Read them books about doctor visits, bring comfort items, and explain that the doctor helps keep them healthy and strong.",
-      },
-      {
-        question: "Do you provide nutritional counseling for children?",
-        answer:
-          "Yes, we offer comprehensive nutritional guidance for healthy growth, managing childhood obesity, and addressing feeding difficulties.",
-      },
-    ],
-  },
+  // pediatrics: {
+  //   title: "Pediatrics",
+  //   description:
+  //     "Caring and focused pediatric care for your child's growth, development, and overall health.",
+  //   highlights: {
+  //     "Child-Friendly Environment":
+  //       "Safe and inviting setting designed for children.",
+  //     "Specialized Pediatricians":
+  //       "Trained to manage health for newborns, infants, and adolescents.",
+  //     "Preventive & Developmental Care":
+  //       " Child wellness care, from immunizations to ride-up monitoring.",
+  //   },
+  //   doctors: [],
+  //   testimonials: [
+  //     {
+  //       name: "Kavita Jain",
+  //       feedback:
+  //         "My 5-year-old actually looks forward to doctor visits now! The pediatric team made vaccinations stress-free for both of us.",
+  //     },
+  //     {
+  //       name: "Ravi Patel",
+  //       feedback:
+  //         "The developmental guidance we received helped us understand our child's milestones better. The care is truly comprehensive.",
+  //     },
+  //   ],
+  //   faqs: [
+  //     {
+  //       question: "At what age should my child start regular check-ups?",
+  //       answer:
+  //         "Regular pediatric check-ups should begin within the first week of birth, with frequent visits in the first year and annual check-ups thereafter.",
+  //     },
+  //     {
+  //       question: "How do you handle anxious or fearful children?",
+  //       answer:
+  //         "Our staff uses child-friendly communication, distraction techniques, and a comfortable environment to help children feel at ease during visits.",
+  //     },
+  //     {
+  //       question: "What childhood emergencies should I be aware of?",
+  //       answer:
+  //         "High fever, difficulty breathing, severe allergic reactions, and injuries require immediate attention. We provide 24/7 emergency pediatric care.",
+  //     },
+  //     {
+  //       question: "How can I prepare my child for their first visit?",
+  //       answer:
+  //         "Read them books about doctor visits, bring comfort items, and explain that the doctor helps keep them healthy and strong.",
+  //     },
+  //     {
+  //       question: "Do you provide nutritional counseling for children?",
+  //       answer:
+  //         "Yes, we offer comprehensive nutritional guidance for healthy growth, managing childhood obesity, and addressing feeding difficulties.",
+  //     },
+  //   ],
+  // },
   
   gynecology: {
     title: "Gynecology",
@@ -236,7 +236,7 @@ const DepartData = {
       },
     ],
   },
-  generalmedicine: {
+  "general medicine": {
     title: "General Medicine",
     description:
       "Meet all your acute and chronic medical conditions, based on an evidence-based treatment plan.",
@@ -298,7 +298,7 @@ const DepartData = {
     ],
   },
   
-  generalsurgery: {
+  "general surgery": {
     title: "General Surgery",
     description:
       "Total surgical care for a range of conditions from standard surgical treatment to complex surgical care focused on patient safety and best outcomes. ",
