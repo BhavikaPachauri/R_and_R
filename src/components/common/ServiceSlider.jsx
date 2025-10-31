@@ -32,33 +32,26 @@ const ServiceSlider = () => {
 
   const services = [
     {
-      title: "Emergency Care",
-      icon: "",
+      title: "General Surgery",
     },
     {
-      title: "Cardiology",
-      icon: "",
+      title: "Orthopaedics",
     },
     {
-      title: "Neurology",
-      icon: "",
+      title: "Radiology",
     },
     
     {
-      title: "Laboratory",
-      icon: "",
+      title: "Urology",
     },
     {
-      title: "Surgery",
-      icon: "",
+      title: "General Medicine",    
     },
     {
-      title: "Orthopedics",
-      icon: "",
+     title: "Physiotherapy",
     },
     {
-      title: "Pharmacy",
-      icon: "",
+      title: "Gynecology",
     },
   ];
 
