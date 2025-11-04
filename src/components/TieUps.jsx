@@ -85,17 +85,45 @@ const TieUps = () => {
             >
               <h2 className="text-lg font-medium">✅ Empanelled TPAs</h2>
               <ul className="list-disc list-inside marker:text-blue-700 text-left space-y-2">
-                <li>Raksha TPA</li>
-                <li>Heritage Health TPA</li>
-                <li>Health India TPA</li>
-                <li>Vidal Health TPA</li>
-                <li>Universal Sompo Gen. Health Insurance TPA</li>
-                <li>MD India TPA</li>
-                <li>Family Health Insurance Plan Ltd. (FHPL)</li>
-                <li>Cholamandalam Gen. Health Insurance TPA</li>
-                <li>Tata AIG Health Insurance TPA</li>
-                <li>Niva Bupa Health Insurance TPA</li>
-                <li>Care Health Insurance TPA</li>
+                <li>FHPL</li>
+                <li>VIPUL MEDCORP</li>
+                <li>ERICSON TPA</li>
+                <li>AMUL DUDH SAGAR TPA</li>
+                <li>PARAMOUNT TPA</li>
+                <li>Aditya Birla Health Insurance Company Limited</li>
+                <li>BAJAJ ALLIANZ</li>
+                <li>Bandhan Life Insurance Ltd.</li>
+                <li>Bharti AXA</li>
+                <li>Cholamandalam General Insurance Co Ltd.</li>
+                <li>Future Generali India Insurance Company Ltd.</li>
+                <li>Future Generali India Life Insurance Co. Ltd.</li>
+                <li>Go Digit General Insurance Ltd.</li>
+                <li>HDFC ERGO Health Insurance Ltd.</li>
+                <li>HDFC Ergo General Insurance Company Limited</li>
+                <li>HDFC Life Insurance Company Limited</li>
+                <li>ICICI Lombard</li>
+                <li>IFFCO Tokio General Insurance Company Ltd.</li>
+                <li>Kotak Mahindra General Insurance Co. Ltd.</li>
+                <li>Kotak Mahindra General Insurance Company Limited</li>
+                <li>L&T General Insurance Company Limited</li>
+                <li>Liberty General Insurance Company Limited</li>
+                <li>Magma HDI General Insurance Company Limited</li>
+                <li>ManipalCigna Health Insurance Company Limited</li>
+                <li>Max Bupa</li>
+                <li>Max Life Insurance Company National Insurance Company Ltd.</li>
+                <li>Navi General Insurance Ltd.</li>
+                <li>Niva Bupa Health  Insurance Co. Ltd.</li>
+                <li>Raheja QBE General Insurance Company Limited</li>
+                <li>Reliance General Insurance Co. Ltd.</li>
+                <li>Royal Sundaram General Insurance Co. Ltd.</li>
+                <li>SBI General Insurance Company  Ltd.</li>
+                <li>Shriram General Insurance Co</li>
+                <li>Tata AIG General Insurance Company Ltd.</li>
+                <li>The New India Assurance Company Ltd.</li>
+                <li>The Oriental Insurance Company Ltd.</li>
+                <li>United India Insurance Company Ltd.</li>
+                <li>Universal Sompo General Insurance Company Ltd.</li>
+                <li>Zuno General Insurance Limited</li>
               </ul>
             </div>
           </div>
