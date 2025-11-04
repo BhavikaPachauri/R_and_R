@@ -68,7 +68,7 @@ const TieUps = () => {
               text-[#61ADF8] bg-white px-8 py-3 border border-[#61ADF8]
               hover:shadow-[0_0_15px_rgba(97,173,248,0.5)] ease-linear duration-300"
           >
-            Enquire Now
+           {showTPA ? <a>Hide Details</a>  : <a>More Details</a>}
           </button>
         </div>
 
@@ -83,8 +83,14 @@ const TieUps = () => {
               data-aos="fade-up"
               data-aos-delay="700"
             >
-              <h2 className="text-lg font-medium">✅ Empanelled TPAs</h2>
-              <ul className="list-disc list-inside marker:text-blue-700 text-left space-y-2">
+              <h2 className="text-lg font-medium text-left">✅ Empanelled TPAs</h2>
+              <ul
+                className="list-disc marker:text-blue-700 text-left 
+                 space-y-4 sm:space-y-1 
+                 px-3 sm:px-6 md:px-8 
+                 text-sm sm:text-base 
+                 grid grid-cols-1  gap-x-10"
+              >
                 <li>FHPL</li>
                 <li>VIPUL MEDCORP</li>
                 <li>ERICSON TPA</li>
@@ -98,7 +104,7 @@ const TieUps = () => {
                 <li>Future Generali India Insurance Company Ltd.</li>
                 <li>Future Generali India Life Insurance Co. Ltd.</li>
                 <li>Go Digit General Insurance Ltd.</li>
-                <li>HDFC ERGO Health Insurance Ltd.</li>
+                <li>HDFC ErgO Health Insurance Ltd.</li>
                 <li>HDFC Ergo General Insurance Company Limited</li>
                 <li>HDFC Life Insurance Company Limited</li>
                 <li>ICICI Lombard</li>
@@ -110,13 +116,15 @@ const TieUps = () => {
                 <li>Magma HDI General Insurance Company Limited</li>
                 <li>ManipalCigna Health Insurance Company Limited</li>
                 <li>Max Bupa</li>
-                <li>Max Life Insurance Company National Insurance Company Ltd.</li>
+                <li>
+                  Max Life Insurance Company National Insurance Company Ltd.
+                </li>
                 <li>Navi General Insurance Ltd.</li>
-                <li>Niva Bupa Health  Insurance Co. Ltd.</li>
+                <li>Niva Bupa Health Insurance Co. Ltd.</li>
                 <li>Raheja QBE General Insurance Company Limited</li>
                 <li>Reliance General Insurance Co. Ltd.</li>
                 <li>Royal Sundaram General Insurance Co. Ltd.</li>
-                <li>SBI General Insurance Company  Ltd.</li>
+                <li>SBI General Insurance Company Ltd.</li>
                 <li>Shriram General Insurance Co</li>
                 <li>Tata AIG General Insurance Company Ltd.</li>
                 <li>The New India Assurance Company Ltd.</li>
