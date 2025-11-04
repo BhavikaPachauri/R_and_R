@@ -44,20 +44,20 @@ function App() {
       {/* Floating Appointment button (mobile) */}
       <Link
         to="/bookappointment"
-        className="animated-button fixed cursor-pointer w-[46px] h-[43px] p-[5px] top-1/2 right-0 lg:hidden flex rounded-tl-[14px] rounded-bl-[14px] z-40"
+        className="animated-button fixed cursor-pointer w-[46px] h-[43px] mb-10 p-[5px] top-1/2 right-0 lg:hidden flex rounded-tl-[14px] rounded-bl-[14px] z-40"
       >
         <AppointmentIcon />
       </Link>
 
       {/* Floating Appointment button (desktop) */}
-      <div className="fixed top-[40%] h-[46px]">
+
         <Link
           to="/bookappointment"
           className="shadow-[-1px_3px_4.8px_0px_#00000040] animated-button fixed top-[40%] h-[46px] right-[-87px] p-3 text-[18px] text-white leading-[120%] cursor-pointer lg:flex hidden rounded-tl-[14px] rounded-tr-[14px] w-[221px] rotate-[270deg] z-40"
         >
           Book An Appointment
         </Link>
-      </div>
+  
 
       {/* Contact Icon */}
       <Link
@@ -67,7 +67,7 @@ function App() {
         <img
           src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/f0LFaGc9Xa.png"
           alt="HelpIcon"
-          className="shadow-[-1px_3px_4.8px_0px_#00000040] rounded-tl-[14px] rounded-bl-[14px] h-auto"
+          className="shadow-[-1px_3px_4.8px_0px_#00000040] rounded-tl-[14px] rounded-bl-[14px] h-auto mt-8"
         />
       </Link>
 

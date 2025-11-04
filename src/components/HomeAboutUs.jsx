@@ -25,7 +25,7 @@ const HomeAboutUs = () => {
               <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-lg shadow-lg">
                 <div className="flex items-center gap-4">
                   <div className="text-center">
-                    <p className="text-2xl font-bold text-[#2D546F]">50+</p>
+                    <p className="text-2xl font-bold text-[#2D546F]">25+</p>
                     <p className="text-sm text-gray-600">Expert Doctors</p>
                   </div>
                   <div className="h-12 w-px bg-gray-200"></div>
