@@ -102,7 +102,7 @@ const Footer = () => {
     { label: "Radiology", path: "/speciality/radiology" },
     { label: "Pediatrics", path: "/speciality/pediatrics" },
     { label: "Gynecology", path: "/speciality/gynecology" },
-    { label: "GeneralMedicine", path: "/speciality/generalmedicine" },
+    { label: "General Medicine", path: "/speciality/generalmedicine" },
     { label: "Urology", path: "/speciality/urology" },
     { label: "Dental", path: "/speciality/dental" },
     { label: "Physiotherapy", path: "/speciality/physiotherapy" },
