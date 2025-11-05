@@ -21,7 +21,7 @@ const DoctorCard = ({ doctor }) => {
       "Highly skilled cardiologist with expertise in complex cardiovascular surgeries.",
   };
 
-  // merge default + props
+  
   const docData = { ...defaultDoctor, ...doctor };
 
   return (
@@ -30,7 +30,6 @@ const DoctorCard = ({ doctor }) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      {/* Doctor Image */}
       <img
         src={docData.doc_image}
         alt={`Expert Doctor: ${docData.doc_name} providing specialized medical care`}
@@ -38,7 +37,6 @@ const DoctorCard = ({ doctor }) => {
         data-aos="zoom-in"
       />
 
-      {/* Doctor Info */}
       <div>
         <h3
           className="text-[#3E4958] text-[18px] font-semibold text-center"
@@ -58,7 +56,6 @@ const DoctorCard = ({ doctor }) => {
           data-aos="fade-up"
         ></p>
 
-        {/* Appointment Button */}
         <Link
           to="/bookappointment"
           className="group text-white bg-[#1a365d] group-hover:scale-105 transition-all duration-300 ease-linear text-[16px] px-[27px] py-1 font-semibold rounded-[76px] flex justify-center items-center mx-auto  mb-2 gap-[14px]"

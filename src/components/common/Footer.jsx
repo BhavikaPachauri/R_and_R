@@ -101,11 +101,8 @@ const Footer = () => {
     { label: "Orthopaedics", path: "/speciality/orthopaedics" },
     { label: "Radiology", path: "/speciality/radiology" },
     { label: "Pediatrics", path: "/speciality/pediatrics" },
-    { label: "Obstetrics", path: "/speciality/obstetrics" },
     { label: "Gynecology", path: "/speciality/gynecology" },
     { label: "GeneralMedicine", path: "/speciality/generalmedicine" },
-    { label: "Diabetology", path: "/speciality/diabetology" },
-    { label: "GeneralSurgery", path: "/speciality/generalsurgery" },
     { label: "Urology", path: "/speciality/urology" },
     { label: "Dental", path: "/speciality/dental" },
     { label: "Physiotherapy", path: "/speciality/physiotherapy" },
@@ -114,9 +111,6 @@ const Footer = () => {
   const patientLinks = [
     { label: "Find Doctor", path: "/find" },
     { label: "Book Appointment", path: "/bookappointment" },
-    { label: "Meet Our Doctors", path: "/find#meetdoctors" },
-    { label: "Technology", path: "/" },
-    { label: "Gallery", path: "/galler" },
     { label: "Contact Us", path: "/contact" },
   ];
 
@@ -128,7 +122,7 @@ const Footer = () => {
             <img
               src="./R-and-R-logo.png"
               alt="R&R Hospital Logo"
-              width={180} // increased from 100
+              width={180} 
               className="md:max-w-[220px] max-w-[150px] h-auto bg-white rounded-sm"
             />
             <p className="text-[#1a365d]/80 text-[16px] font-medium leading-[164%] xl:max-w-[331px] my-7">

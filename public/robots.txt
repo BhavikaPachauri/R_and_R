@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://www.bynhospital.com/sitemap.xml
+Sitemap: https://www.rrhospital.com/sitemap.xml

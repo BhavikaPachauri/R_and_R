@@ -25,7 +25,6 @@ const AboutPage = () => {
         <ServiceSlider />
         <Facilities/>
         <WhyChooseUs />
-        {/* <ServiceSlider /> */}
         <Faqs />
         <Footer />
       </div>
