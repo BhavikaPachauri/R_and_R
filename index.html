@@ -34,7 +34,7 @@
       try {
         const response = await fetch("https://www.rrhospital.com/meta/get-meta");
         const data = await response.json();
-        const siteMeta = data.response.metaInf.find((site) => site.site_name === "bynhospital.com");
+        const siteMeta = data.response.metaInf.find((site) => site.site_name === "rrhospital.com");
 
         if (siteMeta) {
           document.title = siteMeta.meta_title;
@@ -61,7 +61,7 @@
 
           const metaOgImage = document.querySelector('meta[property="og:image"]');
           if (metaOgImage) {
-            metaOgImage.setAttribute("content", siteMeta.meta_image || "https://your-image-url.com/byn-hospital-Jhunjhunu.png");
+            metaOgImage.setAttribute("content", siteMeta.meta_image || "./R-and-R Hospital.png");
           }
         }
       } catch (error) {
