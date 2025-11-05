@@ -4,7 +4,7 @@ const Backseat = () => {
   return (
     <>
       <div className="bg-gradient-to-t to-[#B7E6FF] from-white">
-        <div className="bg-gradient-to-t from-[#FFFFFF] to-transparent lg:h-64 h-20 absolute bottom-0 left-0 w-full"></div>
+        <div className="absolute  w-full"></div>
         <div className="xl:max-w-[1293px] mx-auto px-3 md:pt-5">
           <div className="flex justify-between flex-wrap max-md:gap-8 max-sm:gap-5">
             <div className="md:w-[31.23%] sm:w-[40%] w-[60%] mx-auto">

@@ -39,30 +39,30 @@ const ContactInfo = () => {
   const [submitting, setSubmitting] = useState(false);
 
   const socialLinks = [
-    {
-      href: "https://www.facebook.com/bynhospital/",
-      imgSrc:
-        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/QWIxMPX7x3.webp",
-      alt: "Facebook logo - R&R Hospital Jhunjhunui official page",
-    },
-    {
-      href: "https://x.com/bynhospital",
-      imgSrc:
-        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/uTkrkLzxWI.webp",
-      alt: "Twitter logo - R&R Hospital Jhunjhunui profile",
-    },
-    {
-      href: "https://www.instagram.com/bynhospital",
-      imgSrc:
-        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/DtdWsOI7yl.webp",
-      alt: "Instagram logo - R&R Hospital Jhunjhunui profile",
-    },
-    {
-      href: "https://www.linkedin.com/company/shri-babayogi-netanath-hospital-research-centre/?originalSubdomain=in",
-      imgSrc:
-        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Kv71EQxbM2.webp",
-      alt: "LinkedIn logo - R&R Hospital Jhunjhunui profile",
-    },
+    // {
+    //   href: "https://www.facebook.com/bynhospital/",
+    //   imgSrc:
+    //     "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/QWIxMPX7x3.webp",
+    //   alt: "Facebook logo - R&R Hospital Jhunjhunui official page",
+    // },
+    // {
+    //   href: "https://x.com/bynhospital",
+    //   imgSrc:
+    //     "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/uTkrkLzxWI.webp",
+    //   alt: "Twitter logo - R&R Hospital Jhunjhunui profile",
+    // },
+    // {
+    //   href: "https://www.instagram.com/bynhospital",
+    //   imgSrc:
+    //     "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/DtdWsOI7yl.webp",
+    //   alt: "Instagram logo - R&R Hospital Jhunjhunui profile",
+    // },
+    // {
+    //   href: "https://www.linkedin.com/company/shri-babayogi-netanath-hospital-research-centre/?originalSubdomain=in",
+    //   imgSrc:
+    //     "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Kv71EQxbM2.webp",
+    //   alt: "LinkedIn logo - R&R Hospital Jhunjhunui profile",
+    // },
   ];
 
   const formik = useFormik({
@@ -214,9 +214,9 @@ const ContactInfo = () => {
             </div>
 
             <div className="mt-6 sm:mt-8 pt-4 sm:pt-6 border-t border-white/10">
-              <p className="text-white/80 text-sm mb-2 sm:mb-3">
+              {/* <p className="text-white/80 text-sm mb-2 sm:mb-3">
                 Follow us on social media
-              </p>
+              </p> */}
               <div className="flex gap-2 sm:gap-2.5">
                 {socialLinks.map((link, index) => (
                   <SocialIcon key={index} {...link} />
