@@ -1,5 +1,12 @@
 const dummyData = [
   {
+    doc_name: "Dr. Sanjay Sharma",
+    doc_profile: "MBBS, MD (Diabetes & Endocrinology)",
+    doc_details: "Sugar Specialist",
+    doc_image:
+      "./img/Sanjay-Sharma.png",
+  },
+  {
     doc_name: "Dr. Imran Ahmad Khan",
     doc_profile: "MBBS, MD (General Medicine)",
     doc_details: "General Physician",

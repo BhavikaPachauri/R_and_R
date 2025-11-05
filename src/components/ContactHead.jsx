@@ -54,15 +54,15 @@ const ContactHead = () => {
                 </span>
               </a>
               <a
-                href="mailto:rrhospital@gmail.com"
+                href="mailto:contact@rrmhospitals.com"
                 className="flex items-center gap-3 group hover:text-[#1a365d] transition-colors"
-                aria-label="Email rrhospital@gmail.com"
+                aria-label="Email contact@rrmhospitals.com"
                 data-aos="fade-up"
               >
                 <FaCheckCircle className="text-blue-950 text-xl flex-shrink-0 group-hover:text-[#1a365d] transition-colors" />
                 <span className="text-gray-600 group-hover:text-[#1d55b0]">
                   <span className="font-semibold">Email:</span>{" "}
-                  rrhospital@gmail.com
+                  contact@rrmhospitals.com
                 </span>
               </a>
               <a

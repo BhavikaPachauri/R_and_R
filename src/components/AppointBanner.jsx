@@ -40,7 +40,7 @@ const AppointBanner = () => {
               Call for Enquiry
             </a>
             <a
-              href="mailto:rrhospital@gmail.com"
+              href="mailto:contact@rrmhospitals.com"
               className="bg-white text-[#1a365d] px-6 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-all duration-300 
                 shadow-lg hover:shadow-xl hover:-translate-y-1 transform flex items-center gap-2 group"
             >

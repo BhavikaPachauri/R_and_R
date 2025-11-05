@@ -186,7 +186,7 @@ const Specialization = () => {
                 </svg>
               </div>
 
-              <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-emerald-500 to-blue-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+              <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-br from-blue-500 to-red-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
             </div>
           </div>
         ))}

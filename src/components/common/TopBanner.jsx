@@ -44,10 +44,10 @@ const TopBanner = () => {
                 />
               </svg>
               <a
-                href="mailto:rrhospital@gmail.com"
+                href="mailto:contact@rrmhospitals.com"
                 className="hover:text-[#E31F26] transition-colors"
               >
-                rrhospital@gmail.com
+                contact@rrmhospitals.com
               </a>
             </div>
             <div className="flex items-center space-x-2">

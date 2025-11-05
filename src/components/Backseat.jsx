@@ -9,7 +9,7 @@ const Backseat = () => {
           <div className="flex justify-between flex-wrap max-md:gap-8 max-sm:gap-5">
             <div className="md:w-[31.23%] sm:w-[40%] w-[60%] mx-auto">
               <img
-                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/MY6tvbKXCQ.png"
+                src="./Doctor1.png"
                 alt="A young woman holding documents, symbolizing health and responsibility" className="h-auto"
               />
             </div>

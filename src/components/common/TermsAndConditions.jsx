@@ -125,10 +125,10 @@ const TermsAndConditions = () => {
           If you have any questions about these terms, please get in touch with
           us at:{" "}
           <a
-            href="mailto:rrhospital@gmail.com"
+            href="mailto:contact@rrmhospitals.com"
             className="text-blue-600 hover:underline"
           >
-            rrhospital@gmail.com
+            contact@rrmhospitals.com
           </a>{" "}
           or on WhatsApp:{" "}
           <a

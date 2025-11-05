@@ -14,7 +14,7 @@ const AboutHeader = () => {
           <div className="md:pl-8" data-aos="fade-left">
             <div className="space-y-6">
               <div className="flex items-center gap-4 mb-6">
-                <div className="w-12 md:w-14 h-12 md:h-14 rounded-xl bg-gradient-to-r from-[#1a365d] to-[#6ed54e] p-0.5">
+                <div className="w-12 md:w-14 h-12 md:h-14 rounded-xl bg-gradient-to-br from-blue-500 to-red-500 p-0.5">
                   <div className="w-full h-full bg-white rounded-xl flex items-center justify-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

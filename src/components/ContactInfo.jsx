@@ -182,10 +182,10 @@ const ContactInfo = () => {
                     Email Address
                   </p>
                   <a
-                    href="mailto:rrhospital@gmail.com"
+                    href="mailto:contact@rrmhospitals.com"
                     className="text-lg sm:text-xl font-medium hover:text-white/90 transition break-all"
                   >
-                    rrhospital@gmail.com
+                    contact@rrmhospitals.com
                   </a>
                 </div>
               </div>

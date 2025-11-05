@@ -64,10 +64,10 @@ const PopupForm = ({ isOpen, onClose }) => {
             <span className="font-bold">WhatsApp:</span> +91-0000000000
           </a>
           <a
-            href="mailto:rrhospital@gmail.com"
+            href="mailto:contact@rrmhospitals.com"
             className="text-sm sm:text-base text-gray-700 block"
           >
-            <span className="font-bold">Email:</span> rrhospital@gmail.com
+            <span className="font-bold">Email:</span> contact@rrmhospitals.com
           </a>
         </div>
       </div>

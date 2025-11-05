@@ -71,30 +71,30 @@ const Footer = () => {
   const [year, setYear] = useState(new Date().getFullYear());
 
   const socialLinks = [
-    {
-      href: "https://www.facebook.com/bynhospital/",
-      imgSrc:
-        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/QWIxMPX7x3.webp",
-      alt: "Facebook logo - R&R Hospital Jhunjhunui official page",
-    },
-    {
-      href: "https://x.com/bynhospital",
-      imgSrc:
-        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/uTkrkLzxWI.webp",
-      alt: "Twitter logo - R&R Hospital Jhunjhunui profile",
-    },
-    {
-      href: "https://www.instagram.com/bynhospital",
-      imgSrc:
-        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/DtdWsOI7yl.webp",
-      alt: "Instagram logo - R&R Hospital Jhunjhunui profile",
-    },
-    {
-      href: "https://www.linkedin.com/company/shri-babayogi-netanath-hospital-research-centre/?originalSubdomain=in",
-      imgSrc:
-        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Kv71EQxbM2.webp",
-      alt: "LinkedIn logo - R&R Hospital Jhunjhunui profile",
-    },
+    // {
+    //   href: "https://www.facebook.com/bynhospital/",
+    //   imgSrc:
+    //     "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/QWIxMPX7x3.webp",
+    //   alt: "Facebook logo - R&R Hospital Jhunjhunui official page",
+    // },
+    // {
+    //   href: "https://x.com/bynhospital",
+    //   imgSrc:
+    //     "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/uTkrkLzxWI.webp",
+    //   alt: "Twitter logo - R&R Hospital Jhunjhunui profile",
+    // },
+    // {
+    //   href: "https://www.instagram.com/bynhospital",
+    //   imgSrc:
+    //     "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/DtdWsOI7yl.webp",
+    //   alt: "Instagram logo - R&R Hospital Jhunjhunui profile",
+    // },
+    // {
+    //   href: "https://www.linkedin.com/company/shri-babayogi-netanath-hospital-research-centre/?originalSubdomain=in",
+    //   imgSrc:
+    //     "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Kv71EQxbM2.webp",
+    //   alt: "LinkedIn logo - R&R Hospital Jhunjhunui profile",
+    // },
   ];
 
   const servicesLinks = [
@@ -128,8 +128,8 @@ const Footer = () => {
             <img
               src="./R-and-R-logo.png"
               alt="R&R Hospital Logo"
-              width={100}
-              className="md:max-w-[100px] max-w-[80px] h-auto bg-white rounded-sm"
+              width={180} // increased from 100
+              className="md:max-w-[220px] max-w-[150px] h-auto bg-white rounded-sm"
             />
             <p className="text-[#1a365d]/80 text-[16px] font-medium leading-[164%] xl:max-w-[331px] my-7">
               Expert care in every specialty at R&R Hospital, Jhunjhunu.
@@ -161,11 +161,11 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="mailto:rrhospital@gmail.com"
+                  href="mailto:contact@rrmhospitals.com"
                   className="flex items-center gap-3 text-[16px] text-[#1a365d]/80 hover:text-[#1a365d] transition-all duration-300 ease-linear font-medium leading-[180%]"
                 >
                   <MdEmail size={20} />
-                  rrhospital@gmail.com
+                  contact@rrmhospitals.com
                 </a>
               </li>
               <li>
@@ -180,7 +180,8 @@ const Footer = () => {
                 </a>
               </li>
               <li className="text-[16px] text-[#1a365d]/80 font-medium leading-[180%]">
-                Our Support and Sales team is available 24×7, 365 days a year to answer your queries.
+                Our Support and Sales team is available 24×7, 365 days a year to
+                answer your queries.
               </li>
             </ul>
           </div>

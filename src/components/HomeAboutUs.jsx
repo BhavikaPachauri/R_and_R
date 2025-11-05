@@ -22,7 +22,7 @@ const HomeAboutUs = () => {
                 alt="Image representing the values and vision of R&R Hospital"
                 className="w-full rounded-lg shadow-xl"
               />
-              <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-lg shadow-lg">
+              <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-lg shadow-2xl">
                 <div className="flex items-center gap-4">
                   <div className="text-center">
                     <p className="text-2xl font-bold text-[#2D546F]">25+</p>
@@ -36,8 +36,8 @@ const HomeAboutUs = () => {
                 </div>
               </div>
             </div>
-            <div className="absolute -top-4 -left-4 w-24 h-24 border-2 border-[#2D546F] rounded-lg"></div>
-            <div className="absolute -bottom-4 -right-4 w-24 h-24 border-2 border-[#E31F26] rounded-lg"></div>
+            {/* <div className="absolute -top-4 -left-4 w-24 h-24 border-2 border-[#2D546F] rounded-lg"></div> */}
+            {/* <div className="absolute -bottom-4 -right-4 w-24 h-24 border-2 border-[#E31F26] rounded-lg"></div> */}
           </div>
           <div className="relative" data-aos="fade-left">
             <div className="sm:space-y-6 space-y-4">
