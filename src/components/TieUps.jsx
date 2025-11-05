@@ -81,7 +81,7 @@ const TieUps = () => {
             <div
               className="bg-white p-8 sm:p-10 mt-6 space-y-5 rounded-lg shadow-lg text-gray-700 max-w-3xl mx-auto"
               data-aos="fade-up"
-              data-aos-delay="700"
+              data-aos-delay="200"
             >
               <h2 className="text-lg font-medium text-left">✅ Empanelled TPAs</h2>
               <ul

@@ -69,6 +69,7 @@ const TermsAndConditions = () => {
           without our prior written consent.
         </p>
 
+
         <h2 className="text-xl font-semibold mt-4 text-[#1d55b0] ">
           5. Disclaimers
         </h2>
