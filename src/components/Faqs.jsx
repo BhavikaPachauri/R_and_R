@@ -37,7 +37,7 @@ const Faqs = () => {
       question: "Does R&R Hospital have a 24/7 emergency department?",
       answer: (
         <p>
-          Yes, our Emergency Department is open{" "}
+          Yes , Our Emergency Department is open{" "}
           <b>24 hours a day, 7 days a week</b>, equipped with advanced
           facilities and experienced doctors.
         </p>
@@ -57,7 +57,7 @@ const Faqs = () => {
       question:
         "Are there specialized doctors available for complex treatments?",
       answer:
-        "Absolutely. We have highly qualified specialists across cardiology, neurology, oncology, orthopedics, pediatrics, and more.",
+        "Absolutely , We have highly qualified specialists across cardiology, neurology, oncology, orthopedics, pediatrics, and more.",
     },
     {
       question: "What facilities are available for admitted patients?",
@@ -73,8 +73,7 @@ const Faqs = () => {
       question: "How can I contact R&R Hospital for emergencies?",
       answer: (
         <p>
-          You can reach our emergency helpline at: <b>9773319919</b>, available
-          24/7 for immediate assistance.
+         You can reach our 24/7 emergency helpline at <b>9773319919</b> for immediate assistance.
         </p>
       ),
     },

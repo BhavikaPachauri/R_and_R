@@ -104,7 +104,7 @@ const TieUps = () => {
                 <li>Future Generali India Insurance Company Ltd.</li>
                 <li>Future Generali India Life Insurance Co. Ltd.</li>
                 <li>Go Digit General Insurance Ltd.</li>
-                <li>HDFC ErgO Health Insurance Ltd.</li>
+                <li>HDFC Ergo Health Insurance Ltd.</li>
                 <li>HDFC Ergo General Insurance Company Limited</li>
                 <li>HDFC Life Insurance Company Limited</li>
                 <li>ICICI Lombard</li>
