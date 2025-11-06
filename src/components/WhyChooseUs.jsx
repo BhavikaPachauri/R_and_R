@@ -71,7 +71,7 @@ export default function WhyChooseUs() {
               </div>
 
               <div className="absolute inset-0 flex items-center justify-center group/play">
-                <div className="w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full bg-white/80 flex items-center justify-center transform group-hover:scale-95 transition-all duration-300">
+                {/* <div className="w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full bg-white/80 flex items-center justify-center transform group-hover:scale-95 transition-all duration-300">
                   <div className="w-10 h-10 sm:w-12 sm:h-12 md:w-16 md:h-16 rounded-full bg-gradient-to-r from-[#1a365d] to-[#e64444] p-0.5 group-hover/play:rotate-180 transition-transform duration-500">
                     <div className="w-full h-full rounded-full bg-white flex items-center justify-center relative overflow-hidden">
                       <div className="absolute inset-0 bg-gradient-to-r from-[#1a365d]/10 to-[#6ed54e]/10 opacity-0 group-hover/play:opacity-100 transition-opacity duration-300"></div>
@@ -80,7 +80,7 @@ export default function WhyChooseUs() {
                       </svg>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

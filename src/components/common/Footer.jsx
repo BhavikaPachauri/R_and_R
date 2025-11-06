@@ -109,6 +109,7 @@ const Footer = () => {
   ];
 
   const patientLinks = [
+    { label: "About Us", path: "/about" },
     { label: "Find Doctor", path: "/find" },
     { label: "Book Appointment", path: "/bookappointment" },
     { label: "Contact Us", path: "/contact" },

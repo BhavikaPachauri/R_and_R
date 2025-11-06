@@ -60,7 +60,7 @@ function App() {
   
 
       {/* Contact Icon */}
-      <Link
+      {/* <Link
         to="/contact"
         className="fixed cursor-pointer w-[46px] h-[43px] lg:top-[62%] top-[58%] right-0 z-40"
       >
@@ -69,7 +69,7 @@ function App() {
           alt="HelpIcon"
           className="shadow-[-1px_3px_4.8px_0px_#00000040] rounded-tl-[14px] rounded-bl-[14px] h-auto mt-8"
         />
-      </Link>
+      </Link> */}
 
       {/* Back to Top button */}
       <button

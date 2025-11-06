@@ -36,7 +36,7 @@ const NabhCert = () => {
             </h2>
             <div className="space-y-2">
               <p className="text-[#4A5568] text-[16px] font-medium tracking-[2%] leading-[150%]">
-                Quality and safety are at the heart of everything we do. Our NABH accreditation reflects our commitment to international standards of patient safety, ethical practices, and clinical excellence. This recognition ensures that every patient who walks through our doors receives reliable, transparent, and world-class care.
+                Quality and Safety are at the heart of everything we do. Our NABH accreditation reflects our commitment to international standards of patient safety, ethical practices, and clinical excellence. This recognition ensures that every patient who walks through our doors receives reliable, transparent, and world-class care.
               </p>
               {/* <p className="text-[#4A5568] text-[16px] font-medium tracking-[2%] leading-[150%]">
                 R&R Hospital Jhunjhunui is certified by the
