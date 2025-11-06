@@ -16,7 +16,7 @@ const DepartData = {
         name: "Dr. Deepak Jhaidia",
         designation: "MBBS, MS (Ortho)",
         experience: "Endoscopic Spine & Joint Replacement Surgeon",
-        image: "./img/Deepak-Jhaidia.png",
+        image: "./img/Deepak-Jhaidia.webp",
       },
     ],
     testimonials: [
@@ -78,7 +78,7 @@ const DepartData = {
         name: "Dr. Sunil Saini",
         designation: "MD (Radiodiagnosis)",
         experience: "Radiologist",
-        image: "./img/Sunil-Saini.png",
+        image: "./img/Sunil-Saini.webp",
       },
     ],
     testimonials: [
@@ -193,7 +193,7 @@ const DepartData = {
         name: "Dr. Dharma Saini",
         designation: "MBBS, MS (OBS & Gynae)",
         experience: "Maternity Specialist",
-        image: "./img/Dharma-Saini.png",
+        image: "./img/Dharma-Saini.webp",
       },
     ],
     testimonials: [
@@ -253,7 +253,7 @@ const DepartData = {
         name: "Dr. Imran Ahmad Khan",
         designation: "MBBS, MD (Internal Medicine)",
         experience: "Consulting Physician",
-        image: "./img/Imran-Ahmad-Khan.png",
+        image: "./img/Imran-Ahmad-Khan.webp",
       },
     ],
     testimonials: [
@@ -315,7 +315,7 @@ const DepartData = {
         name: "Dr. Vitul Vaikar",
         designation: "MBBS, DNB (General Surgery)",
         experience: "General & Laparoscopic Surgeon",
-        image: "./img/Vitul-Vaikar.png",
+        image: "./img/Vitul-Vaikar.webp",
       },
     ],
     testimonials: [
@@ -375,7 +375,7 @@ const DepartData = {
         name: "Dr. Mukesh Kumar",
         designation: "MBBS, MS, M.Ch (Urology)",
         experience: "Kidney & Urinary Specialist",
-        image: "./img/Mukesh-kumar.png",
+        image: "./img/Mukesh-kumar.webp",
       },
     ],
     testimonials: [
@@ -435,7 +435,7 @@ const DepartData = {
         name: "Dr. Amit Singh",
         designation: "BDS (Dental Surgeon)",
         experience: "Oral & Dental Care",
-        image: "./img/Amit-singh.png",
+        image: "./img/Amit-singh.webp",
       },
     ],
     testimonials: [
@@ -495,7 +495,7 @@ const DepartData = {
         name: "Dr. Sameer Khan",
         designation: "Physiotherapist (MPT)",
         experience: "Physiotherapy Specialist",
-        image: "./img/SameerKhan.png",
+        image: "./img/SameerKhan.webp",
       },
     ],
     testimonials: [

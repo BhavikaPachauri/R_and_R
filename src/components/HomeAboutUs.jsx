@@ -18,7 +18,7 @@ const HomeAboutUs = () => {
           <div className="relative" data-aos="fade-right">
             <div className="relative z-10">
               <img
-                src="./R-and-R Hospital.png"
+                src="./R-and-R Hospital.webp"
                 alt="Image representing the values and vision of R&R Hospital"
                 className="w-full rounded-lg shadow-xl"
               />

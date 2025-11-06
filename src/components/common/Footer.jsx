@@ -98,11 +98,11 @@ const Footer = () => {
   ];
 
   const servicesLinks = [
+    { label: "General Surgery", path: "/speciality/general surgery" },
     { label: "Orthopaedics", path: "/speciality/orthopaedics" },
     { label: "Radiology", path: "/speciality/radiology" },
-    { label: "Pediatrics", path: "/speciality/pediatrics" },
     { label: "Gynecology", path: "/speciality/gynecology" },
-    { label: "General Medicine", path: "/speciality/generalmedicine" },
+    { label: "General Medicine", path: "/speciality/general medicine" },
     { label: "Urology", path: "/speciality/urology" },
     { label: "Dental", path: "/speciality/dental" },
     { label: "Physiotherapy", path: "/speciality/physiotherapy" },
@@ -120,7 +120,7 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between items-start lg:pb-10 pb-5 border-b border-solid border-[#2d4a7c] gap-7">
           <div className="w-full xl:w-[23%]">
             <img
-              src="./R-and-R-logo.png"
+              src="./R-and-R-logo.webp"
               alt="R&R Hospital Logo"
               width={180} 
               className="md:max-w-[220px] max-w-[150px] h-auto bg-white rounded-sm"

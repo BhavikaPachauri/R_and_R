@@ -16,7 +16,7 @@ const AppointHead = () => {
           >
             <div className="relative w-full aspect-[4/3] rounded-[30px] overflow-hidden bg-gradient-to-br from-blue-50 to-blue-100">
               <img
-                src="./RR-Doctor.jpg"
+                src="./RR-Doctor.webp"
                 alt="Doctor Appointment"
                 className="w-full h-full object-cover"
                 style={{ filter: "blur(0.5px) brightness(0.92)" }}

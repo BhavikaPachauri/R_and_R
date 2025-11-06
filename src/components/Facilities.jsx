@@ -45,7 +45,7 @@ export default function Facilities() {
         <div className="grid md:grid-cols-2 gap-10 items-center" data-aos="fade-up">
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <img
-              src="./Surgical Team Working.jpeg"
+              src="./Surgical Team Working.webp"
               alt="Operation Theatre"
               className="w-full h-[350px] object-cover hover:scale-105 transition-transform duration-500"
             />
@@ -81,7 +81,7 @@ export default function Facilities() {
           </div>
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <img
-              src="./ICU.jpg"
+              src="./ICU.webp"
               alt="ICU"
               className="w-full h-[350px] object-cover hover:scale-105 transition-transform duration-500"
             />

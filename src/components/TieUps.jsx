@@ -6,7 +6,7 @@ const TieUps = () => {
   return (
     <section
       id="tieups"
-      className="bg-[url('./Frame1.png')] bg-no-repeat bg-cover bg-center py-16"
+      className="bg-[url('./Frame1.webp')] bg-no-repeat bg-cover bg-center py-16"
     >
       <div className="max-w-6xl mx-auto px-4 text-center">
         {/* Title */}
