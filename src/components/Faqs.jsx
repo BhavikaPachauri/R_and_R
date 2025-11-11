@@ -66,14 +66,19 @@ const Faqs = () => {
     },
     {
       question: "Does R&R Hospital have diagnostic and pharmacy services?",
-      answer:
-        <p>Yes, we have a <b>(fully equipped diagnostic center)</b> and in-house pharmacy, both available round the clock.</p>,
+      answer: (
+        <p>
+          Yes, we have a <b>(fully equipped diagnostic center)</b> and in-house
+          pharmacy, both available round the clock.
+        </p>
+      ),
     },
     {
       question: "How can I contact R&R Hospital for emergencies?",
       answer: (
         <p>
-         You can reach our 24/7 emergency helpline at <b>9773319919</b> for immediate assistance.
+          You can reach our 24/7 emergency helpline at <b>8432755555</b> for
+          immediate assistance.
         </p>
       ),
     },
@@ -225,7 +230,7 @@ const Faqs = () => {
                 provide immediate care when you need it most.
               </p>
               <a
-                href="tel: 9773319919"
+                href="tel: 8432755555"
                 className="inline-flex items-center text-[#1a365d] font-semibold hover:text-blue-700 transition-colors duration-300 group text-sm sm:text-base"
               >
                 <span>Call Emergency</span>

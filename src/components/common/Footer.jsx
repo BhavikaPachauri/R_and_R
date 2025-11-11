@@ -123,7 +123,7 @@ const Footer = () => {
             <img
               src="./R-and-R-logo.webp"
               alt="R&R Hospital Logo"
-              width={180} 
+              width={180}
               className="md:max-w-[220px] max-w-[150px] h-auto bg-white rounded-sm"
             />
             <p className="text-[#1a365d]/80 text-[16px] font-medium leading-[164%] xl:max-w-[331px] my-7">
@@ -147,11 +147,11 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="tel:9773319919"
+                  href="tel:8432755555"
                   className="flex items-center gap-3 text-[16px] text-[#1a365d]/80 hover:text-[#1a365d] transition-all duration-300 ease-linear font-medium leading-[180%]"
                 >
                   <FaPhoneAlt size={20} />
-                  9773319919
+                  8432755555
                 </a>
               </li>
               <li>

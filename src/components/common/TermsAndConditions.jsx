@@ -69,7 +69,6 @@ const TermsAndConditions = () => {
           without our prior written consent.
         </p>
 
-
         <h2 className="text-xl font-semibold mt-4 text-[#1d55b0] ">
           5. Disclaimers
         </h2>
@@ -132,12 +131,12 @@ const TermsAndConditions = () => {
           </a>{" "}
           or on WhatsApp:{" "}
           <a
-            href="https://wa.me/91 9773319919"
+            href="https://wa.me/91 8432755555"
             target="_blank"
             rel="noopener noreferrer"
             className="text-green-600 hover:underline"
           >
-            +91- 9773319919
+            +91- 8432755555
           </a>
           .
         </p>

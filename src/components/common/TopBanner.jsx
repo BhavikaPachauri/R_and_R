@@ -25,7 +25,7 @@ const TopBanner = () => {
                 href="tel:8432655555"
                 className="hover:text-[#E31F26] transition-colors"
               >
-                9773319919
+                8432755555
               </a>
             </div>
             <div className="flex items-center space-x-2">

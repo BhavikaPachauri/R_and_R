@@ -161,10 +161,10 @@ const ContactInfo = () => {
                     Phone Number
                   </p>
                   <a
-                    href="tel:9773319919"
+                    href="tel:8432755555"
                     className="text-lg sm:text-xl font-medium hover:text-white/90 transition"
                   >
-                    9773319919
+                    8432755555
                   </a>
                 </div>
               </div>

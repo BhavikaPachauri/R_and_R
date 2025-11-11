@@ -29,9 +29,9 @@ const TieUps = () => {
             data-aos-delay="300"
           >
             <img
-              src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/iamWXAxZbI.webp"
+              src="./maa-yojana.png"
               alt="PmJay Healthcare Partnership"
-              className="w-[250px] sm:w-[280px] h-auto object-contain"
+              className="w-[200px] sm:w-[280px] h-auto object-contain"
             />
           </div>
 

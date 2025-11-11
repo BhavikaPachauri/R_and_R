@@ -13,10 +13,10 @@ const DepartData = {
     },
     doctors: [
       {
-        name: "Dr. Deepak Jhaidia",
+        name: "Dr. Deepak Jhadia",
         designation: "MBBS, MS (Ortho)",
         experience: "Endoscopic Spine & Joint Replacement Surgeon",
-        image: "./img/Deepak-Jhaidia.webp",
+        image: "./img/Deepak-jhadia.webp",
       },
     ],
     testimonials: [

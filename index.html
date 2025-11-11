@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/x-icon" href="/favicon.io" />
   <link rel="apple-touch-icon" href="/favicon.io" />
   <link rel="shortcut icon" href="/favicon.io" type="image/x-icon" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>R&R Hospital Jhunjhunu</title>
   <meta name="title" content="R&R Hospital Jhunjhunu" />
   <meta name="description"
@@ -14,22 +14,21 @@
   <meta name="keywords"
     content="Best Hospital in Jhunjhunu, Multi-speciality hospital Jhunjhunu, Top hospital in Jhunjhunu, R&R Hospital, Healthcare Jhunjhunu" />
   <meta property="og:image" content="./R-and-R Hospital.webp" />
-  <meta name="google-site-verification" content="your-google-site-verification-code" />
-  <meta name="author" content="R&R Hospital Jhunjhunu">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://www.rr-hospital.com/">
+  <meta name="google-site-verification" content="v_eXJaaeXb7F5tHHvsOHt___eVqPllKwfW6Kz_ztXXY" />
+  <meta name="google-site-verification" content="v_eXJaaeXb7F5tHHvsOHt___eVqPllKwfW6Kz_ztXXY" />
+  <meta name="author" content="R&R Hospital Jhunjhunu" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.rr-hospital.com/" />
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E93BW7SRFZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-E93BW7SRFZ');
+  </script>
 
   <script>
-    (function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-XXXXXXX');
-
-    // -----dynamic-metatags-----------
     document.addEventListener("DOMContentLoaded", async function () {
       try {
         const response = await fetch("https://www.rr-hospital.com/meta/get-meta");
@@ -40,19 +39,13 @@
           document.title = siteMeta.meta_title;
 
           const metaDescription = document.querySelector('meta[name="description"]');
-          if (metaDescription) {
-            metaDescription.setAttribute("content", siteMeta.meta_desc);
-          }
+          if (metaDescription) metaDescription.setAttribute("content", siteMeta.meta_desc);
 
           const metaKeywords = document.querySelector('meta[name="keywords"]');
-          if (metaKeywords) {
-            metaKeywords.setAttribute("content", siteMeta.meta_key);
-          }
+          if (metaKeywords) metaKeywords.setAttribute("content", siteMeta.meta_key);
 
           const metaTitle = document.querySelector('meta[name="title"]');
-          if (metaTitle) {
-            metaTitle.setAttribute("content", siteMeta.meta_title);
-          }
+          if (metaTitle) metaTitle.setAttribute("content", siteMeta.meta_title);
 
           const metaAuthor = document.createElement("meta");
           metaAuthor.name = "author";
@@ -72,9 +65,11 @@
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript fallback) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=G-E93BW7SRFZ" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe>
+  </noscript>
+
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
 </body>

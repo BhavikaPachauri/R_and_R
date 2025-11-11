@@ -26,14 +26,13 @@ const DoctorHeader = () => {
               <span className="text-[#de2226]">Doctors</span>
             </h1>
             <p className="text-lg text-gray-600 max-w-xl leading-relaxed">
-             A dedicated team of experienced doctors
-             works together to understand your needs.
-             Their focus is on keeping you healthy,
-             supporting your care and overall well-being.
+              A dedicated team of experienced doctors works together to
+              understand your needs. Their focus is on keeping you healthy,
+              supporting your care and overall well-being.
             </p>
             <div className="flex flex-wrap gap-4">
               <a
-                href="https://wa.me/91 9773319919"
+                href="https://wa.me/91 8432755555"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="sm:px-8 px-6 sm:py-3.5 py-2.5 bg-[#1a365d] text-white rounded-lg font-semibold hover:bg-[#1a365d]/90 

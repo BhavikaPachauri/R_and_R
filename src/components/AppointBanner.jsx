@@ -19,7 +19,7 @@ const AppointBanner = () => {
 
           <div className="flex flex-row gap-4 mt-5 md:mt-0">
             <a
-              href="tel: 9773319919"
+              href="tel: 8432755555"
               className="bg-white text-[#1a365d] px-6 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-all duration-300 
                 shadow-lg hover:shadow-xl hover:-translate-y-1 transform flex items-center gap-2 group"
             >

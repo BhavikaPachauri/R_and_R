@@ -43,14 +43,14 @@ const ContactHead = () => {
             </div>
             <div className="space-y-4">
               <a
-                href="tel:: 9773319919"
+                href="tel:: 8432755555"
                 className="flex items-center gap-3 group hover:text-[#1a365d] transition-colors"
-                aria-label="Call : 9773319919"
+                aria-label="Call : 8432755555"
                 data-aos="fade-up"
               >
                 <FaCheckCircle className="text-blue-950 text-xl flex-shrink-0 group-hover:text-[#1d55b0] transition-colors" />
                 <span className="text-gray-600 group-hover:text-[#1d55b0]">
-                  <span className="font-semibold">Phone:</span> : 9773319919
+                  <span className="font-semibold">Phone:</span> : 8432755555
                 </span>
               </a>
               <a
@@ -88,7 +88,7 @@ const ContactHead = () => {
               </div>
             </div>
             <a
-              href="tel: 9773319919"
+              href="tel: 8432755555"
               className="inline-flex items-center gap-2 px-6 py-3 bg-[#1a365d] text-white rounded-lg hover:shadow-lg hover:shadow-[#1d55b0]/20 transition-all duration-300 mt-8"
               data-aos="fade-up"
             >
