@@ -12,7 +12,7 @@ export default function OurServices() {
     {
       icon: <FaAmbulance size={30} />,
       title: "24×7 Emergency",
-      desc: "Immediate response with fully equipped emergency units and ambulance services.",
+      desc: "Immediate response with fully equipped emergency unit and ambulance services.",
     },
     {
       icon: <FaStethoscope size={30} />,

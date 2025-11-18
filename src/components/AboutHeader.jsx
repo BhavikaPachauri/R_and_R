@@ -37,7 +37,7 @@ const AboutHeader = () => {
                 </h4> 
               </div>
               <p className="text-gray-600 text-base md:text-lg leading-relaxed">
-                R&R Hospital in Jhunjhunu  stands as a beacon of
+                R&R Multispeciality Hospital in Jhunjhunu  stands as a beacon of
                 excellence in healthcare. As a leading multi-specialty hospital,
                 we combine advanced medical technology with compassionate care
                 to serve the community of Jhunjhunu and surrounding regions.
@@ -52,7 +52,7 @@ const AboutHeader = () => {
                    All-in-One Care
                  </div>
                  <div className="text-gray-600 text-sm md:text-base">
-                   Doctors from different fields working together for your health
+                   Young and Dyanmic doctors from different fields working together for your health
                  </div>
                </div>
                <div className="p-4 md:p-5 bg-white/90 rounded-xl shadow-md">
@@ -60,7 +60,7 @@ const AboutHeader = () => {
                    Latest Tools
                  </div>
                  <div className="text-gray-600 text-sm md:text-base">
-                   Modern machines and equipment for quick and accurate treatment
+                   Modern medical equipment for quick and accurate treatment
                  </div>
                </div>
              </div>
@@ -72,7 +72,7 @@ const AboutHeader = () => {
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-xl">
               <img
                 src="./R-and-R Hospital.webp"
-                alt="R&R Hospital Facilities"
+                alt="R&R MultispecialtyHospital Facilities"
                 className="w-full h-auto"
               />
             </div>

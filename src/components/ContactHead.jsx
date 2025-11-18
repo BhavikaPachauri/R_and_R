@@ -50,7 +50,7 @@ const ContactHead = () => {
               >
                 <FaCheckCircle className="text-blue-950 text-xl flex-shrink-0 group-hover:text-[#1d55b0] transition-colors" />
                 <span className="text-gray-600 group-hover:text-[#1d55b0]">
-                  <span className="font-semibold">Phone:</span> : 8432755555
+                  <span className="font-semibold">Phone:</span> : 8432755555, 8432655555
                 </span>
               </a>
               <a

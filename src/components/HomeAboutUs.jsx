@@ -42,11 +42,11 @@ const HomeAboutUs = () => {
           <div className="relative" data-aos="fade-left">
             <div className="sm:space-y-6 space-y-4">
               <h3 className="text-2xl sm:text-3xl font-bold text-[#2D546F]">
-                Welcome to R&R Hospital, Your Trusted Healthcare Partner
+                Welcome to R&R Multispeciality Hospital, Your Trusted Healthcare Partner
               </h3>
               <div className="space-y-4">
                 <p className="text-gray-600 leading-relaxed">
-                  R&R Multispeciality Hospital is one ofthe most trusted healthcare institutions in jhunjhunu, built with the vision of delivering quality treatment with care compassion & commitment. With highly qualified medical specialists, modern infrastructure, and advanced medical technology. Our mission is to provide affordable health services-Patients first.
+                  R&R Multispeciality Hospital is one of the most trusted healthcare institutions in jhunjhunu, built with the vision of delivering quality treatment with care, compassion & commitment with highly qualified medical specialists, modern infrastructure, and advanced medical technology. Our mission is to provide affordable health services-patients first.
                 </p>
                 {/* <p className="text-gray-600 leading-relaxed">
                   Our state-of-the-art facility is equipped with modern medical

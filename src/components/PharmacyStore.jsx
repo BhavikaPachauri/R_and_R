@@ -8,7 +8,7 @@ const PharmacyStore = () => {
         <div className="max-w-[1074px] mx-auto">
           <div className="text-center mb-6 sm:mb-8" data-aos="fade-down">
             <h3 className="lg:text-[40px] md:text-[32px] sm:text-[28px] text-[24px] text-[#000000] leading-tight font-semibold mb-2 sm:mb-3">
-              R&R Hospital Pharmacy Store
+              R&R Multispecialty  Hospital Pharmacy Store
             </h3>
             <p className="text-sm sm:text-base text-gray-600 max-w-2xl mx-auto px-4">
               Your trusted partner for quality medicines and healthcare products
@@ -19,7 +19,7 @@ const PharmacyStore = () => {
             <div className="relative h-[180px] sm:h-[250px] rounded-[19px] overflow-hidden group" data-aos="fade-up" data-aos-delay="100">
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/b8PGp9AhEY.webp"
-                alt="R&R Hospital Pharmacy Store"
+                alt="R&R Multispecialty  Hospital Pharmacy Store"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-3 sm:p-4">
@@ -32,7 +32,7 @@ const PharmacyStore = () => {
             <div className="relative h-[180px] sm:h-[250px] rounded-[19px] overflow-hidden group" data-aos="fade-up" data-aos-delay="200">
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/eElxtP3yJA.webp"
-                alt="R&R Hospital Pharmacy Store"
+                alt="R&R Multispecialty  Hospital Pharmacy Store"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-3 sm:p-4">
@@ -45,7 +45,7 @@ const PharmacyStore = () => {
             <div className="relative h-[180px] sm:h-[250px] rounded-[19px] overflow-hidden group" data-aos="fade-up" data-aos-delay="300">
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/RcLKoo8jHV.webp"
-                alt="R&R Hospital Pharmacy Store"
+                alt="R&R Multispecialty  Hospital Pharmacy Store"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-3 sm:p-4">

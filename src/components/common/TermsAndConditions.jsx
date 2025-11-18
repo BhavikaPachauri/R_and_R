@@ -13,7 +13,7 @@ const TermsAndConditions = () => {
 
         <p className="mb-4 ">
           These terms and conditions outline the rules and regulations for the
-          use of R&R Hospital's website, accessible at
+          use of R&R Multispecialty  Hospital's website, accessible at
           <a
             href="https://www.bynhospital.com"
             target="_blank"
@@ -64,7 +64,7 @@ const TermsAndConditions = () => {
         </h2>
         <p className="mb-4 ">
           All content, trademarks, and other intellectual property on the
-          website are owned by or licensed to R&R Hospital. You may not
+          website are owned by or licensed to R&R Multispecialty  Hospital. You may not
           reproduce, distribute, modify, or use any content from the website
           without our prior written consent.
         </p>
@@ -83,7 +83,7 @@ const TermsAndConditions = () => {
           6. Limitation of Liability
         </h2>
         <p className="mb-4 ">
-          In no event shall R&R Hospital be liable for any damages arising from
+          In no event shall R&R Multispecialty  Hospital be liable for any damages arising from
           the use of or inability to use the website. This includes, but is not
           limited to, direct, indirect, incidental, or consequential damages.
         </p>
@@ -93,7 +93,7 @@ const TermsAndConditions = () => {
         </h2>
         <p className="mb-4 ">
           Our website may contain links to third-party websites that are not
-          controlled by R&R Hospital. We have no control over the content and
+          controlled by R&R Multispecialty  Hospital. We have no control over the content and
           privacy practices of these websites. We encourage you to review the
           terms and conditions and privacy policies of any third-party sites you
           visit.
@@ -111,7 +111,7 @@ const TermsAndConditions = () => {
           9. Changes to the Terms
         </h2>
         <p className="mb-4 ">
-          R&R Hospital reserves the right to update or change these terms and
+          R&R Multispecialty  Hospital reserves the right to update or change these terms and
           conditions at any time. We will notify you of any changes by posting
           the new terms on this page. You are advised to review these terms
           periodically for any changes.
@@ -130,7 +130,8 @@ const TermsAndConditions = () => {
             contact@rrmhospitals.com
           </a>{" "}
           or on WhatsApp:{" "}
-          <a
+          <div className="flex">
+            <a
             href="https://wa.me/91 8432755555"
             target="_blank"
             rel="noopener noreferrer"
@@ -138,13 +139,24 @@ const TermsAndConditions = () => {
           >
             +91- 8432755555
           </a>
+            <span className="pe-1 mt-1">,</span>
+          <a
+            href="https://wa.me/91 8432655555"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-600 hover:underline"
+          >
+            +91- 8432655555
+          </a>
+          </div>
+          
           .
         </p>
 
         <p className="mt-6 font-medium ">
           By using our website, you acknowledge that you have read, understood,
           and agreed to be bound by these terms and conditions. Thank you for
-          choosing R&R Hospital.
+          choosing R&R Multispecialty  Hospital.
         </p>
       </div>
     </div>

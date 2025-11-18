@@ -6,7 +6,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const FooterList = ({ title, links }) => {
   const [showAll, setShowAll] = useState(false);
-  const displayedLinks = showAll ? links : links.slice(0, 6);
+  const displayedLinks = showAll ? links : links.slice(0, 7);
 
   return (
     <div className="w-[40%] md:w-auto">
@@ -75,37 +75,37 @@ const Footer = () => {
     //   href: "https://www.facebook.com/bynhospital/",
     //   imgSrc:
     //     "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/QWIxMPX7x3.webp",
-    //   alt: "Facebook logo - R&R Hospital Jhunjhunui official page",
+    //   alt: "Facebook logo - R&R Multispecialty  Hospital Jhunjhunui official page",
     // },
     // {
     //   href: "https://x.com/bynhospital",
     //   imgSrc:
     //     "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/uTkrkLzxWI.webp",
-    //   alt: "Twitter logo - R&R Hospital Jhunjhunui profile",
+    //   alt: "Twitter logo - R&R Multispecialty  Hospital Jhunjhunui profile",
     // },
     // {
     //   href: "https://www.instagram.com/bynhospital",
     //   imgSrc:
     //     "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/DtdWsOI7yl.webp",
-    //   alt: "Instagram logo - R&R Hospital Jhunjhunui profile",
+    //   alt: "Instagram logo - R&R Multispecialty  Hospital Jhunjhunui profile",
     // },
     // {
     //   href: "https://www.linkedin.com/company/shri-babayogi-netanath-hospital-research-centre/?originalSubdomain=in",
     //   imgSrc:
     //     "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Kv71EQxbM2.webp",
-    //   alt: "LinkedIn logo - R&R Hospital Jhunjhunui profile",
+    //   alt: "LinkedIn logo - R&R Multispecialty  Hospital Jhunjhunui profile",
     // },
   ];
 
   const servicesLinks = [
+    { label: "General Medicine", path: "/speciality/general medicine" },
+    { label: "Gynecology", path: "/speciality/gynecology" },
     { label: "General Surgery", path: "/speciality/general surgery" },
     { label: "Orthopaedics", path: "/speciality/orthopaedics" },
-    { label: "Radiology", path: "/speciality/radiology" },
-    { label: "Gynecology", path: "/speciality/gynecology" },
-    { label: "General Medicine", path: "/speciality/general medicine" },
     { label: "Urology", path: "/speciality/urology" },
-    { label: "Dental", path: "/speciality/dental" },
+    { label: "Radiology", path: "/speciality/radiology" },
     { label: "Physiotherapy", path: "/speciality/physiotherapy" },
+    { label: "Dental", path: "/speciality/dental" },
   ];
 
   const patientLinks = [
@@ -122,12 +122,12 @@ const Footer = () => {
           <div className="w-full xl:w-[23%]">
             <img
               src="./R-and-R-logo.webp"
-              alt="R&R Hospital Logo"
+              alt="R&R Multispecialty  Hospital Logo"
               width={180}
               className="md:max-w-[220px] max-w-[150px] h-auto bg-white rounded-sm"
             />
             <p className="text-[#1a365d]/80 text-[16px] font-medium leading-[164%] xl:max-w-[331px] my-7">
-              Expert care in every specialty at R&R Hospital, Jhunjhunu.
+              Expert care in every specialty at R&R Multispeciality Hospital, Jhunjhunu.
             </p>
             <div className="flex gap-2.5">
               {socialLinks.map((link, index) => (
@@ -145,15 +145,28 @@ const Footer = () => {
               <li className="text-[24px] font-semibold text-[#1a365d] leading-[142%]">
                 Contact Us
               </li>
-              <li>
-                <a
-                  href="tel:8432755555"
-                  className="flex items-center gap-3 text-[16px] text-[#1a365d]/80 hover:text-[#1a365d] transition-all duration-300 ease-linear font-medium leading-[180%]"
-                >
-                  <FaPhoneAlt size={20} />
-                  8432755555
-                </a>
+              <li className="flex items-center gap-3 text-[16px] text-[#1a365d]/80 font-medium leading-[180%]">
+                <FaPhoneAlt size={20} className="mt-1" />
+
+                <div className="flex items-center gap-2">
+                  <a
+                    href="tel:8432755555"
+                    className="hover:text-[#1a365d] transition-all duration-300 ease-linear"
+                  >
+                    8432755555
+                  </a>
+
+                  <span>,</span>
+
+                  <a
+                    href="tel:8432655555"
+                    className="hover:text-[#1a365d] transition-all duration-300 ease-linear"
+                  >
+                    8432655555
+                  </a>
+                </div>
               </li>
+
               <li>
                 <a
                   href="mailto:contact@rrmhospitals.com"

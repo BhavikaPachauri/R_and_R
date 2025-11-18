@@ -31,28 +31,34 @@ const ServiceSlider = () => {
   };
 
   const services = [
-    {
-      title: "General Surgery",
+   
+     {
+      title: "General Medicine",    
     },
     {
       title: "Orthopaedics",
-    },
+    }, 
     {
-      title: "Radiology",
+      title: "Gynecology",
     },
-    
-    {
+     {
+      title: "General Surgery",
+    },
+     {
       title: "Urology",
     },
-    {
-      title: "General Medicine",    
+      {
+      title: "Dentistry",
     },
     {
      title: "Physiotherapy",
     },
-    {
-      title: "Gynecology",
+     {
+      title: "Radiology",
     },
+   
+   
+    
   ];
 
   return (

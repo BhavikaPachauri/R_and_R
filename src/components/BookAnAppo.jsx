@@ -235,7 +235,7 @@ const BookAnAppo = () => {
               </div>
               <div className="p-4 sm:p-5 lg:p-6 bg-gradient-to-br from-white via-blue-50/10 to-transparent">
                 <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2 sm:mb-3">
-                  Visit R&R Hospital
+                  Visit R&R Multispecialty Hospital
                 </h3>
                 <div className="space-y-2 sm:space-y-3">
                   <p className="text-gray-700 flex items-start gap-2 sm:gap-3">
@@ -252,7 +252,7 @@ const BookAnAppo = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     <span className="text-sm sm:text-base leading-relaxed">
-                      Open 24 hours • OPD: 9:00 AM - 2:00 PM
+                      Open 24 hours • OPD: 10:00 AM - 4:00 PM
                     </span>
                   </p>
                 </div>

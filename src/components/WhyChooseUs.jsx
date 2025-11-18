@@ -86,7 +86,7 @@ export default function WhyChooseUs() {
           </div>
           <div className="space-y-6 sm:space-y-8 max-w-xl mx-auto lg:mx-0" data-aos="fade-left">
             <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
-              At R&R Hospital, we combine advanced medical technology with compassionate care to provide you with the best healthcare services. Our commitment to excellence ensures that you receive the highest quality medical care.
+              At R&R Multispeciality Hospital, we combine advanced medical technology with compassionate care to provide you with the best healthcare services. Our commitment to excellence ensures that you receive the highest quality medical care.
             </p>
             <div className="space-y-3 sm:space-y-4">
               {benefits.map((benefit, index) => (

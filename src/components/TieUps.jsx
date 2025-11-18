@@ -20,7 +20,7 @@ const TieUps = () => {
 
         {/* Tie-up Logos */}
         <div
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 justify-items-center"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 md:gap-12 justify-items-center"
           data-aos="fade-up"
         >
           <div
@@ -31,7 +31,7 @@ const TieUps = () => {
             <img
               src="./maa-yojana.png"
               alt="PmJay Healthcare Partnership"
-              className="w-[200px] sm:w-[280px] h-auto object-contain"
+              className="w-[150px] sm:w-[280px] h-[150px] object-contain"
             />
           </div>
 
@@ -43,7 +43,7 @@ const TieUps = () => {
             <img
               src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/QoBhKtQE6q.webp"
               alt="Railway Healthcare Partnership"
-              className="w-[250px] sm:w-[280px] h-auto object-contain"
+              className="w-[150px] sm:w-[280px] h-[150px] object-contain"
             />
           </div>
 
@@ -55,7 +55,29 @@ const TieUps = () => {
             <img
               src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/92AasBovTB.webp"
               alt="Coe Healthcare Collaboration"
-              className="w-[250px] sm:w-[280px] h-auto object-contain"
+              className="w-[150px] sm:w-[280px] h-[150px] object-contain"
+            />
+          </div>
+            <div
+            className="flex justify-center"
+            data-aos="zoom-in"
+            data-aos-delay="500"
+          >
+            <img
+              src="./ECHS.png"
+              alt="Coe Healthcare Collaboration"
+              className="w-[150px] sm:w-[280px] h-[150px] object-contain"
+            />
+          </div>
+           <div
+            className="flex justify-center"
+            data-aos="zoom-in"
+            data-aos-delay="500"
+          >
+            <img
+              src="./ESIC.png"
+              alt="Coe Healthcare Collaboration"
+              className="w-[150px] sm:w-[280px] h-[150px] object-contain"
             />
           </div>
         </div>

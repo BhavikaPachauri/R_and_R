@@ -11,7 +11,7 @@ export default function Facilities() {
   const facilities = [
     {
       icon: <FaBed size={26} />,
-      title: "Spacious NABH-standard Patient Rooms",
+      title: "Spacious NABH-standard Patient Rooms/Cottage",
       desc: "General, Semi-private, Private And Deluxe rooms designed for comfort and safety.",
     },
     {
@@ -32,7 +32,7 @@ export default function Facilities() {
     {
       icon: <FaHospital size={26} />,
       title: "Comfort And Convenience",
-      desc: "Comfortable waiting lounges, hygienic cafeteria, and ample parking for families.",
+      desc: "Comfortable waiting lounges and hygienic environment.",
     },
   ];
 
@@ -72,10 +72,10 @@ export default function Facilities() {
             </h2>
             <div className="w-20 h-1 bg-[#E31F26] mb-6 rounded-full"></div>
             <p className="text-gray-600 text-lg leading-relaxed">
-              Our critical care unit (ICU) is designed to handle life-threatening
+              Our critical care unit ICU are designed to handle life-threatening
               conditions with advanced monitoring systems, ventilators, and
               round-the-clock care. From adults with complex illnesses, our
-              dedicated team of intensivists and nurses ensure personalized,
+              dedicated team of intensivists and nurses ensure personalized
               continuous attention.
             </p>
           </div>

@@ -30,7 +30,7 @@ const NavBar = () => {
           <Link to="/" className="flex items-center">
             <img
               src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/fswifKNBvK.webp"
-              alt="R&R Hospital Logo"
+              alt="R&R Multispecialty  Hospital Logo"
               className="w-[150px] h-auto"
             />
           </Link>
@@ -87,7 +87,7 @@ const NavBar = () => {
             <Link to="/" onClick={() => setMenuOpen(false)}>
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/fswifKNBvK.webp"
-                alt="R&R Hospital Logo"
+                alt="R&R Multispecialty  Hospital Logo"
                 width={100}
               />
             </Link>

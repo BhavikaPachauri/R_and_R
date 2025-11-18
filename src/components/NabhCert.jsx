@@ -39,7 +39,7 @@ const NabhCert = () => {
                 Quality and Safety are at the heart of everything we do. Our NABH accreditation reflects our commitment to international standards of patient safety, ethical practices, and clinical excellence. This recognition ensures that every patient who walks through our doors receives reliable, transparent, and world-class care.
               </p>
               {/* <p className="text-[#4A5568] text-[16px] font-medium tracking-[2%] leading-[150%]">
-                R&R Hospital Jhunjhunui is certified by the
+                R&R Multispecialty  Hospital Jhunjhunui is certified by the
                 National Accreditation Board for Hospitals and Healthcare
                 Providers (NABH), ensuring the highest standards in patient
                 safety, infection control, administration, and infrastructure.
@@ -51,7 +51,7 @@ const NabhCert = () => {
                 the global credibility of our healthcare services.
               </p>
               <p className="text-[#4A5568] text-[16px] font-medium tracking-[2%] leading-[150%]">
-                At R&R Hospital, we prioritize patient-centered care through
+                At R&R Multispecialty  Hospital, we prioritize patient-centered care through
                 skilled healthcare professionals and advanced diagnostic &amp;
                 therapeutic care. Our NABH certification is a testament to our
                 commitment to excellence.

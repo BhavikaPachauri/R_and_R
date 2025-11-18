@@ -17,6 +17,22 @@ import {
 const Specialization = () => {
   const navigate = useNavigate();
   const departments = [
+     {
+      name: "General Medicine",
+      icon: <FaStethoscope className="w-8 h-8 text-white" />,
+      description:
+        "Holistic care for acute and chronic illnesses with evidence-based treatments.",
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/qwlrqBpHF3.webp",
+    },
+     {
+      name: "Gynecology",
+      icon: <FaFemale className="w-8 h-8 text-white" />,
+      description:
+        "Complete women’s healthcare solutions for reproductive and hormonal health.",
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/G4yrZfTNZ4.webp",
+    },
     {
       name: "General Surgery",
       icon: <FaSyringe className="w-8 h-8 text-white" />,
@@ -34,54 +50,6 @@ const Specialization = () => {
         "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/sn0LVu0NaY.webp",
     },
     {
-      name: "Radiology",
-      icon: <FaXRay className="w-8 h-8 text-white" />,
-      description:
-        "Accurate diagnostic imaging using advanced MRI, CT, and ultrasound technology.",
-      image:
-        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/RtTvnBYjvc.webp",
-    },
-    // {
-    //   name: "Pediatrics",
-    //   icon: <FaBaby className="w-8 h-8 text-white" />,
-    //   description:
-    //     "Specialized child healthcare ensuring growth, development, and overall wellness.",
-    //   image:
-    //     "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?q=80&w=600&h=400&fit=crop",
-    // },
-    // {
-    //   name: "Obstetrics",
-    //   icon: <FaUserNurse className="w-8 h-8 text-white" />,
-    //   description:
-    //     "Compassionate maternity care from pregnancy to safe delivery and postnatal support.",
-    //   image:
-    //     "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/MUfi1sEZb7.webp",
-    // },
-    {
-      name: "Gynecology",
-      icon: <FaFemale className="w-8 h-8 text-white" />,
-      description:
-        "Complete women’s healthcare solutions for reproductive and hormonal health.",
-      image:
-        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/G4yrZfTNZ4.webp",
-    },
-    {
-      name: "General Medicine",
-      icon: <FaStethoscope className="w-8 h-8 text-white" />,
-      description:
-        "Holistic care for acute and chronic illnesses with evidence-based treatments.",
-      image:
-        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/qwlrqBpHF3.webp",
-    },
-    // {
-    //   name: "Diabetology",
-    //   icon: <FaPills className="w-8 h-8 text-white" />,
-    //   description:
-    //     "Advanced diabetes management for better control and improved quality of life.",
-    //   image:
-    //     "https://images.unsplash.com/photo-1628771065518-0d82f1938462?q=80&w=600&h=400&fit=crop",
-    // },
-    {
       name: "Urology",
       icon: <FaProcedures className="w-8 h-8 text-white" />,
       description:
@@ -96,6 +64,14 @@ const Specialization = () => {
         "Comprehensive dental treatments for healthy teeth, gums, and confident smiles.",
       image:
         "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/iKcZkCYt0f.webp",
+    },
+     {
+      name: "Radiology",
+      icon: <FaXRay className="w-8 h-8 text-white" />,
+      description:
+        "Accurate diagnostic imaging using advanced MRI, CT, and ultrasound technology.",
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/RtTvnBYjvc.webp",
     },
     {
       name: "Physiotherapy",
@@ -128,7 +104,7 @@ const Specialization = () => {
          </h4>
 
           <p className="text-gray-600 sm:text-xl text-[16px] font-medium max-w-4xl mx-auto leading-noraml mt-5">
-            We offer everything from advanced surgery to expert care in orthopaedics, paediatrics, and women’s health.
+            We offer everything from advanced surgery to expert care in orthopaedics, general physician, surgeon, and women’s health.
             Our modern facilities and skilled team provide complete, personalised treatment for you and your family.
           </p>
         </div>

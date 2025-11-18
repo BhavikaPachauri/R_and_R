@@ -1,4 +1,188 @@
 const DepartData = {
+   "general medicine": {
+    title: "General Medicine",
+    description:
+      "Meet all your acute and chronic medical conditions, based on an evidence-based treatment plan.",
+    highlights: {
+      "Experienced Physicians":
+        "Trained to assess and manage many forms of illness. ",
+      "Coordinated Approach":
+        "Works as a team to plan for the diagnosis and treatment of this illness.",
+      "Preventive Health":
+        "Lifestyle coaching, and wellness check-ups for your health.",
+    },
+    doctors: [
+      {
+        name: "Dr. Imran Ahmad Khan",
+        designation: "MBBS, MD (Internal Medicine)",
+        experience: "Consulting Physician",
+        image: "./img/Imran-Ahmad-Khan.webp",
+      },
+    ],
+    testimonials: [
+      {
+        name: "Suresh Kumar",
+        feedback:
+          "Dr. Khan's comprehensive approach helped me understand my health better. The preventive care plan has kept me healthy for over 3 years now.",
+      },
+      {
+        name: "Anjali Sharma",
+        feedback:
+          "The chronic disease management program helped me control my blood pressure effectively. Regular monitoring gives me peace of mind.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What does a comprehensive health check-up include?",
+        answer:
+          "Complete physical exam, blood tests, ECG, chest X-ray, and specialized screenings based on age and risk factors to assess overall health status.",
+      },
+      {
+        question: "How often should healthy adults see a doctor?",
+        answer:
+          "Annual check-ups are recommended for adults, with more frequent visits for those over 50 or with chronic conditions requiring ongoing management.",
+      },
+      {
+        question: "What lifestyle factors do you address in preventive care?",
+        answer:
+          "We focus on nutrition, exercise, stress management, sleep quality, smoking cessation, and alcohol moderation as key pillars of health maintenance.",
+      },
+      {
+        question:
+          "Can you helps us in coordination with specialists for better care?",
+        answer:
+          "Yes, we serve as your primary care coordinator, managing referrals to specialists and ensuring all aspects of your care are well-integrated.",
+      },
+      {
+        question: "Do you provide executive health packages?",
+        answer:
+          "We offer executive health packages with advanced screenings, priority scheduling, and detailed health reports for busy professionals.",
+      },
+    ],
+  },
+  gynecology: {
+    title: "Gynecology",
+    description:
+      "Complete women's healthcare needs, reproductive, hormonal, and overall health and well-being.",
+    highlights: {
+      "Qualified Gynecologists":
+        "Trained in menstrual, fertility, menopausal, and ob-gyn care.",
+      "Supported with Advanced Diagnostic Services":
+        " Assessing and screening for gynecological healthcare needs.",
+      "Personalized Women's Health":
+        "Preventive health care amd trust your health in a wellness plan. ",
+    },
+    doctors: [
+      {
+        name: "Dr. Dharma Saini",
+        designation: "MBBS, MS (OBS & Gynae)",
+        experience: "Maternity Specialist",
+        image: "./img/Dharma-Saini.webp",
+      },
+    ],
+    testimonials: [
+      {
+        name: "Shalini Kumari",
+        feedback:
+          "The PCOS management plan completely changed my life. My symptoms are controlled and I feel healthier than I have in years.",
+      },
+      {
+        name: "Rekha Singh",
+        feedback:
+          "The laparoscopic fibroid removal was so much easier than I expected. Back to normal activities within a week with minimal discomfort.",
+      },
+    ],
+    faqs: [
+      {
+        question: "How often should I have gynecological screenings?",
+        answer:
+          "Annual exams are recommended, with Pap smears every 3 years for ages 21-65, and mammograms starting at age 40 or as recommended based on risk factors.",
+      },
+      {
+        question: "What are the treatment options for PCOS?",
+        answer:
+          "PCOS treatment includes lifestyle modifications, hormonal therapy, fertility treatments if needed, and management of associated symptoms like insulin resistance.",
+      },
+      {
+        question: "When should I be concerned about irregular periods?",
+        answer:
+          "Consult if you experience very heavy bleeding, periods lasting longer than 7 days, cycles shorter than 21 days or longer than 35 days, or sudden changes in pattern.",
+      },
+      {
+        question: "What are the benefits of laparoscopic surgery?",
+        answer:
+          "Laparoscopic procedures offer smaller incisions, less pain, shorter hospital stays, faster recovery, and reduced risk of infection compared to open surgery.",
+      },
+      {
+        question: "How can I manage menopausal symptoms?",
+        answer:
+          "We offer various options including hormone replacement therapy, lifestyle modifications, and alternative treatments tailored to your specific symptoms and health profile.",
+      },
+    ],
+  },
+   
+  "general surgery": {
+    title: "General Surgery",
+    description:
+      "Total surgical care for a range of conditions from standard surgical treatment to complex surgical care focused on patient safety and best outcomes. ",
+    highlights: {
+      "Surgical expertise":
+        "We have a state-of-the-art experience with minimally invasive surgical treatment with less recovery time.",
+      "Exemplary surgeons":
+        "Our highly skilled and experienced surgical team consistently performs a wide range of surgical procedures.",
+      "Total surgical care":
+        "We have total care experience, from pre-operative assessment to post-operative care. ",
+    },
+    doctors: [
+      {
+        name: "Dr. Vitul Vaikar",
+        designation: "MBBS, DNB (General Surgery)",
+        experience: "General & Laparoscopic Surgeon",
+        image: "./img/Vitul-Vaikar.webp",
+      },
+    ],
+    testimonials: [
+      {
+        name: "Kiran Mehra",
+        feedback:
+          "My gallbladder surgery was performed laparoscopically and I was back to work in just one week. The tiny scars are barely visible now.",
+      },
+      {
+        name: "Deepak Agarwal",
+        feedback:
+          "Dr. Vaikar's expertise in hernia repair using mesh technique gave me confidence. No complications and excellent results after 2 years.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What conditions require general surgery?",
+        answer:
+          "We treat hernias, gallbladder disease, appendicitis, bowel conditions, thyroid disorders, and various abdominal conditions requiring surgical intervention.",
+      },
+      {
+        question: "How do I prepare for surgery?",
+        answer:
+          "Pre-operative preparation includes medical clearance, fasting instructions, medication adjustments, and detailed discussion of the procedure and recovery expectations.",
+      },
+      {
+        question: "What are the advantages of laparoscopic surgery?",
+        answer:
+          "Laparoscopic surgery offers smaller incisions, less pain, shorter hospital stays, faster recovery, reduced infection risk, and better cosmetic results.",
+      },
+      {
+        question: "How long is the typical recovery period?",
+        answer:
+          "Recovery varies by procedure - laparoscopic procedures typically require 1-2 weeks, while open surgeries may need 4-6 weeks for full recovery.",
+      },
+      {
+        question: "What I should take care of after post-operative care?",
+        answer:
+          "Post-operative care includes pain management, wound care instructions, activity restrictions, follow-up appointments, and monitoring for complications.",
+      },
+    ],
+  },
+ 
+  
   orthopaedics: {
     title: "Orthopaedics",
     description:
@@ -58,6 +242,126 @@ const DepartData = {
         question: "What rehabilitation services do you provide post-surgery?",
         answer:
           "We offer comprehensive physiotherapy, occupational therapy, and customized exercise programs to ensure optimal recovery and function.",
+      },
+    ],
+  },
+  urology: {
+    title: "Urology",
+    description:
+      "Comprehensive urological cares your kidney, bladder, prostate and urinary health.",
+    highlights: {
+      "Laser Stone Treatment":
+        "Advanced laser lithotripsy for kidney stones with minimal invasive approach and faster recovery times.",
+      "Robotic Surgery":
+        "State-of-the-art robotic-assisted procedures for prostate and kidney surgeries with enhanced precision.",
+      "Male Fertility Services":
+        "Comprehensive evaluation and treatment of male reproductive health and fertility issues.",
+    },
+    doctors: [
+      {
+        name: "Dr. Mukesh Kumar",
+        designation: "MBBS, MS, M.Ch (Urology)",
+        experience: "Kidney & Urinary Specialist",
+        image: "./img/Mukesh-kumar.webp",
+      },
+    ],
+    testimonials: [
+      {
+        name: "Ajay Malhotra",
+        feedback:
+          "The laser treatment for my kidney stones was amazing - no cuts, minimal pain, and I passed the fragments within days. Technology at its best!",
+      },
+      {
+        name: "Sanjay Gupta",
+        feedback:
+          "Dr. Mukesh Kumar's approach to my prostate condition was thorough and reassuring. The robotic surgery results exceeded my expectations.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What are the latest treatments for kidney stones?",
+        answer:
+          "We offer laser lithotripsy, shock wave lithotripsy, and percutaneous procedures depending on stone size and location, with most being minimally invasive.",
+      },
+      {
+        question: "How is prostate enlargement treated?",
+        answer:
+          "Treatment options range from medications to minimally invasive procedures like laser therapy, and surgical options including robotic-assisted surgery when needed.",
+      },
+      {
+        question: "What should I do if I have blood in my urine?",
+        answer:
+          "Blood in urine requires immediate evaluation to rule out infections, stones, or more serious conditions. Contact us for urgent consultation and diagnostic workup.",
+      },
+      {
+        question: "Are urological conditions hereditary?",
+        answer:
+          "Some conditions like kidney stones and certain cancers can have genetic components. We provide family risk assessment and screening recommendations.",
+      },
+      {
+        question: "How can I maintain good urological health?",
+        answer:
+          "Stay hydrated, maintain healthy weight, practice good hygiene, avoid smoking, limit alcohol, and have regular check-ups especially after age 50.",
+      },
+    ],
+  },
+   dental: {
+    title: "Dental",
+    description:
+      "Comprehensive dental care to keep your teeth, gums healthy and smiling with confidence.",
+    highlights: {
+      "Expert Dentists":
+        "Knowledgeable specialists in cosmetic, restorative and preventive dentistry.",
+      "Modern Dental Equipment & Technology":
+        "Digital X-rays, painless procedures and the latest equipment.",
+      "Comprehensive Oral Care":
+        "Comprehensive, routine cares and complex dental treatments.",
+    },
+    doctors: [
+      {
+        name: "Dr. Amit Singh",
+        designation: "BDS (Dental Surgeon)",
+        experience: "Oral & Dental Care",
+        image: "./img/Amit-singh.webp",
+      },
+    ],
+    testimonials: [
+      {
+        name: "Priyanka Shah",
+        feedback:
+          "My smile transformation with veneers was incredible! Dr. Singh's attention to detail and artistic approach gave me the confidence I always wanted.",
+      },
+      {
+        name: "Rohit Jain",
+        feedback:
+          "The root canal treatment was completely painless - I was dreading it for months! The digital technology made everything so much more comfortable.",
+      },
+    ],
+    faqs: [
+      {
+        question: "How often should I visit the dentist for check-ups?",
+        answer:
+          "We recommend visits every 6 months for cleanings and check-ups, though some patients with gum disease or other conditions may need more frequent visits.",
+      },
+      {
+        question: "What are the signs I need immediate dental attention?",
+        answer:
+          "Severe tooth pain, swelling, bleeding gums, loose teeth, or dental trauma require immediate attention to prevent complications.",
+      },
+      {
+        question: "Are dental X-rays safe?",
+        answer:
+          "Modern digital X-rays use significantly less radiation than traditional films and are considered very safe with appropriate protective measures.",
+      },
+      {
+        question: "What cosmetic dental options do you offer?",
+        answer:
+          "We provide teeth whitening, veneers, dental bonding, crowns, and complete smile makeovers tailored to your aesthetic goals and budget.",
+      },
+      {
+        question: "How can I prevent dental problems?",
+        answer:
+          "Good oral hygiene with regular brushing and flossing, limiting sugary foods, not smoking, and regular dental visits are key to preventing problems.",
       },
     ],
   },
@@ -122,362 +426,9 @@ const DepartData = {
       },
     ],
   },
-  // pediatrics: {
-  //   title: "Pediatrics",
-  //   description:
-  //     "Caring and focused pediatric care for your child's growth, development, and overall health.",
-  //   highlights: {
-  //     "Child-Friendly Environment":
-  //       "Safe and inviting setting designed for children.",
-  //     "Specialized Pediatricians":
-  //       "Trained to manage health for newborns, infants, and adolescents.",
-  //     "Preventive & Developmental Care":
-  //       " Child wellness care, from immunizations to ride-up monitoring.",
-  //   },
-  //   doctors: [],
-  //   testimonials: [
-  //     {
-  //       name: "Kavita Jain",
-  //       feedback:
-  //         "My 5-year-old actually looks forward to doctor visits now! The pediatric team made vaccinations stress-free for both of us.",
-  //     },
-  //     {
-  //       name: "Ravi Patel",
-  //       feedback:
-  //         "The developmental guidance we received helped us understand our child's milestones better. The care is truly comprehensive.",
-  //     },
-  //   ],
-  //   faqs: [
-  //     {
-  //       question: "At what age should my child start regular check-ups?",
-  //       answer:
-  //         "Regular pediatric check-ups should begin within the first week of birth, with frequent visits in the first year and annual check-ups thereafter.",
-  //     },
-  //     {
-  //       question: "How do you handle anxious or fearful children?",
-  //       answer:
-  //         "Our staff uses child-friendly communication, distraction techniques, and a comfortable environment to help children feel at ease during visits.",
-  //     },
-  //     {
-  //       question: "What childhood emergencies should I be aware of?",
-  //       answer:
-  //         "High fever, difficulty breathing, severe allergic reactions, and injuries require immediate attention. We provide 24/7 emergency pediatric care.",
-  //     },
-  //     {
-  //       question: "How can I prepare my child for their first visit?",
-  //       answer:
-  //         "Read them books about doctor visits, bring comfort items, and explain that the doctor helps keep them healthy and strong.",
-  //     },
-  //     {
-  //       question: "Do you provide nutritional counseling for children?",
-  //       answer:
-  //         "Yes, we offer comprehensive nutritional guidance for healthy growth, managing childhood obesity, and addressing feeding difficulties.",
-  //     },
-  //   ],
-  // },
   
-  gynecology: {
-    title: "Gynecology",
-    description:
-      "Complete women's healthcare needs, reproductive, hormonal, and overall health and well-being.",
-    highlights: {
-      "Qualified Gynecologists":
-        "Trained in menstrual, fertility, menopausal, and ob-gyn care.",
-      "Supported with Advanced Diagnostic Services":
-        " Assessing and screening for gynecological healthcare needs.",
-      "Personalized Women's Health":
-        "Preventive health care amd trust your health in a wellness plan. ",
-    },
-    doctors: [
-      {
-        name: "Dr. Dharma Saini",
-        designation: "MBBS, MS (OBS & Gynae)",
-        experience: "Maternity Specialist",
-        image: "./img/Dharma-Saini.webp",
-      },
-    ],
-    testimonials: [
-      {
-        name: "Shalini Kumari",
-        feedback:
-          "The PCOS management plan completely changed my life. My symptoms are controlled and I feel healthier than I have in years.",
-      },
-      {
-        name: "Rekha Singh",
-        feedback:
-          "The laparoscopic fibroid removal was so much easier than I expected. Back to normal activities within a week with minimal discomfort.",
-      },
-    ],
-    faqs: [
-      {
-        question: "How often should I have gynecological screenings?",
-        answer:
-          "Annual exams are recommended, with Pap smears every 3 years for ages 21-65, and mammograms starting at age 40 or as recommended based on risk factors.",
-      },
-      {
-        question: "What are the treatment options for PCOS?",
-        answer:
-          "PCOS treatment includes lifestyle modifications, hormonal therapy, fertility treatments if needed, and management of associated symptoms like insulin resistance.",
-      },
-      {
-        question: "When should I be concerned about irregular periods?",
-        answer:
-          "Consult if you experience very heavy bleeding, periods lasting longer than 7 days, cycles shorter than 21 days or longer than 35 days, or sudden changes in pattern.",
-      },
-      {
-        question: "What are the benefits of laparoscopic surgery?",
-        answer:
-          "Laparoscopic procedures offer smaller incisions, less pain, shorter hospital stays, faster recovery, and reduced risk of infection compared to open surgery.",
-      },
-      {
-        question: "How can I manage menopausal symptoms?",
-        answer:
-          "We offer various options including hormone replacement therapy, lifestyle modifications, and alternative treatments tailored to your specific symptoms and health profile.",
-      },
-    ],
-  },
-  "general medicine": {
-    title: "General Medicine",
-    description:
-      "Meet all your acute and chronic medical conditions, based on an evidence-based treatment plan.",
-    highlights: {
-      "Experienced Physicians":
-        "Trained to assess and manage many forms of illness. ",
-      "Coordinated Approach":
-        "Works as a team to plan for the diagnosis and treatment of this illness.",
-      "Preventive Health":
-        "Lifestyle coaching, and wellness check-ups for your health.",
-    },
-    doctors: [
-      {
-        name: "Dr. Imran Ahmad Khan",
-        designation: "MBBS, MD (Internal Medicine)",
-        experience: "Consulting Physician",
-        image: "./img/Imran-Ahmad-Khan.webp",
-      },
-    ],
-    testimonials: [
-      {
-        name: "Suresh Kumar",
-        feedback:
-          "Dr. Khan's comprehensive approach helped me understand my health better. The preventive care plan has kept me healthy for over 3 years now.",
-      },
-      {
-        name: "Anjali Sharma",
-        feedback:
-          "The chronic disease management program helped me control my blood pressure effectively. Regular monitoring gives me peace of mind.",
-      },
-    ],
-    faqs: [
-      {
-        question: "What does a comprehensive health check-up include?",
-        answer:
-          "Complete physical exam, blood tests, ECG, chest X-ray, and specialized screenings based on age and risk factors to assess overall health status.",
-      },
-      {
-        question: "How often should healthy adults see a doctor?",
-        answer:
-          "Annual check-ups are recommended for adults, with more frequent visits for those over 50 or with chronic conditions requiring ongoing management.",
-      },
-      {
-        question: "What lifestyle factors do you address in preventive care?",
-        answer:
-          "We focus on nutrition, exercise, stress management, sleep quality, smoking cessation, and alcohol moderation as key pillars of health maintenance.",
-      },
-      {
-        question:
-          "Can you helps us in coordination with specialists for better care?",
-        answer:
-          "Yes, we serve as your primary care coordinator, managing referrals to specialists and ensuring all aspects of your care are well-integrated.",
-      },
-      {
-        question: "Do you provide executive health packages?",
-        answer:
-          "We offer executive health packages with advanced screenings, priority scheduling, and detailed health reports for busy professionals.",
-      },
-    ],
-  },
   
-  "general surgery": {
-    title: "General Surgery",
-    description:
-      "Total surgical care for a range of conditions from standard surgical treatment to complex surgical care focused on patient safety and best outcomes. ",
-    highlights: {
-      "Surgical expertise":
-        "We have a state-of-the-art experience with minimally invasive surgical treatment with less recovery time.",
-      "Exemplary surgeons":
-        "Our highly skilled and experienced surgical team consistently performs a wide range of surgical procedures.",
-      "Total surgical care":
-        "We have total care experience, from pre-operative assessment to post-operative care. ",
-    },
-    doctors: [
-      {
-        name: "Dr. Vitul Vaikar",
-        designation: "MBBS, DNB (General Surgery)",
-        experience: "General & Laparoscopic Surgeon",
-        image: "./img/Vitul-Vaikar.webp",
-      },
-    ],
-    testimonials: [
-      {
-        name: "Kiran Mehra",
-        feedback:
-          "My gallbladder surgery was performed laparoscopically and I was back to work in just one week. The tiny scars are barely visible now.",
-      },
-      {
-        name: "Deepak Agarwal",
-        feedback:
-          "Dr. Vaikar's expertise in hernia repair using mesh technique gave me confidence. No complications and excellent results after 2 years.",
-      },
-    ],
-    faqs: [
-      {
-        question: "What conditions require general surgery?",
-        answer:
-          "We treat hernias, gallbladder disease, appendicitis, bowel conditions, thyroid disorders, and various abdominal conditions requiring surgical intervention.",
-      },
-      {
-        question: "How do I prepare for surgery?",
-        answer:
-          "Pre-operative preparation includes medical clearance, fasting instructions, medication adjustments, and detailed discussion of the procedure and recovery expectations.",
-      },
-      {
-        question: "What are the advantages of laparoscopic surgery?",
-        answer:
-          "Laparoscopic surgery offers smaller incisions, less pain, shorter hospital stays, faster recovery, reduced infection risk, and better cosmetic results.",
-      },
-      {
-        question: "How long is the typical recovery period?",
-        answer:
-          "Recovery varies by procedure - laparoscopic procedures typically require 1-2 weeks, while open surgeries may need 4-6 weeks for full recovery.",
-      },
-      {
-        question: "What I should take care of after post-operative care?",
-        answer:
-          "Post-operative care includes pain management, wound care instructions, activity restrictions, follow-up appointments, and monitoring for complications.",
-      },
-    ],
-  },
-  urology: {
-    title: "Urology",
-    description:
-      "Comprehensive urological cares your kidney, bladder, prostate and urinary health.",
-    highlights: {
-      "Laser Stone Treatment":
-        "Advanced laser lithotripsy for kidney stones with minimal invasive approach and faster recovery times.",
-      "Robotic Surgery":
-        "State-of-the-art robotic-assisted procedures for prostate and kidney surgeries with enhanced precision.",
-      "Male Fertility Services":
-        "Comprehensive evaluation and treatment of male reproductive health and fertility issues.",
-    },
-    doctors: [
-      {
-        name: "Dr. Mukesh Kumar",
-        designation: "MBBS, MS, M.Ch (Urology)",
-        experience: "Kidney & Urinary Specialist",
-        image: "./img/Mukesh-kumar.webp",
-      },
-    ],
-    testimonials: [
-      {
-        name: "Ajay Malhotra",
-        feedback:
-          "The laser treatment for my kidney stones was amazing - no cuts, minimal pain, and I passed the fragments within days. Technology at its best!",
-      },
-      {
-        name: "Sanjay Gupta",
-        feedback:
-          "Dr. Mukesh Kumar's approach to my prostate condition was thorough and reassuring. The robotic surgery results exceeded my expectations.",
-      },
-    ],
-    faqs: [
-      {
-        question: "What are the latest treatments for kidney stones?",
-        answer:
-          "We offer laser lithotripsy, shock wave lithotripsy, and percutaneous procedures depending on stone size and location, with most being minimally invasive.",
-      },
-      {
-        question: "How is prostate enlargement treated?",
-        answer:
-          "Treatment options range from medications to minimally invasive procedures like laser therapy, and surgical options including robotic-assisted surgery when needed.",
-      },
-      {
-        question: "What should I do if I have blood in my urine?",
-        answer:
-          "Blood in urine requires immediate evaluation to rule out infections, stones, or more serious conditions. Contact us for urgent consultation and diagnostic workup.",
-      },
-      {
-        question: "Are urological conditions hereditary?",
-        answer:
-          "Some conditions like kidney stones and certain cancers can have genetic components. We provide family risk assessment and screening recommendations.",
-      },
-      {
-        question: "How can I maintain good urological health?",
-        answer:
-          "Stay hydrated, maintain healthy weight, practice good hygiene, avoid smoking, limit alcohol, and have regular check-ups especially after age 50.",
-      },
-    ],
-  },
-  dental: {
-    title: "Dental",
-    description:
-      "Comprehensive dental care to keep your teeth, gums healthy and smiling with confidence.",
-    highlights: {
-      "Expert Dentists":
-        "Knowledgeable specialists in cosmetic, restorative and preventive dentistry.",
-      "Modern Dental Equipment & Technology":
-        "Digital X-rays, painless procedures and the latest equipment.",
-      "Comprehensive Oral Care":
-        "Comprehensive, routine cares and complex dental treatments.",
-    },
-    doctors: [
-      {
-        name: "Dr. Amit Singh",
-        designation: "BDS (Dental Surgeon)",
-        experience: "Oral & Dental Care",
-        image: "./img/Amit-singh.webp",
-      },
-    ],
-    testimonials: [
-      {
-        name: "Priyanka Shah",
-        feedback:
-          "My smile transformation with veneers was incredible! Dr. Singh's attention to detail and artistic approach gave me the confidence I always wanted.",
-      },
-      {
-        name: "Rohit Jain",
-        feedback:
-          "The root canal treatment was completely painless - I was dreading it for months! The digital technology made everything so much more comfortable.",
-      },
-    ],
-    faqs: [
-      {
-        question: "How often should I visit the dentist for check-ups?",
-        answer:
-          "We recommend visits every 6 months for cleanings and check-ups, though some patients with gum disease or other conditions may need more frequent visits.",
-      },
-      {
-        question: "What are the signs I need immediate dental attention?",
-        answer:
-          "Severe tooth pain, swelling, bleeding gums, loose teeth, or dental trauma require immediate attention to prevent complications.",
-      },
-      {
-        question: "Are dental X-rays safe?",
-        answer:
-          "Modern digital X-rays use significantly less radiation than traditional films and are considered very safe with appropriate protective measures.",
-      },
-      {
-        question: "What cosmetic dental options do you offer?",
-        answer:
-          "We provide teeth whitening, veneers, dental bonding, crowns, and complete smile makeovers tailored to your aesthetic goals and budget.",
-      },
-      {
-        question: "How can I prevent dental problems?",
-        answer:
-          "Good oral hygiene with regular brushing and flossing, limiting sugary foods, not smoking, and regular dental visits are key to preventing problems.",
-      },
-    ],
-  },
+ 
   physiotherapy: {
     title: "Physiotherapy",
     description:
