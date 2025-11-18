@@ -77,7 +77,7 @@ const DepartData = {
         name: "Dr. Dharma Saini",
         designation: "MBBS, MS (OBS & Gynae)",
         experience: "Maternity Specialist",
-        image: "./img/Dharma-Saini.webp",
+        image: "./img/Dharma-Saini.png",
       },
     ],
     testimonials: [

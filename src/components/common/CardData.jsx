@@ -4,7 +4,7 @@ const dummyData = [
     doc_profile: "MBBS, MS (OBS & Gynae)",
     doc_details: "Maternity Specialist",
     doc_image:
-      "./speciality/img/Dharma-Saini.webp",  
+      "./speciality/img/Dharma-Saini.png",  
   },
   {
     doc_name: "Dr. Imran Ahmad Khan",
