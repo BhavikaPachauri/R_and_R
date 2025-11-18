@@ -20,7 +20,7 @@ const TieUps = () => {
 
         {/* Tie-up Logos */}
         <div
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 md:gap-12 justify-items-center"
+          className="grid grid-cols-1 sm:grid-cols-5 lg:grid-cols-5 gap-8 md:gap-12 justify-items-center"
           data-aos="fade-up"
         >
           <div

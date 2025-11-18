@@ -25,7 +25,7 @@ const NabhCert = () => {
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/K1lIGqKieG.webp"
                 alt="NABH Accreditation"
-                className="w-full lg:max-w-[250px] max-w-[70%] mx-auto"
+                className="w-full lg:max-w-[250px] max-w-[40%] mx-auto"
               />
             </a>
           </div>
