@@ -6,7 +6,7 @@ const TieUps = () => {
   return (
     <section
       id="tieups"
-      className="bg-[url('./Frame1.webp')] bg-no-repeat bg-cover bg-center py-16"
+      className="bg-[url('/Frame1.webp')] bg-no-repeat bg-cover bg-center py-16"
     >
       <div className="max-w-6xl mx-auto px-4 text-center">
         {/* Title */}
@@ -31,7 +31,7 @@ const TieUps = () => {
             <img
               src="./maa-yojana.png"
               alt="PmJay Healthcare Partnership"
-              className="w-[150px] sm:w-[280px] h-[150px] object-contain"
+              className="w-[200px] sm:w-[280px] h-[200px] object-contain"
             />
           </div>
 
@@ -43,7 +43,7 @@ const TieUps = () => {
             <img
               src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/QoBhKtQE6q.webp"
               alt="Railway Healthcare Partnership"
-              className="w-[150px] sm:w-[280px] h-[150px] object-contain"
+              className="w-[200px] sm:w-[280px] h-[200px] object-contain"
             />
           </div>
 
@@ -55,7 +55,7 @@ const TieUps = () => {
             <img
               src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/92AasBovTB.webp"
               alt="Coe Healthcare Collaboration"
-              className="w-[150px] sm:w-[280px] h-[150px] object-contain"
+              className="w-[200px] sm:w-[280px] h-[200px] object-contain"
             />
           </div>
             <div
@@ -66,7 +66,7 @@ const TieUps = () => {
             <img
               src="./ECHS.png"
               alt="Coe Healthcare Collaboration"
-              className="w-[150px] sm:w-[280px] h-[150px] object-contain"
+              className="w-[200px] sm:w-[280px] h-[200px] object-contain"
             />
           </div>
            <div
@@ -77,7 +77,7 @@ const TieUps = () => {
             <img
               src="./ESIC.png"
               alt="Coe Healthcare Collaboration"
-              className="w-[150px] sm:w-[280px] h-[150px] object-contain"
+              className="w-[200px] sm:w-[280px] h-[200px] object-contain"
             />
           </div>
         </div>
