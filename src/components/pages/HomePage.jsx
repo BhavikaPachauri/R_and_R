@@ -9,6 +9,7 @@ import TieUps from "../TieUps";
 import NavBar from "../common/Navbar";
 import NabhCert from "../NabhCert"; 
 import ServiceSlider from "../common/ServiceSlider";
+import CategorySection from "../CategorySection";
 
 const HomePage = () => {
   const { pathname } = useLocation();
@@ -27,6 +28,7 @@ const HomePage = () => {
         {/* <ServiceSlider /> */}
         <NabhCert />
         {/* <Department /> */}
+        <CategorySection/>
         <TieUps />
         <Footer />
       </div>
