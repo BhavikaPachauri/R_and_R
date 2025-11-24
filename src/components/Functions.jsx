@@ -8,32 +8,32 @@ function Functions() {
   const festivalImages = [
     {
       id: 1,
-      src: "/assets/Festival.jpg",
+      src: "/assets/camp.jpg",
       title: "Diwali Celebration"
     },
     {
       id: 2,
-      src: "/assets/Festival.jpg",
+      src: "h/assets/camp.jpg",
       title: "Music Festival"
     },
     {
       id: 3,
-      src: "/assets/Festival.jpg",
+      src: "/assets/camp.jpg",
       title: "Holi Festival"
     },
     {
       id: 4,
-      src: "/assets/Festival.jpg",
+      src: "/assets/camp.jpg",
       title: "Cultural Dance"
     },
     {
       id: 5,
-      src: "/assets/Festival.jpg",
+      src: "/assets/camp.jpg",
       title: "Night Concert"
     },
     {
       id: 6,
-      src: "/assets/Festival.jpg",
+      src: "/assets/camp.jpgp",
       title: "Food Festival"
     }
   ];
@@ -69,7 +69,7 @@ function Functions() {
                 <img
                   src={image.src}
                   alt={image.title}
-                  className="w-full h-64 md:h-64 object-cover transform group-hover:scale-110 transition-transform duration-500"
+                  className="w-full h-64 md:h-72 object-cover transform group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                   <p className="text-white font-semibold text-lg p-4 w-full">
@@ -92,7 +92,7 @@ function Functions() {
               <img
                 src={selectedImage.src}
                 alt={selectedImage.title}
-                className="w-full h-[500px] mt-40 object-contain rounded-lg"
+                className="w-full h-full object-contain rounded-lg"
               />
               
               {/* Close Button - Inside Image at Top Right */}
