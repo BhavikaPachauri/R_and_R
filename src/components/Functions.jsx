@@ -8,32 +8,32 @@ function Functions() {
   const festivalImages = [
     {
       id: 1,
-      src: "/assets/camp.jpg",
+      src: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&h=600&fit=crop",
       title: "Diwali Celebration"
     },
     {
       id: 2,
-      src: "/assets/camp.jpg",
+      src: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&h=600&fit=crop",
       title: "Music Festival"
     },
     {
       id: 3,
-      src: "/assets/camp.jpg",
+      src: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&h=600&fit=crop",
       title: "Holi Festival"
     },
     {
       id: 4,
-      src: "/assets/camp.jpg",
+      src: "https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?w=800&h=600&fit=crop",
       title: "Cultural Dance"
     },
     {
       id: 5,
-      src: "/assets/camp.jpg",
+      src: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&h=600&fit=crop",
       title: "Night Concert"
     },
     {
       id: 6,
-      src: "/assets/camp.jpg",
+      src: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&h=600&fit=crop",
       title: "Food Festival"
     }
   ];
