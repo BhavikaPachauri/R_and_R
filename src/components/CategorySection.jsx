@@ -1,20 +1,21 @@
 import React from "react";
 
+
 function CategorySection() {
   const items = [
     {
       title: "Camps",
-      img: "/assets/camp.jpg",
+      img: "./assets/camp.jpg",
       link: "/camp",
     },
     {
       title: "Function",
-      img: "/assets/Functions.jpg",
+      img: "./assets/Functions.jpg",
       link: "/function",
     },
     {
       title: "Festival",
-      img: "/assets/Festival.jpg",
+      img: "./assets/Festival.jpg",
       link: "/festival",
     },
   ];
