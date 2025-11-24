@@ -25,7 +25,7 @@ const MainRoute = () => {
         <Route path="/bookappointment" element={<AppointmentPage />} />
         <Route path="/speciality/:name" element={<SpecialityPage />} />
         <Route path="/festival" element={<Festival/>}/>
-        <Route path="/functions" element={<Functions/>}/>
+        <Route path="/function" element={<Functions/>}/>
         <Route path="/camp" element={<Camp/>}/>
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
