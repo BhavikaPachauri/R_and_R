@@ -3,7 +3,7 @@ import NavBar from "./common/Navbar";
 import Footer from "./common/Footer";
 
 function Camp() {
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedImage, setSelectedImage] = useState([]);
 
   const festivalImages = [
     {
@@ -43,7 +43,7 @@ function Camp() {
   };
 
   const closeImage = () => {
-    setSelectedImage(null);
+    setSelectedImage([]);
   };
 
   return (
