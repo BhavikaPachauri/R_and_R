@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 
 function CategorySection() {
   const items = [
@@ -46,12 +46,12 @@ function CategorySection() {
               <div className="p-5">
                 <h3 className="text-xl font-semibold mb-3 text-gray-800">{item.title}</h3>
 
-                <a
-                  href={item.link}
+                <Link
+                  to={item.link}
                   className="block mt-3 w-full text-center bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200"
                 >
                   View Details
-                </a>
+                </Link>
               </div>
             </div>
           ))}
