@@ -13,7 +13,7 @@ function Functions() {
     },
     {
       id: 2,
-      src: "h/assets/camp.jpg",
+      src: "/assets/camp.jpg",
       title: "Music Festival"
     },
     {
@@ -33,7 +33,7 @@ function Functions() {
     },
     {
       id: 6,
-      src: "/assets/camp.jpgp",
+      src: "/assets/camp.jpg",
       title: "Food Festival"
     }
   ];
