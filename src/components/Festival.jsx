@@ -8,34 +8,39 @@ function Festival() {
   const festivalImages = [
     {
       id: 1,
-      src: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&h=600&fit=crop",
-      title: "Diwali Celebration"
+      src: "./assets/rr-festival1.jpeg",
+      title: "15 August Celebration"
     },
-    {
+     {
       id: 2,
-      src: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&h=600&fit=crop",
-      title: "Music Festival"
+      src: "./assets/rr-festival2.jpeg",
+      title: "15 August Celebration"
     },
-    {
+      {
       id: 3,
-      src: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&h=600&fit=crop",
-      title: "Holi Festival"
+      src: "./assets/rr-festival3.jpeg",
+      title: "15 August Celebration"
     },
-    {
+      {
       id: 4,
-      src: "https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?w=800&h=600&fit=crop",
-      title: "Cultural Dance"
+      src: "./assets/rr-festival4.jpeg",
+      title: "15 August Celebration"
     },
-    {
+      {
       id: 5,
-      src: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&h=600&fit=crop",
-      title: "Night Concert"
+      src: "./assets/rr-festival5.jpeg",
+      title: "15 August Celebration"
     },
-    {
+      {
       id: 6,
-      src: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&h=600&fit=crop",
-      title: "Food Festival"
-    }
+      src: "./assets/rr-festival6.jpeg",
+      title: "15 August Celebration"
+    },
+      {
+      id: 7,
+      src: "./assets/rr-festival7.jpeg",
+      title: "15 August Celebration"
+    },
   ];
 
   const openImage = (image) => {
