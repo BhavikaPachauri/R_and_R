@@ -8,9 +8,7 @@ import AppointmentPage from "../pages/AppointmentPage";
 import Specialityfrontpage from "../pages/Specialityfrontpage";
 import SpecialityPage from "../pages/SpecialityPage";
 import Terms from "../pages/Terms";
-import Festival from "../Festival";
-import Functions from "../Functions";
-import Camp from "../Camp";
+
 import CategoryGalleryPage from "../pages/CategoryGalleryPage";
 
 const MainRoute = () => {
@@ -25,9 +23,7 @@ const MainRoute = () => {
         <Route path="/terms" element={<Terms />} />
         <Route path="/bookappointment" element={<AppointmentPage />} />
         <Route path="/speciality/:name" element={<SpecialityPage />} />
-        <Route path="/festival" element={<Festival/>}/>
-        <Route path="/function" element={<Functions/>}/>
-        <Route path="/camp" element={<Camp/>}/>
+        
         {/* Category Gallery Routes */}
         <Route path="/achivements" element={<CategoryGalleryPage />} />
         <Route path="/army-day" element={<CategoryGalleryPage />} />
