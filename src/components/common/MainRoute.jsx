@@ -11,6 +11,7 @@ import Terms from "../pages/Terms";
 import Festival from "../Festival";
 import Functions from "../Functions";
 import Camp from "../Camp";
+import CategoryGalleryPage from "../pages/CategoryGalleryPage";
 
 const MainRoute = () => {
   return (
@@ -27,6 +28,25 @@ const MainRoute = () => {
         <Route path="/festival" element={<Festival/>}/>
         <Route path="/function" element={<Functions/>}/>
         <Route path="/camp" element={<Camp/>}/>
+        {/* Category Gallery Routes */}
+        <Route path="/achivements" element={<CategoryGalleryPage />} />
+        <Route path="/army-day" element={<CategoryGalleryPage />} />
+        <Route path="/candle-march" element={<CategoryGalleryPage />} />
+        <Route path="/cricket" element={<CategoryGalleryPage />} />
+        <Route path="/dandu-gram" element={<CategoryGalleryPage />} />
+        <Route path="/dhanoori-gram" element={<CategoryGalleryPage />} />
+        <Route path="/esic-hyundai" element={<CategoryGalleryPage />} />
+        <Route path="/esic-hospital" element={<CategoryGalleryPage />} />
+        <Route path="/independence-day" element={<CategoryGalleryPage />} />
+        <Route path="/labour-day" element={<CategoryGalleryPage />} />
+        <Route path="/malsasar" element={<CategoryGalleryPage />} />
+        <Route path="/mangalam" element={<CategoryGalleryPage />} />
+        <Route path="/nabh" element={<CategoryGalleryPage />} />
+        <Route path="/nua" element={<CategoryGalleryPage />} />
+        <Route path="/prestigious" element={<CategoryGalleryPage />} />
+        <Route path="/rammandir" element={<CategoryGalleryPage />} />
+        <Route path="/republic" element={<CategoryGalleryPage />} />
+        <Route path="/republic-camp" element={<CategoryGalleryPage />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </>
