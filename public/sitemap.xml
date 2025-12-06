@@ -21,20 +21,12 @@
     <priority>0.1</priority>
   </url>
 
-  <!-- Specialities Page -->
-  <url>
-    <loc>https://rr-hospital.com/speciality</loc>
-    <lastmod>2025-11-11T00:00:00+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.1</priority>
-  </url>
-
   <!-- Find Doctor Page -->
   <url>
-    <loc>https://rr-hospital.com/find</loc>
+    <loc>https://www.rr-hospital.com/find</loc>
     <lastmod>2025-11-11T00:00:00+05:30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.8</priority>
   </url>
 
   <!-- Contact Page -->
@@ -47,10 +39,50 @@
 
   <!-- Book Appointment Page -->
   <url>
-    <loc>https://rr-hospital.com/bookappointment</loc>
+    <loc>https://www.rr-hospital.com/bookappointment</loc>
     <lastmod>2025-11-11T00:00:00+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.3</priority>
+  </url>
+
+  <!-- Specialities Page -->
+  <url>
+    <loc>https://www.rr-hospital.com/speciality</loc>
+    <lastmod>2025-11-11T00:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Festival Gallery Page -->
+  <url>
+    <loc>https://www.rr-hospital.com/festival</loc>
+    <lastmod>2025-11-11T00:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Functions Gallery Page -->
+  <url>
+    <loc>https://www.rr-hospital.com/function</loc>
+    <lastmod>2025-11-11T00:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Camp Gallery Page -->
+  <url>
+    <loc>https://www.rr-hospital.com/camp</loc>
+    <lastmod>2025-11-11T00:00:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Terms Page -->
+  <url>
+    <loc>https://www.rr-hospital.com/terms</loc>
+    <lastmod>2025-11-11T00:00:00+05:30</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
   </url>
 
 </urlset>

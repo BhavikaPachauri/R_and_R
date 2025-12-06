@@ -5,6 +5,8 @@ import NavBar from "../common/Navbar";
 import Specialization from "../Specialization";
 import AppointBanner from "../AppointBanner";
 import BookAnAppo from "../BookAnAppo";
+import SEO from "../common/SEO";
+
 const Specialityfrontpage = () => {
   const { pathname } = useLocation();
 
@@ -13,6 +15,11 @@ const Specialityfrontpage = () => {
   }, [pathname]);
   return (
     <>
+      <SEO
+        title="Medical Specialities | R&R Multispecialty Hospital Jhunjhunu"
+        description="Explore our comprehensive range of medical specialities at R&R Multispecialty Hospital in Jhunjhunu. From cardiology to orthopedics, we provide expert care across all specialties."
+        keywords="Medical specialities Jhunjhunu, Hospital departments, Medical services, Speciality care Jhunjhunu, Healthcare specialties"
+      />
       <NavBar />
       <div className="overflow-x-hidden">
         <div className="bg-gray-100">

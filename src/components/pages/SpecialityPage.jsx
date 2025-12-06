@@ -5,6 +5,7 @@ import Footer from "../common/Footer";
 import DepartData from "../common/DepartData";
 import AppointBanner from "../AppointBanner";
 import ServiceSlider from "../common/ServiceSlider";
+import SEO from "../common/SEO";
 
 const SpecialityPage = () => {
   const { name } = useParams();
@@ -19,6 +20,11 @@ const SpecialityPage = () => {
 
   return (
     <>
+      <SEO
+        title={`${speciality.title} | R&R Multispecialty Hospital Jhunjhunu`}
+        description={speciality.description || `Expert ${speciality.title} services at R&R Multispecialty Hospital in Jhunjhunu. Get the best medical care from our experienced specialists.`}
+        keywords={`${speciality.title} Jhunjhunu, ${speciality.title} treatment, Medical specialists Jhunjhunu, Hospital services Jhunjhunu`}
+      />
       <NavBar />
       <div
         className="relative w-full sm:h-[400px] h-[300px] flex items-center justify-center text-white text-5xl font-bold bg-cover bg-center"

@@ -13,11 +13,29 @@
     content="R&R Multispecialty Hospital is a leading healthcare provider in Jhunjhunu, offering advanced medical treatments and state-of-the-art facilities." />
   <meta name="keywords"
     content="Best Hospital in Jhunjhunu, Multi-speciality hospital Jhunjhunu, Top hospital in Jhunjhunu, R&R Multispecialty Hospital, Healthcare Jhunjhunu" />
-  <meta property="og:image" content="./R-and-R Hospital.webp" />
-  <meta name="google-site-verification" content="v_eXJaaeXb7F5tHHvsOHt___eVqPllKwfW6Kz_ztXXY" />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.rr-hospital.com/" />
+  <meta property="og:title" content="R&R Multispecialty Hospital Jhunjhunu" />
+  <meta property="og:description" content="R&R Multispecialty Hospital is a leading healthcare provider in Jhunjhunu, offering advanced medical treatments and state-of-the-art facilities." />
+  <meta property="og:image" content="https://www.rr-hospital.com/R-and-R%20Hospital.webp" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="R&R Multispecialty Hospital" />
+  <meta property="og:locale" content="en_IN" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://www.rr-hospital.com/" />
+  <meta name="twitter:title" content="R&R Multispecialty Hospital Jhunjhunu" />
+  <meta name="twitter:description" content="R&R Multispecialty Hospital is a leading healthcare provider in Jhunjhunu, offering advanced medical treatments and state-of-the-art facilities." />
+  <meta name="twitter:image" content="https://www.rr-hospital.com/R-and-R%20Hospital.webp" />
+
   <meta name="google-site-verification" content="v_eXJaaeXb7F5tHHvsOHt___eVqPllKwfW6Kz_ztXXY" />
   <meta name="author" content="R&R Multispecialty Hospital Jhunjhunu" />
   <meta name="robots" content="index, follow" />
+  <meta name="geo.region" content="IN-RJ" />
+  <meta name="geo.placename" content="Jhunjhunu" />
   <link rel="canonical" href="https://www.rr-hospital.com/" />
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-E93BW7SRFZ"></script>
@@ -26,6 +44,40 @@
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-E93BW7SRFZ');
+  </script>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Hospital",
+      "name": "R&R Multispecialty Hospital",
+      "alternateName": "R&R Hospital",
+      "url": "https://www.rr-hospital.com",
+      "logo": "https://www.rr-hospital.com/R-and-R-logo.webp",
+      "image": "https://www.rr-hospital.com/R-and-R%20Hospital.webp",
+      "description": "R&R Multispecialty Hospital is a leading healthcare provider in Jhunjhunu, offering advanced medical treatments and state-of-the-art facilities.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Jhunjhunu",
+        "addressRegion": "Rajasthan",
+        "addressCountry": "IN"
+      },
+      "telephone": "+91-XXX-XXX-XXXX",
+      "priceRange": "$$",
+      "medicalSpecialty": [
+        "Cardiology",
+        "Orthopedics",
+        "Neurology",
+        "Oncology",
+        "Pediatrics",
+        "General Surgery"
+      ],
+      "sameAs": [
+        "https://www.facebook.com/rrhospital",
+        "https://www.twitter.com/rrhospital"
+      ]
+    }
   </script>
 
   <script>
@@ -54,7 +106,7 @@
 
           const metaOgImage = document.querySelector('meta[property="og:image"]');
           if (metaOgImage) {
-            metaOgImage.setAttribute("content", siteMeta.meta_image || "./R-and-R Hospital.webp");
+            metaOgImage.setAttribute("content", siteMeta.meta_image || "https://www.rr-hospital.com/R-and-R%20Hospital.webp");
           }
         }
       } catch (error) {

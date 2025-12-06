@@ -1,2 +1,6 @@
 User-agent: *
-Sitemap: https://www.rrhospital.com/sitemap.xml
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+Sitemap: https://www.rr-hospital.com/sitemap.xml

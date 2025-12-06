@@ -8,8 +8,8 @@ import AppointmentPage from "../pages/AppointmentPage";
 import Specialityfrontpage from "../pages/Specialityfrontpage";
 import SpecialityPage from "../pages/SpecialityPage";
 import Terms from "../pages/Terms";
-
 import CategoryGalleryPage from "../pages/CategoryGalleryPage";
+
 
 const MainRoute = () => {
   return (
@@ -23,8 +23,8 @@ const MainRoute = () => {
         <Route path="/terms" element={<Terms />} />
         <Route path="/bookappointment" element={<AppointmentPage />} />
         <Route path="/speciality/:name" element={<SpecialityPage />} />
-        
-        {/* Category Gallery Routes */}
+        <Route path="/category/:category" element={<CategoryGalleryPage />} />
+        {/* Category routes */}
         <Route path="/achivements" element={<CategoryGalleryPage />} />
         <Route path="/army-day" element={<CategoryGalleryPage />} />
         <Route path="/candle-march" element={<CategoryGalleryPage />} />

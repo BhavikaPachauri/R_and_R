@@ -9,6 +9,8 @@ import AppointBanner from "../AppointBanner";
 import ServiceSlider from "../common/ServiceSlider";
 import Faqs from "../Faqs";
 import Facilities from "../Facilities";
+import SEO from "../common/SEO";
+
 const AboutPage = () => {
   const { pathname } = useLocation();
 
@@ -17,6 +19,11 @@ const AboutPage = () => {
   }, [pathname]);
   return (
     <>
+      <SEO
+        title="About Us | R&R Multispecialty Hospital Jhunjhunu"
+        description="Learn about R&R Multispecialty Hospital's mission, vision, and commitment to providing exceptional healthcare services in Jhunjhunu. Discover our state-of-the-art facilities and expert medical team."
+        keywords="About R&R Hospital, Hospital mission Jhunjhunu, Healthcare facilities Jhunjhunu, Medical team Jhunjhunu, Hospital history"
+      />
       <NavBar />
       <div className="overflow-x-hidden">
         <AboutHeader />
