@@ -132,24 +132,6 @@ const SEO = ({
       <meta name="robots" content={noindex ? "noindex, nofollow" : "index, follow"} />
       <link rel="canonical" href={url} />
 
-      {/* Open Graph / Facebook */}
-      <meta property="og:type" content={type} />
-      <meta property="og:url" content={url} />
-      <meta property="og:title" content={title} />
-      <meta property="og:description" content={description} />
-      <meta property="og:image" content={fullImageUrl} />
-      <meta property="og:image:width" content="1200" />
-      <meta property="og:image:height" content="630" />
-      <meta property="og:site_name" content="R&R Multispecialty Hospital" />
-      <meta property="og:locale" content="en_IN" />
-
-      {/* Twitter */}
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:url" content={url} />
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={fullImageUrl} />
-      <meta name="twitter:site" content="@RRHospital" />
 
       {/* Additional Meta Tags */}
       <meta name="author" content="R&R Multispecialty Hospital Jhunjhunu" />
