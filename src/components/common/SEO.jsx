@@ -6,7 +6,7 @@ const SEO = ({
   title,
   description,
   keywords,
-  image = "https://www.rr-hospital.com/R-and-R%20Hospital.webp",
+  image = "https://www.rr-hospital.com/R-and-RHospital.webp",
   type = "website",
   noindex = false,
 }) => {
@@ -15,32 +15,111 @@ const SEO = ({
   const url = `${baseUrl}${location.pathname}`;
   const fullImageUrl = image.startsWith("http") ? image : `${baseUrl}${image}`;
 
-  // Default structured data for hospital
+ 
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Hospital",
-    name: "R&R Multispecialty Hospital",
-    alternateName: "R&R Hospital",
-    url: baseUrl,
-    logo: `${baseUrl}/R-and-R-logo.webp`,
-    image: fullImageUrl,
-    description: description || "R&R Multispecialty Hospital is a leading healthcare provider in Jhunjhunu, offering advanced medical treatments and state-of-the-art facilities.",
-    address: {
+    "name": "RR Hospital",
+    "url": "https://rr-hospital.com/",
+    "logo": "https://www.rr-hospital.com/R-and-R-logo.webp",
+    "image": "https://www.rr-hospital.com/R-and-RHospital.webp",
+    "description": "RR Hospital is a multi-speciality hospital offering advanced healthcare services including General Medicine, Radiology, Orthopaedics, Gynecology, Emergency, and Laboratory services in Jhunjhunu.",
+    "telephone": "+91-8432755555",
+    "email": "contact@rrmhospitals.com",
+
+    "address": {
       "@type": "PostalAddress",
-      addressLocality: "Jhunjhunu",
-      addressRegion: "Rajasthan",
-      addressCountry: "IN",
+      "streetAddress": "23, Churu Road, Basant Vihar",
+      "addressLocality": "Jhunjhunu",
+      "addressRegion": "Rajasthan",
+      "postalCode": "333001",
+      "addressCountry": "IN"
     },
-    telephone: "+91-XXX-XXX-XXXX",
-    priceRange: "$$",
-    medicalSpecialty: [
-      "Cardiology",
-      "Orthopedics",
-      "Neurology",
-      "Oncology",
-      "Pediatrics",
-      "General Surgery",
+
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "28.133439",
+      "longitude": "75.38284"
+    },
+
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
     ],
+
+    "medicalSpecialty": [
+      "General Surgery",
+      "Orthopaedics",
+      "Radiology",
+      "General Medicine",
+      "Gynecology",
+      "Urology",
+      "Dental",
+      "Physiotherapy"
+    ],
+
+    "specialities": [
+      {
+        "@type": "MedicalSpecialty",
+        "name": "General Surgery",
+        "url": "https://rr-hospital.com/speciality/general%20surgery"
+      },
+      {
+        "@type": "MedicalSpecialty",
+        "name": "Orthopaedics",
+        "url": "https://rr-hospital.com/speciality/orthopaedics"
+      },
+      {
+        "@type": "MedicalSpecialty",
+        "name": "Radiology",
+        "url": "https://rr-hospital.com/speciality/radiology"
+      },
+      {
+        "@type": "MedicalSpecialty",
+        "name": "Gynecology",
+        "url": "https://rr-hospital.com/speciality/gynecology"
+      },
+      {
+        "@type": "MedicalSpecialty",
+        "name": "General Medicine",
+        "url": "https://rr-hospital.com/speciality/general%20medicine"
+      },
+      {
+        "@type": "MedicalSpecialty",
+        "name": "Urology",
+        "url": "https://rr-hospital.com/speciality/urology"
+      },
+      {
+        "@type": "MedicalSpecialty",
+        "name": "Dental",
+        "url": "https://rr-hospital.com/speciality/dental"
+      },
+      {
+        "@type": "MedicalSpecialty",
+        "name": "Physiotherapy",
+        "url": "https://rr-hospital.com/speciality/physiotherapy"
+      }
+    ],
+
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-8432755555",
+      "contactType": "customer service",
+      "areaServed": "IN",
+      "availableLanguage": ["English", "Hindi"]
+    }
   };
 
   return (

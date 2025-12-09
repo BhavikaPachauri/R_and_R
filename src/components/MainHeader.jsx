@@ -90,7 +90,8 @@ const MainHeader = () => {
             <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[280px] sm:w-[320px] md:w-[370px] h-[340px] sm:h-[380px] md:h-[440px] bg-white rounded-[40px] shadow-2xl z-10" />
             <img
               src="./Nurse.webp"
-              alt="Medical Professional"
+              alt="Doctor Holding Stethoscope at RR Hospital"
+              title="Doctor Holding Stethoscope at RR Hospital"
               className="relative z-20 w-[180px] sm:w-[220px] md:w-[300px] h-[240px] sm:h-[300px] md:h-[400px] object-cover mx-auto"
             />
             <div className="absolute top-4 sm:top-6 right-4 sm:right-6 bg-white/80 backdrop-blur-md rounded-xl shadow px-4 sm:px-6 py-2 sm:py-3 flex items-center z-30 border border-[#1a365d]/10">

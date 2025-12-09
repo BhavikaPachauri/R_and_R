@@ -18,8 +18,9 @@ const HomeAboutUs = () => {
           <div className="relative" data-aos="fade-right">
             <div className="relative z-10">
               <img
-                src="./R-and-R Hospital.webp"
-                alt="Image representing the values and vision of R&R Hospital"
+                src="./R-and-RHospital.webp"
+                alt="RR Hospital exterior building in Jhunjhunu offering advanced medical care"
+                title="RR Hospital Building Jhunjhunu"
                 className="w-full rounded-lg shadow-xl"
               />
               <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-lg shadow-2xl">
