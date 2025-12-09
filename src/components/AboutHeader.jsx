@@ -71,7 +71,7 @@ const AboutHeader = () => {
             {/* <div className="absolute inset-0 bg-gradient-to-r from-[#1d55b0]/20 to-[#6ed54e]/20 rounded-2xl transform rotate-6 scale-105 transition-transform group-hover:rotate-3"></div> */}
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-xl">
               <img
-                src="./R-and-R Hospital.webp"
+                src="./R-and-RHospital.webp"
                 alt="R&R MultispecialtyHospital Facilities"
                 className="w-full h-auto"
               />

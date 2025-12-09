@@ -62,7 +62,7 @@ export default function WhyChooseUs() {
                 <div className="absolute inset-0 bg-gradient-to-bl from-[#1a365d]/5 to-[#6ed54e]/5 mix-blend-multiply group-hover:opacity-0 transition-opacity duration-300"></div>
                 
                 <img
-                  src="./R-and-R Hospital.webp"
+                  src="./R-and-RHospital.webp"
                   alt="Medical Care"
                   className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
                 />
